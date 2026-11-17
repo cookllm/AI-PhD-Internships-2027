@@ -28,7 +28,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://cookllm.com"
 SNAPSHOT = f"{SITE}/api/jobs/explorer?part="
 USER_AGENT = "phd-internships-bot (+https://github.com/cookllm/phd-internships)"
-UTM = "utm_source=github&utm_medium=phd-internships"
+UTM = "utm_source=github&utm_medium=readme&utm_campaign=phd-internships"
 
 # The snapshot's tag lists (src/jobs/snapshot-types.ts on the site)
 LEVELS = ["intern", "new_grad", "junior", "mid", "senior", "staff_plus", "manager"]
@@ -79,7 +79,7 @@ DEGREE = {"required": "PhD", "preferred": "PhD&nbsp;or&nbsp;MS"}
 
 NEW_DAYS = 7  # roles this new get a New mark
 POST_DAYS = 30  # direct posts this recent are counted
-POST_ROWS = 12  # direct posts listed
+POST_ROWS = 10  # direct posts listed
 MIN_ROLES = 100  # fewer than this means the snapshot is broken: stop
 YEAR = re.compile(r"\b(20[2-9]\d)\b")
 # A role for a year that has passed is a stale posting the careers page
@@ -131,8 +131,9 @@ def tidy_title(title: str) -> str:
     return title
 
 
-def site_link(campaign: str) -> str:
-    return f"{SITE}/en/jobs/board?{UTM}&utm_campaign={campaign}"
+def site_link(place: str, path: str = "/en/jobs/board") -> str:
+    """A link to CookLLM, tagged so its analytics can tell where it was"""
+    return f"{SITE}{path}?{UTM}&utm_content={place}"
 
 
 def build(board: dict, links: dict) -> tuple[list[dict], dict]:
@@ -233,7 +234,7 @@ def cell(text: str) -> str:
 def age(posted: str, today: dt.date) -> str:
     days = max(0, (today - dt.date.fromisoformat(posted)).days)
     if days == 0:
-        return "Today"
+        return "today"
     return f"{days}d" if days < 60 else f"{days // 30}mo"
 
 
@@ -266,19 +267,21 @@ def role_table(roles: list[dict], today: dt.date) -> str:
 
 def post_table(posts: dict, today: dt.date) -> str:
     rows = [
-        "| Company | Role | Posted on | Posted | Details |",
-        "| --- | --- | --- | --- | --- |",
+        "| Company | Role | Platform | Posted |",
+        "| --- | --- | --- | --- |",
     ]
-    link = site_link("direct-posts")
+    # Each role links to the board on CookLLM, where members see the post
+    link = site_link("direct-posts-row")
     for p in posts["latest"]:
         rows.append(
-            f"| **{cell(p['company'])}** | {cell(p['title'])} | {p['platform']} "
-            f"| {age(p['posted'], today)} | [View on CookLLM]({link}) |"
+            f"| **{cell(p['company'])}** | [{cell(p['title'])}]({link}) "
+            f"| {p['platform']} | {age(p['posted'], today)} |"
         )
     return "\n".join(rows)
 
 
-def readme(roles: list[dict], posts: dict, today: dt.date) -> str:
+def readme(roles: list[dict], posts: dict, tracked: int, now: dt.datetime) -> str:
+    today = now.date()
     template = (ROOT / "templates" / "README.md").read_text()
     by_section = {key: [r for r in roles if r["section"] == key] for key, _ in SECTIONS}
     toc, tables = [], []
@@ -286,23 +289,22 @@ def readme(roles: list[dict], posts: dict, today: dt.date) -> str:
         group = by_section[key]
         if not group:
             continue
-        toc.append(f"- [{heading}](#{anchor(heading)}) ({len(group)})")
-        tables.append(f"## {heading}\n\n{role_table(group, today)}\n\n[Back to top](#contents)")
+        toc.append(f"  - [{heading}](#{anchor(heading)}) ({len(group)})")
+        tables.append(f"### {heading}\n\n{role_table(group, today)}\n\n[Back to top](#contents)")
     values = {
-        "UPDATED": today.strftime("%B %-d, %Y"),
+        "UPDATED": now.strftime("%B %-d, %Y %H:%M"),
         "TOTAL": str(len(roles)),
         "COMPANIES": str(len({r["company"] for r in roles})),
-        "NEW": str(sum((today - dt.date.fromisoformat(r["posted"])).days <= NEW_DAYS for r in roles)),
+        "TRACKED": f"{tracked:,}",
         "NEW_DAYS": str(NEW_DAYS),
         "TOC": "\n".join(toc),
         "TABLES": "\n\n".join(tables),
         "POST_DAYS": str(posts["days"]),
         "POST_COUNT": str(posts["count"]),
-        "POST_COMPANIES": str(posts["companies"]),
         "POST_TABLE": post_table(posts, today),
-        "SITE_INTRO": site_link("readme-intro"),
+        "SITE_MATCH": site_link("daily-email", "/en/jobs/match"),
         "SITE_POSTS": site_link("direct-posts"),
-        "SITE_FOOTER": site_link("readme-footer"),
+        "SITE_HOME": site_link("footer", "/en"),
     }
     out = re.sub(r"\{\{(\w+)\}\}", lambda m: values[m.group(1)], template)
     return out.rstrip() + "\n"
@@ -312,7 +314,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--board", help="read the board from this file instead")
     parser.add_argument("--links", help="read the links from this file instead")
-    parser.add_argument("--today", help="date the README is written for (YYYY-MM-DD)")
+    parser.add_argument("--now", help="UTC time the README is written for (YYYY-MM-DDTHH:MM)")
     args = parser.parse_args()
 
     board = json.loads(Path(args.board).read_text()) if args.board else fetch("board")
@@ -322,21 +324,33 @@ def main() -> int:
         return 1
 
     roles, posts = build(board, links)
-    previous = ROOT / "data" / "internships.json"
-    before = len(json.loads(previous.read_text())["roles"]) if previous.exists() else 0
+    data = ROOT / "data"
+    data.mkdir(exist_ok=True)
+    last_roles = json.loads((data / "internships.json").read_text()) if (data / "internships.json").exists() else {}
+    last_posts = json.loads((data / "direct-posts.json").read_text()) if (data / "direct-posts.json").exists() else {}
+    before = len(last_roles.get("roles", []))
     if len(roles) < MIN_ROLES or len(roles) < before / 2:
         print(f"only {len(roles)} roles (last time {before}): not writing", file=sys.stderr)
         return 1
 
-    today = dt.date.fromisoformat(args.today) if args.today else dt.datetime.now(dt.timezone.utc).date()
-    (ROOT / "data").mkdir(exist_ok=True)
-    previous.write_text(
-        json.dumps({"snapshot": board["generatedAt"], "roles": roles}, indent=1, ensure_ascii=False) + "\n"
+    now = (
+        dt.datetime.fromisoformat(args.now)
+        if args.now
+        else dt.datetime.now(dt.timezone.utc).replace(second=0, microsecond=0)
     )
-    (ROOT / "data" / "direct-posts.json").write_text(
-        json.dumps({"snapshot": board["generatedAt"], **posts}, indent=1, ensure_ascii=False) + "\n"
+    # "Last updated" moves only when the roles or posts change, so a rerun
+    # with the same data writes the same files and nothing is committed
+    same = last_roles.get("roles") == roles and {k: last_posts.get(k) for k in posts} == posts
+    if same and last_roles.get("updated"):
+        now = dt.datetime.fromisoformat(last_roles["updated"])
+    stamp = now.isoformat()
+    (data / "internships.json").write_text(
+        json.dumps({"updated": stamp, "snapshot": board["generatedAt"], "roles": roles}, indent=1, ensure_ascii=False) + "\n"
     )
-    (ROOT / "README.md").write_text(readme(roles, posts, today))
+    (data / "direct-posts.json").write_text(
+        json.dumps({"updated": stamp, "snapshot": board["generatedAt"], **posts}, indent=1, ensure_ascii=False) + "\n"
+    )
+    (ROOT / "README.md").write_text(readme(roles, posts, len(board["companies"]), now))
     print(f"{len(roles)} roles, {posts['count']} direct posts")
     return 0
 

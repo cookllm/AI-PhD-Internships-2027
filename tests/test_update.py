@@ -60,11 +60,11 @@ class Build(unittest.TestCase):
         self.assertFalse(update.stale("Research Intern", update.dt.date(2024, 8, 16), today))
 
     def test_site_links_are_tagged(self):
-        self.assertIn("utm_source=github&utm_medium=phd-internships", update.site_link("x"))
+        self.assertIn("utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=x", update.site_link("x"))
 
     def test_anchor_matches_github(self):
         self.assertEqual(update.anchor("Robotics and Autonomous Driving"), "robotics-and-autonomous-driving")
-        self.assertEqual(update.anchor("Posted by hiring teams, not on careers pages"), "posted-by-hiring-teams-not-on-careers-pages")
+        self.assertEqual(update.anchor("Internships posted by research teams"), "internships-posted-by-research-teams")
 
 
 if __name__ == "__main__":
