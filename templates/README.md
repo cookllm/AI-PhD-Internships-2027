@@ -39,7 +39,7 @@ In the last {{POST_DAYS}} days, members of hiring teams announced {{POST_COUNT}}
 
 ## Corrections
 
-Found a closed role, a wrong PhD label or a company we should add? [Open an issue](../../issues/new/choose) with the link, or email harry@cookllm.com. This README is generated every day, so pull requests to it would be overwritten; we fix the underlying data instead, and the fix shows up in the next update.
+Found a closed role, a wrong degree label or a company we should add? [Open an issue](../../issues/new/choose) with the link, or email harry@cookllm.com. This README is generated every day, so pull requests to it would be overwritten; we fix the underlying data instead, and the fix shows up in the next update.
 
 This list is not affiliated with or endorsed by any company on it. Postings change; check the company's page before you apply.
 
