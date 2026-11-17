@@ -75,12 +75,16 @@ DATA_TITLE = re.compile(r"data scien|recommend|ranking|personaliz|\bads\b", re.I
 # How the Degree column reads. A spot check of 30 roles (2026-11-17) found
 # most roles tagged phd_preferred take MS and PhD students alike, so the
 # table says that rather than "preferred"
-DEGREE = {"required": "PhD", "preferred": "PhD or MS"}
+DEGREE = {"required": "PhD", "preferred": "PhD&nbsp;or&nbsp;MS"}
 
 NEW_DAYS = 7  # roles this new get a New mark
 POST_DAYS = 30  # direct posts this recent are counted
 POST_ROWS = 12  # direct posts listed
 MIN_ROLES = 100  # fewer than this means the snapshot is broken: stop
+YEAR = re.compile(r"\b(20[2-9]\d)\b")
+# A role for a year that has passed is a stale posting the careers page
+# forgot to close. One for this year is kept only while it is fresh
+STALE_AFTER_DAYS = 90
 RESEARCHY = re.compile(r"ph\.?d|research|scientist", re.I)
 
 
@@ -108,6 +112,16 @@ def section_of(company: str, title: str, directions: list[str], function: str) -
         "other": True,
     }
     return next(s for s in PRIORITY if fits[s])
+
+
+def stale(title: str, posted: dt.date, today: dt.date) -> bool:
+    years = [int(y) for y in YEAR.findall(title)]
+    if not years:
+        return False
+    newest = max(years)
+    if newest < today.year:
+        return True
+    return newest == today.year and (today - posted).days > STALE_AFTER_DAYS
 
 
 def tidy_title(title: str) -> str:
@@ -146,6 +160,8 @@ def build(board: dict, links: dict) -> tuple[list[dict], dict]:
         url = apply_url(company, links["url"][i])
         title = tidy_title(jobs["title"][i])
         if not url or not title:
+            continue
+        if stale(title, made.date() - dt.timedelta(days=jobs["age"][i]), made.date()):
             continue
         postings = [(board["locations"][jobs["location"][i]], board["countries"][jobs["country"][i]])]
         postings += [(board["locations"][loc], board["countries"][c]) for loc, c, *_ in more.get(str(i), [])]
@@ -240,7 +256,7 @@ def role_table(roles: list[dict], today: dt.date) -> str:
         company = "↳" if r["company"] == last else f"**{cell(r['company'])}**"
         last = r["company"]
         new = (today - dt.date.fromisoformat(r["posted"])).days <= NEW_DAYS
-        posted = age(r["posted"], today) + (" **New**" if new else "")
+        posted = age(r["posted"], today) + ("&nbsp;**New**" if new else "")
         rows.append(
             f"| {company} | {cell(r['title'])} | {where(r['locations'])} "
             f"| {DEGREE[r['phd']]} | {posted} | [Apply]({r['apply']}) |"

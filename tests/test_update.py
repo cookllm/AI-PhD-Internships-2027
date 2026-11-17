@@ -51,6 +51,14 @@ class Build(unittest.TestCase):
         self.assertEqual(set(posts["latest"][0]), {"company", "title", "platform", "posted"})
         self.assertEqual(posts["latest"][0]["platform"], "X")
 
+    def test_past_years_are_stale(self):
+        today = update.dt.date(2026, 11, 17)
+        self.assertTrue(update.stale("2025 Summer Intern", today, today))
+        self.assertTrue(update.stale("Intern, Fall 2026", update.dt.date(2026, 4, 24), today))
+        self.assertFalse(update.stale("Intern, Fall 2026", update.dt.date(2026, 10, 12), today))
+        self.assertFalse(update.stale("2026-2027 PhD Intern", update.dt.date(2025, 1, 1), today))
+        self.assertFalse(update.stale("Research Intern", update.dt.date(2024, 8, 16), today))
+
     def test_site_links_are_tagged(self):
         self.assertIn("utm_source=github&utm_medium=phd-internships", update.site_link("x"))
 

@@ -4402,48 +4402,6 @@
    "apply": "https://huaweiuk.teamtailor.com/jobs/7669536-robotics-intern"
   },
   {
-   "company": "DoorDash",
-   "title": "AI Research Fellowship, (Summer and Fall 2026)",
-   "locations": [
-    "San Francisco, CA"
-   ],
-   "phd": "preferred",
-   "posted": "2026-04-29",
-   "section": "other",
-   "directions": [
-    "rl"
-   ],
-   "apply": "https://job-boards.greenhouse.io/doordashusa/jobs/7848317"
-  },
-  {
-   "company": "Netflix",
-   "title": "Video Algorithms Intern, Video Coding (Gaussian Splatting), Fall 2026",
-   "locations": [
-    "Los Gatos, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-04-24",
-   "section": "vision",
-   "directions": [
-    "vision"
-   ],
-   "apply": "https://explore.jobs.netflix.net/careers/job/790315673635"
-  },
-  {
-   "company": "Applied Materials",
-   "title": "2026 Summer Intern - Physics & AI modeling Engineering",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "phd": "preferred",
-   "posted": "2026-03-25",
-   "section": "science",
-   "directions": [
-    "science"
-   ],
-   "apply": "https://amat.wd1.myworkdayjobs.com/external/job/Santa-ClaraCA/XMLNAME-2026-Summer-Intern---Physics---AI-modeling-Engineering_R2616095"
-  },
-  {
    "company": "Qualcomm",
    "title": "PhD Internship- AI Research",
    "locations": [
@@ -4617,23 +4575,6 @@
    "apply": "https://careers.qualcomm.com/careers/job/446715887234"
   },
   {
-   "company": "Amazon",
-   "title": "2026 Applied Science Internship - United States, PhD Student Science Recruiting, Frontier AI & Robotics",
-   "locations": [
-    "San Francisco, CA"
-   ],
-   "phd": "required",
-   "posted": "2025-11-17",
-   "section": "robotics",
-   "directions": [
-    "llm",
-    "vision",
-    "rl",
-    "robotics"
-   ],
-   "apply": "https://www.amazon.jobs/en/jobs/3127861/2026-applied-science-internship-united-states-phd-student-science-recruiting-frontier-ai-robotics"
-  },
-  {
    "company": "Toyota Research Institute",
    "title": "Human Interactive Driving Intern – World Models",
    "locations": [
@@ -4680,18 +4621,6 @@
     "driving"
    ],
    "apply": "https://jobs.lever.co/tri/62b161d6-21e0-4d10-9997-ff7ae91a2ff4/apply"
-  },
-  {
-   "company": "Amazon",
-   "title": "2026 Applied Scientist Intern, Amazon University Talent Acquisition",
-   "locations": [
-    "Barcelona, Spain"
-   ],
-   "phd": "preferred",
-   "posted": "2025-11-03",
-   "section": "other",
-   "directions": [],
-   "apply": "https://www.amazon.jobs/en/jobs/3120058/2026-applied-scientist-intern-amazon-university-talent-acquisition"
   },
   {
    "company": "Qualcomm",

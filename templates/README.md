@@ -33,6 +33,7 @@ PLACEHOLDER method:
 - **Source.** Roles come from the public job snapshot behind the [CookLLM jobs board]({{SITE_FOOTER}}), which reads company careers pages (Greenhouse, Lever, Ashby, Workday and others) several times a day.
 - **Filter.** A model reads each posting and tags its level and the degree it asks for. This list keeps roles tagged as internships whose posting requires or prefers a PhD.
 - **Sections.** Each role is placed in one section from the research areas named in its posting.
+- **Stale roles.** Roles whose title names a year that has passed, or this year when posted more than three months ago, are left out.
 - **Merging.** The same title at the same company is one row; its cities are listed together.
 - **Updates.** A GitHub Action rebuilds the list every day. Roles that close on the careers page drop off at the next update.
 
