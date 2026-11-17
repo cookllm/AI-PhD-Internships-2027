@@ -1,69 +1,119 @@
 {
- "updated": "2026-11-17T10:28:00+00:00",
- "snapshot": "2026-11-17T10:27:30.006Z",
+ "updated": "2026-11-17T12:28:00+00:00",
+ "snapshot": "2026-11-17T12:18:56.578Z",
  "days": 30,
- "count": 108,
+ "count": 106,
  "companies": 32,
  "latest": [
   {
    "company": "Siemens",
    "title": "PhD Research Intern",
-   "platform": "X",
-   "posted": "2026-11-17"
-  },
-  {
-   "company": "Google",
-   "title": "PhD SWE Intern",
-   "platform": "LinkedIn",
-   "posted": "2026-11-17"
+   "locations": [],
+   "posted": "2026-11-16",
+   "platforms": [
+    "X"
+   ],
+   "posts": 1
   },
   {
    "company": "Google",
    "title": "Student Researcher / Research Intern",
-   "platform": "LinkedIn",
-   "posted": "2026-11-16"
+   "locations": [
+    "Mountain View, CA",
+    "Seattle, WA",
+    "New York, NY"
+   ],
+   "posted": "2026-11-16",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
   },
   {
    "company": "Meta",
    "title": "Research Scientist Intern",
-   "platform": "LinkedIn",
-   "posted": "2026-11-16"
+   "locations": [],
+   "posted": "2026-11-16",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
   },
   {
    "company": "Adobe",
    "title": "Research Intern",
-   "platform": "LinkedIn",
-   "posted": "2026-11-16"
+   "locations": [],
+   "posted": "2026-11-16",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
   },
   {
    "company": "Sarvam AI",
    "title": "Human AI Interaction Research Intern",
-   "platform": "X",
-   "posted": "2026-11-16"
+   "locations": [],
+   "posted": "2026-11-16",
+   "platforms": [
+    "X"
+   ],
+   "posts": 1
   },
   {
    "company": "Adobe",
    "title": "Research Scientist Intern",
-   "platform": "X",
-   "posted": "2026-11-13"
-  },
-  {
-   "company": "Adobe",
-   "title": "Research Scientist Intern",
-   "platform": "LinkedIn",
-   "posted": "2026-11-13"
+   "locations": [
+    "San Jose, CA",
+    "Seattle, WA"
+   ],
+   "posted": "2026-11-13",
+   "platforms": [
+    "X",
+    "LinkedIn"
+   ],
+   "posts": 3
   },
   {
    "company": "Amazon",
    "title": "PhD Applied Scientist Intern",
-   "platform": "LinkedIn",
-   "posted": "2026-11-13"
+   "locations": [],
+   "posted": "2026-11-12",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 2
   },
   {
    "company": "Apple",
    "title": "Research Intern",
-   "platform": "LinkedIn",
-   "posted": "2026-11-13"
+   "locations": [
+    "Cupertino, CA"
+   ],
+   "posted": "2026-11-12",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
+  {
+   "company": "Salesforce",
+   "title": "Research Intern",
+   "locations": [],
+   "posted": "2026-11-12",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
+  {
+   "company": "Meta",
+   "title": "PhD intern",
+   "locations": [],
+   "posted": "2026-11-11",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
   }
  ]
 }

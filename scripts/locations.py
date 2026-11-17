@@ -275,4 +275,5 @@ def places(postings: list[tuple[str, str]]) -> list[str]:
             for p in one(part, country):
                 if p and p not in out:
                     out.append(p)
-    return out
+    # "San Jose" next to "San Jose, CA" says nothing more
+    return [p for p in out if not any(q.startswith(p + ", ") for q in out)]

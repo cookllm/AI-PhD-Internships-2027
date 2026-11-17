@@ -48,8 +48,9 @@ class Build(unittest.TestCase):
     def test_posts_keep_no_author_text_or_link(self):
         _, posts = update.build(snapshot(), LINKS)
         self.assertEqual(posts["count"], 1)
-        self.assertEqual(set(posts["latest"][0]), {"company", "title", "platform", "posted"})
-        self.assertEqual(posts["latest"][0]["platform"], "X")
+        # Company, title, place, platforms, date: nothing about who posted
+        self.assertEqual(set(posts["latest"][0]), {"company", "title", "locations", "platforms", "posts", "posted"})
+        self.assertEqual(posts["latest"][0]["platforms"], ["X"])
 
     def test_past_years_are_stale(self):
         today = update.dt.date(2026, 11, 17)
@@ -75,6 +76,42 @@ class Build(unittest.TestCase):
         self.assertIn("A; B +1&emsp;PhD or MS&emsp;7d", out)
         self.assertNotIn("Apply", out)
         self.assertNotIn("↳", out)
+
+    def test_same_post_on_two_platforms_is_one_row(self):
+        post = lambda platform, posted, title="Research Scientist Intern": {
+            "company": "Adobe", "title": title, "locations": [], "platform": platform, "posted": posted,
+        }
+        rows = update.merge_posts([
+            post("X", "2026-11-13"), post("LinkedIn", "2026-11-13"),
+            post("LinkedIn", "2026-11-10"), post("X", "2026-10-20"),
+            post("X", "2026-11-12", "Research Intern"),
+        ])
+        self.assertEqual(len(rows), 3)
+        self.assertEqual(rows[0]["platforms"], ["X", "LinkedIn"])
+        self.assertEqual(rows[0]["posts"], 3)
+        # Three weeks apart is another opening
+        self.assertEqual([r["posted"] for r in rows if r["title"] == "Research Scientist Intern"], ["2026-11-13", "2026-10-20"])
+
+    def test_engineering_titles_are_left_out(self):
+        self.assertTrue(update.engineering_only("Software Engineering Intern, NCCL - 2027"))
+        self.assertTrue(update.engineering_only("PhD SWE Intern"))
+        self.assertFalse(update.engineering_only("Research Scientist Intern"))
+        self.assertFalse(update.engineering_only("Autonomy Engineer Intern, Reinforcement Learning"))
+        self.assertFalse(update.engineering_only("Robotics Intern, World Foundation Models"))
+
+    def test_old_roles_fold_at_the_end_of_their_section(self):
+        today = update.dt.date(2026, 11, 17)
+        role = lambda title, posted: {
+            "company": "Acme", "title": title, "locations": ["Seattle, WA"], "phd": "required",
+            "posted": posted, "section": "llm", "directions": [], "apply": "https://a.example/" + title,
+        }
+        roles = [role("New", "2026-11-15"), role("Old", "2026-03-01")]
+        posts = {"days": 30, "count": 0, "companies": 0, "latest": []}
+        out = update.readme(roles, posts, 10, update.dt.datetime(2026, 11, 17, 1, 0))
+        fold = out.index("Posted more than 90 days ago (1)")
+        self.assertLess(out.index("[Old]"), out.index("</details>", fold))
+        self.assertGreater(out.index("[Old]"), fold)
+        self.assertLess(out.index("[New]", out.index("### LLM and NLP")), fold)
 
     def test_site_links_are_tagged(self):
         self.assertIn("utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=x", update.site_link("x"))

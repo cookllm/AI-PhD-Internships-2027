@@ -85,6 +85,21 @@ YEAR = re.compile(r"\b(20[2-9]\d)\b")
 # A role for a year that has passed is a stale posting the careers page
 # forgot to close. One for this year is kept only while it is fresh
 STALE_AFTER_DAYS = 90
+# Roles the title says are engineering, with no research in it: left out,
+# since the list is research internships (总管 11-17: an NCCL software
+# engineering intern and a "PhD SWE Intern" sat under that heading)
+ENGINEERING = re.compile(
+    r"\bswe\b|software engineer|engineering intern|engineer intern|"
+    r"engineering internship|hardware|verification|compiler|wireless|"
+    r"networking|mixed signal|electrical|biometrics",
+    re.I,
+)
+RESEARCH_WORDS = re.compile(
+    r"research|scientist|applied|machine learning|\bml\b|\bai\b|learning|robot|vision",
+    re.I,
+)
+OLD_DAYS = 90  # roles older than this fold away at the end of their section
+POST_MERGE_DAYS = 7  # the same post title at a company this close is one row
 RESEARCHY = re.compile(r"ph\.?d|research|scientist", re.I)
 
 
@@ -124,6 +139,10 @@ def stale(title: str, posted: dt.date, today: dt.date) -> bool:
     return newest == today.year and (today - posted).days > STALE_AFTER_DAYS
 
 
+def engineering_only(title: str) -> bool:
+    return bool(ENGINEERING.search(title)) and not RESEARCH_WORDS.search(title)
+
+
 def tidy_title(title: str) -> str:
     title = re.sub(r"\s+", " ", title).strip().replace("; ", " / ")
     if title and title == title.lower():
@@ -134,6 +153,42 @@ def tidy_title(title: str) -> str:
 def site_link(place: str, path: str = "/en/jobs/board") -> str:
     """A link to CookLLM, tagged so its analytics can tell where it was"""
     return f"{SITE}{path}?{UTM}&utm_content={place}"
+
+
+def post_key(post: dict) -> tuple[str, str]:
+    title = re.sub(r"\s+", " ", post["title"].lower()).strip()
+    return post["company"].lower(), re.sub(r"\binterns\b", "intern", title)
+
+
+def merge_posts(recent: list[dict]) -> list[dict]:
+    """
+    Posts with the same title at the same company within POST_MERGE_DAYS of
+    the newest one are one row (总管 11-17: Adobe's Research Scientist
+    Intern on X and on LinkedIn the same day read as a typo). Usually two
+    people on the team, or one person on both platforms
+    """
+    rows: list[dict] = []
+    for post in recent:  # newest first
+        day = dt.date.fromisoformat(post["posted"])
+        row = next(
+            (
+                r for r in rows
+                if post_key(r) == post_key(post)
+                and (dt.date.fromisoformat(r["posted"]) - day).days <= POST_MERGE_DAYS
+            ),
+            None,
+        )
+        if row is None:
+            rows.append({**post, "platforms": [post["platform"]], "posts": 1})
+            continue
+        row["posts"] += 1
+        if post["platform"] not in row["platforms"]:
+            row["platforms"].append(post["platform"])
+        merged = row["locations"] + [p for p in post["locations"] if p not in row["locations"]]
+        row["locations"] = [p for p in merged if not any(q.startswith(p + ", ") for q in merged)]
+    for row in rows:
+        del row["platform"]
+    return rows
 
 
 def build(board: dict, links: dict) -> tuple[list[dict], dict]:
@@ -163,6 +218,8 @@ def build(board: dict, links: dict) -> tuple[list[dict], dict]:
         if not url or not title:
             continue
         if stale(title, made.date() - dt.timedelta(days=jobs["age"][i]), made.date()):
+            continue
+        if engineering_only(title):
             continue
         postings = [(board["locations"][jobs["location"][i]], board["countries"][jobs["country"][i]])]
         postings += [(board["locations"][loc], board["countries"][c]) for loc, c, *_ in more.get(str(i), [])]
@@ -198,12 +255,14 @@ def build(board: dict, links: dict) -> tuple[list[dict], dict]:
         # Posts carry no degree tag: research internships are told apart by
         # the title (the model's research function also caught thesis
         # offers, which are not internships)
-        if not RESEARCHY.search(title):
+        if not RESEARCHY.search(title) or engineering_only(title):
             continue
+        where = board["locations"][jobs["location"][i]]
         recent.append(
             {
                 "company": companies[jobs["company"][i]]["name"],
                 "title": title,
+                "locations": places([(where, board["countries"][jobs["country"][i]])]) if where else [],
                 "platform": PLATFORMS[via[i]] if 0 <= via[i] < len(PLATFORMS) else "",
                 "posted": posted(i),
             }
@@ -213,7 +272,7 @@ def build(board: dict, links: dict) -> tuple[list[dict], dict]:
         "days": POST_DAYS,
         "count": len(recent),
         "companies": len({p["company"] for p in recent}),
-        "latest": recent[:POST_ROWS],
+        "latest": merge_posts(recent)[:POST_ROWS],
     }
     return roles, posts
 
@@ -295,34 +354,43 @@ def post_line(today: dt.date):
     link = site_link("direct-posts-row")
 
     def line(p: dict) -> str:
-        meta = details_line(p["platform"], age(p["posted"], today))
+        on = ", ".join(p["platforms"])
+        if p["posts"] > len(p["platforms"]):
+            on += f" ({p['posts']} posts)"
+        place = places_short(p["locations"]) if p["locations"] else ""
+        meta = details_line(place, on, age(p["posted"], today))
         return f"- [{cell(p['title'])}]({link})<br>{meta}"
 
     return line
-
-
-def nbsp(text: str) -> str:
-    return text.replace(" ", "&nbsp;")
 
 
 def readme(roles: list[dict], posts: dict, tracked: int, now: dt.datetime) -> str:
     today = now.date()
     template = (ROOT / "templates" / "README.md").read_text()
     fresh = [r for r in roles if days_old(r, today) <= NEW_DAYS]
-    new_heading = f"New in the last {NEW_DAYS} days"
-    toc = [f"[{nbsp(new_heading)}](#{anchor(new_heading)})&nbsp;{len(fresh)}"]
-    tables = [f"### {new_heading}\n\n{company_blocks(fresh, today, role_line(today))}"]
+    toc: list[str] = []
+    tables: list[str] = []
     for key, heading in SECTIONS:
         group = [r for r in roles if r["section"] == key]
         if not group:
             continue
         companies = len({r["company"] for r in group})
-        toc.append(f"[{nbsp(heading)}](#{anchor(heading)})&nbsp;{len(group)}")
+        toc.append(f"  - [{heading}](#{anchor(heading)}) {len(group)}")
+        recent = [r for r in group if days_old(r, today) <= OLD_DAYS]
+        old = [r for r in group if days_old(r, today) > OLD_DAYS]
+        blocks = company_blocks(recent, today, role_line(today))
+        # Roles open for months (mostly standing postings) fold away at the
+        # end, so the section starts with what is current
+        if old:
+            blocks += (
+                f"\n\n<details><summary>Posted more than {OLD_DAYS} days ago ({len(old)})</summary>\n\n"
+                f"{company_blocks(old, today, role_line(today))}\n\n</details>"
+            )
         # Closed by default: the page stays short, the counts say what is inside
         tables.append(
             f"### {heading}\n\n<details><summary>{len(group)} roles at {companies} "
             f"{'company' if companies == 1 else 'companies'}</summary>\n\n"
-            f"{company_blocks(group, today, role_line(today))}\n\n</details>"
+            f"{blocks}\n\n</details>"
         )
     values = {
         "UPDATED": now.strftime("%B %-d, %Y %H:%M"),
@@ -331,8 +399,9 @@ def readme(roles: list[dict], posts: dict, tracked: int, now: dt.datetime) -> st
         "NEW": str(len(fresh)),
         "TRACKED": f"{tracked:,}",
         "NEW_DAYS": str(NEW_DAYS),
-        "TOC": "&emsp;".join(toc),
+        "TOC": "\n".join(toc),
         "TABLES": "\n\n".join(tables),
+        "NEW_LIST": company_blocks(fresh, today, role_line(today)),
         "POST_DAYS": str(posts["days"]),
         "POST_COUNT": str(posts["count"]),
         "POST_TABLE": company_blocks(posts["latest"], today, post_line(today)),

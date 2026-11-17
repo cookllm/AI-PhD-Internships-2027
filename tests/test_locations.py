@@ -35,6 +35,8 @@ class Places(unittest.TestCase):
     def test_postings_merge_without_repeats(self):
         got = places([("Seattle, WA", "US"), ("Seattle, Washington, USA", "US"), ("London", "GB")])
         self.assertEqual(got, ["Seattle, WA", "London, UK"])
+        # A bare city next to the same city with its state is one place
+        self.assertEqual(places([("San Jose", "US"), ("San Jose, CA", "US")]), ["San Jose, CA"])
 
 
 if __name__ == "__main__":

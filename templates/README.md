@@ -10,15 +10,19 @@ AI and machine learning research internships (research scientist, applied scient
 
 See [how this list is made](#how-this-list-is-made), or [report a correction](#corrections).
 
+## New in the last {{NEW_DAYS}} days
+
+Newest first. "PhD or MS" means MS students can apply too; the rest are for PhD students.
+
+{{NEW_LIST}}
+
 ## Contents
 
-**[Internships from company career pages](#internships-from-company-career-pages)**<br>{{TOC}}
-
-**[Internships posted by research teams](#internships-posted-by-research-teams)**&nbsp;{{POST_COUNT}}&emsp;[How this list is made](#how-this-list-is-made)&emsp;[Corrections](#corrections)
+- [Internships from company career pages](#internships-from-company-career-pages) {{TOTAL}}
+{{TOC}}
+- [Internships posted by research teams](#internships-posted-by-research-teams) {{POST_COUNT}}
 
 ## Internships from company career pages
-
-Newest first. Each role links to its posting on the company's site. Roles marked "PhD or MS" also take MS students; the rest are for PhD students only.
 
 {{TABLES}}
 
