@@ -27,7 +27,7 @@ from locations import places  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://cookllm.com"
 SNAPSHOT = f"{SITE}/api/jobs/explorer?part="
-USER_AGENT = "phd-internships-bot (+https://github.com/cookllm/phd-internships)"
+USER_AGENT = "phd-internships-bot (+https://github.com/cookllm/AI-PhD-Internships)"
 UTM = "utm_source=github&utm_medium=readme&utm_campaign=phd-internships"
 
 # The snapshot's tag lists (src/jobs/snapshot-types.ts on the site)
@@ -41,7 +41,7 @@ PLATFORMS = ["X", "LinkedIn"]
 # Sections, in README order. A role goes in the first one it fits, tried
 # in PRIORITY order
 SECTIONS = [
-    ("llm", "LLMs and NLP"),
+    ("llm", "LLM and NLP"),
     ("vision", "Computer Vision"),
     ("robotics", "Robotics and Autonomous Driving"),
     ("systems", "Systems and Infrastructure"),

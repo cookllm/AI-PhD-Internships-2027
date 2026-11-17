@@ -13,7 +13,7 @@ See [how this list is made](#how-this-list-is-made), or [report a correction](#c
 ## Contents
 
 - [Internships from company career pages](#internships-from-company-career-pages)
-  - [LLMs and NLP](#llms-and-nlp) (76)
+  - [LLM and NLP](#llm-and-nlp) (76)
   - [Computer Vision](#computer-vision) (18)
   - [Robotics and Autonomous Driving](#robotics-and-autonomous-driving) (107)
   - [Systems and Infrastructure](#systems-and-infrastructure) (35)
@@ -29,7 +29,7 @@ See [how this list is made](#how-this-list-is-made), or [report a correction](#c
 
 Sorted by date posted, newest first. "Degree" shows whether a role is for PhD students only, or for MS and PhD students. Roles posted in the last 7 days are marked **New**.
 
-### LLMs and NLP
+### LLM and NLP
 
 | Company | Role | Location | Degree | Posted | Apply |
 | --- | --- | --- | --- | --- | --- |
