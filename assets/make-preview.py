@@ -8,7 +8,7 @@ Needs Pillow, the Charis SIL font and the CookLLM logo:
 import sys
 from PIL import Image, ImageDraw, ImageFont
 FONT, LOGO = sys.argv[1], sys.argv[2]
-title = sys.argv[3] if len(sys.argv) > 3 else 'AI PhD Internships'
+title = sys.argv[3] if len(sys.argv) > 3 else 'AI PhD Internships 2027'
 W, H = 1280, 640
 bg, fg, muted, green = '#faf9f5', '#141413', '#6b6a64', '#1d6e47'
 im = Image.new('RGB', (W, H), bg)

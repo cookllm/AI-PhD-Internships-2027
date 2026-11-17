@@ -27,7 +27,7 @@ from locations import places  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 SITE = "https://cookllm.com"
 SNAPSHOT = f"{SITE}/api/jobs/explorer?part="
-USER_AGENT = "phd-internships-bot (+https://github.com/cookllm/AI-PhD-Internships)"
+USER_AGENT = "phd-internships-bot (+https://github.com/cookllm/AI-PhD-Internships-2027)"
 UTM = "utm_source=github&utm_medium=readme&utm_campaign=phd-internships"
 
 # The snapshot's tag lists (src/jobs/snapshot-types.ts on the site)
