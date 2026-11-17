@@ -6,7 +6,7 @@ AI and machine learning research internships (research scientist, applied scient
 
 **329 open internships at 102 companies. Last updated November 17, 2026 10:28 UTC.**
 
-> **Daily email:** [CookLLM job matching](https://cookllm.com/en/jobs/match?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=daily-email) checks new postings against your resume and emails you the ones that fit every morning (paid membership).
+> **Daily email:** [CookLLM job matching](https://cookllm.com/en/jobs/match?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=daily-email) checks new postings against your resume and emails you the ones that fit every morning (jobs membership).
 
 See [how this list is made](#how-this-list-is-made), or [report a correction](#corrections).
 
@@ -416,7 +416,7 @@ Sorted by date posted, newest first. "Degree" shows whether a role is for PhD st
 
 ## Internships posted by research teams
 
-In the last 30 days, members of hiring teams announced 108 research internships on X and LinkedIn that are not in the career-page list above. The most recent are below. [View the original posts and their authors on CookLLM](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts) (paid membership).
+In the last 30 days, members of hiring teams announced 108 research internships on X and LinkedIn that are not in the career-page list above. The most recent are below. [View the original posts and their authors on CookLLM](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts) (jobs membership).
 
 | Company | Role | Platform | Posted |
 | --- | --- | --- | --- |

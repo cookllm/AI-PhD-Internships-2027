@@ -6,7 +6,7 @@ AI and machine learning research internships (research scientist, applied scient
 
 **{{TOTAL}} open internships at {{COMPANIES}} companies. Last updated {{UPDATED}} UTC.**
 
-> **Daily email:** [CookLLM job matching]({{SITE_MATCH}}) checks new postings against your resume and emails you the ones that fit every morning (paid membership).
+> **Daily email:** [CookLLM job matching]({{SITE_MATCH}}) checks new postings against your resume and emails you the ones that fit every morning (jobs membership).
 
 See [how this list is made](#how-this-list-is-made), or [report a correction](#corrections).
 
@@ -26,7 +26,7 @@ Sorted by date posted, newest first. "Degree" shows whether a role is for PhD st
 
 ## Internships posted by research teams
 
-In the last {{POST_DAYS}} days, members of hiring teams announced {{POST_COUNT}} research internships on X and LinkedIn that are not in the career-page list above. The most recent are below. [View the original posts and their authors on CookLLM]({{SITE_POSTS}}) (paid membership).
+In the last {{POST_DAYS}} days, members of hiring teams announced {{POST_COUNT}} research internships on X and LinkedIn that are not in the career-page list above. The most recent are below. [View the original posts and their authors on CookLLM]({{SITE_POSTS}}) (jobs membership).
 
 {{POST_TABLE}}
 
