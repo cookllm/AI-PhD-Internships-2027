@@ -59,6 +59,23 @@ class Build(unittest.TestCase):
         self.assertFalse(update.stale("2026-2027 PhD Intern", update.dt.date(2025, 1, 1), today))
         self.assertFalse(update.stale("Research Intern", update.dt.date(2024, 8, 16), today))
 
+    def test_company_once_title_is_the_link(self):
+        today = update.dt.date(2026, 11, 17)
+        roles = [
+            {"company": "Acme", "title": "Research Intern, LLMs", "locations": ["Seattle, WA"], "phd": "required", "posted": "2026-11-15", "apply": "https://a.example/1"},
+            {"company": "Acme", "title": "Research Intern, Vision", "locations": ["A", "B", "C"], "phd": "preferred", "posted": "2026-11-10", "apply": "https://a.example/2"},
+            {"company": "Solo", "title": "PhD Intern", "locations": [], "phd": "required", "posted": "2026-11-16", "apply": "https://s.example/1"},
+        ]
+        out = update.company_blocks(roles, today, update.role_line(today))
+        self.assertEqual(out.count("#### Acme"), 1)
+        self.assertIn("#### Acme <sub>2 roles</sub>", out)
+        self.assertIn("#### Solo\n", out)
+        self.assertTrue(out.index("#### Solo") < out.index("#### Acme"))
+        self.assertIn("- [Research Intern, LLMs](https://a.example/1)", out)
+        self.assertIn("A; B +1&emsp;PhD or MS&emsp;7d", out)
+        self.assertNotIn("Apply", out)
+        self.assertNotIn("↳", out)
+
     def test_site_links_are_tagged(self):
         self.assertIn("utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=x", update.site_link("x"))
 

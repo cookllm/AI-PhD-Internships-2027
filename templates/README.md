@@ -4,7 +4,7 @@
 
 AI and machine learning research internships (research scientist, applied scientist, research engineer) that require or prefer a PhD, at AI labs and tech companies. Summer 2027 and off-cycle terms. Updated daily from company career pages, with direct apply links.
 
-**{{TOTAL}} open internships at {{COMPANIES}} companies. Last updated {{UPDATED}} UTC.**
+**{{TOTAL}} open internships at {{COMPANIES}} companies, {{NEW}} new in the last {{NEW_DAYS}} days. Last updated {{UPDATED}} UTC.**
 
 > **Daily email:** [CookLLM job matching]({{SITE_MATCH}}) checks new postings against your resume and emails you the ones that fit every morning (jobs membership).
 
@@ -12,15 +12,13 @@ See [how this list is made](#how-this-list-is-made), or [report a correction](#c
 
 ## Contents
 
-- [Internships from company career pages](#internships-from-company-career-pages)
-{{TOC}}
-- [Internships posted by research teams](#internships-posted-by-research-teams)
-- [How this list is made](#how-this-list-is-made)
-- [Corrections](#corrections)
+**[Internships from company career pages](#internships-from-company-career-pages)**<br>{{TOC}}
+
+**[Internships posted by research teams](#internships-posted-by-research-teams)**&nbsp;{{POST_COUNT}}&emsp;[How this list is made](#how-this-list-is-made)&emsp;[Corrections](#corrections)
 
 ## Internships from company career pages
 
-Sorted by date posted, newest first. "Degree" shows whether a role is for PhD students only, or for MS and PhD students. Roles posted in the last {{NEW_DAYS}} days are marked **New**.
+Newest first. Each role links to its posting on the company's site. Roles marked "PhD or MS" also take MS students; the rest are for PhD students only.
 
 {{TABLES}}
 

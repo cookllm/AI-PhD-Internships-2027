@@ -4,7 +4,7 @@
 
 AI and machine learning research internships (research scientist, applied scientist, research engineer) that require or prefer a PhD, at AI labs and tech companies. Summer 2027 and off-cycle terms. Updated daily from company career pages, with direct apply links.
 
-**329 open internships at 102 companies. Last updated November 17, 2026 10:28 UTC.**
+**329 open internships at 102 companies, 22 new in the last 7 days. Last updated November 17, 2026 10:28 UTC.**
 
 > **Daily email:** [CookLLM job matching](https://cookllm.com/en/jobs/match?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=daily-email) checks new postings against your resume and emails you the ones that fit every morning (jobs membership).
 
@@ -12,424 +12,932 @@ See [how this list is made](#how-this-list-is-made), or [report a correction](#c
 
 ## Contents
 
-- [Internships from company career pages](#internships-from-company-career-pages)
-  - [LLM and NLP](#llm-and-nlp) (76)
-  - [Computer Vision](#computer-vision) (18)
-  - [Robotics and Autonomous Driving](#robotics-and-autonomous-driving) (108)
-  - [Systems and Infrastructure](#systems-and-infrastructure) (35)
-  - [AI for Science](#ai-for-science) (26)
-  - [Data Science and Recommendation](#data-science-and-recommendation) (17)
-  - [Quantitative Research](#quantitative-research) (16)
-  - [Other ML Research](#other-ml-research) (33)
-- [Internships posted by research teams](#internships-posted-by-research-teams)
-- [How this list is made](#how-this-list-is-made)
-- [Corrections](#corrections)
+**[Internships from company career pages](#internships-from-company-career-pages)**<br>[New&nbsp;in&nbsp;the&nbsp;last&nbsp;7&nbsp;days](#new-in-the-last-7-days)&nbsp;22&emsp;[LLM&nbsp;and&nbsp;NLP](#llm-and-nlp)&nbsp;76&emsp;[Computer&nbsp;Vision](#computer-vision)&nbsp;18&emsp;[Robotics&nbsp;and&nbsp;Autonomous&nbsp;Driving](#robotics-and-autonomous-driving)&nbsp;108&emsp;[Systems&nbsp;and&nbsp;Infrastructure](#systems-and-infrastructure)&nbsp;35&emsp;[AI&nbsp;for&nbsp;Science](#ai-for-science)&nbsp;26&emsp;[Data&nbsp;Science&nbsp;and&nbsp;Recommendation](#data-science-and-recommendation)&nbsp;17&emsp;[Quantitative&nbsp;Research](#quantitative-research)&nbsp;16&emsp;[Other&nbsp;ML&nbsp;Research](#other-ml-research)&nbsp;33
+
+**[Internships posted by research teams](#internships-posted-by-research-teams)**&nbsp;108&emsp;[How this list is made](#how-this-list-is-made)&emsp;[Corrections](#corrections)
 
 ## Internships from company career pages
 
-Sorted by date posted, newest first. "Degree" shows whether a role is for PhD students only, or for MS and PhD students. Roles posted in the last 7 days are marked **New**.
+Newest first. Each role links to its posting on the company's site. Roles marked "PhD or MS" also take MS students; the rest are for PhD students only.
+
+### New in the last 7 days
+
+#### NVIDIA <sub>2 roles</sub>
+
+- [PhD Research Intern, AI for Climate and Weather Simulation - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/UK-Remote/PhD-Research-Intern--AI-for-Climate-and-Weather-Simulation---2027_JR2030004)<br><sup>Remote (UK); Santa Clara, CA&emsp;today</sup>
+- [Software Engineering Intern, NCCL - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2027_JR2029488)<br><sup>Shanghai, China&emsp;4d</sup>
+
+#### Toyota Research Institute <sub>6 roles</sub>
+
+- [Automated Driving Advanced Development Intern, Machine Learning Research (Cambridge)](https://jobs.lever.co/tri/3a7510ff-7cef-4d6e-8c32-0b6e6b8a2476/apply)<br><sup>Cambridge, MA&emsp;PhD or MS&emsp;1d</sup>
+- [Research Intern, Spatial Intelligence for Robotics](https://jobs.lever.co/tri/2d65fd58-00bb-49bc-b4db-e381df1ebd1e/apply)<br><sup>Cambridge, MA&emsp;1d</sup>
+- [Research Intern, Continual Adaptation for Robotics](https://jobs.lever.co/tri/6c9002a1-6ed1-42b7-829c-5ba6661446ac/apply)<br><sup>Cambridge, MA&emsp;4d</sup>
+- [Future Product Innovation Research Intern, Human Computer Interaction](https://jobs.lever.co/tri/e01def2d-0ee0-4f24-bf38-0b52a8047ea7/apply)<br><sup>Los Altos, CA&emsp;5d</sup>
+- [Future Product Innovation Research Intern, Human-AI Computational Design](https://jobs.lever.co/tri/ad346610-e4a6-4cd2-a357-11d731b136a2/apply)<br><sup>Los Altos, CA&emsp;5d</sup>
+- [Human-Centered AI Research Intern, Causal Reasoning Models (Summer 2027)](https://jobs.lever.co/tri/be41a03c-460e-4ff7-b817-f012aa1c4b37/apply)<br><sup>Los Altos, CA&emsp;7d</sup>
+
+#### Ai2
+
+- [Research Internship, AI for Neuroscience](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293636)<br><sup>Seattle, WA&emsp;3d</sup>
+
+#### Adobe
+
+- [2027 Intern - Research Scientist](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/London/XMLNAME-2027-Intern---Research-Scientist_R173345)<br><sup>London, UK&emsp;PhD or MS&emsp;4d</sup>
+
+#### Horizon3
+
+- [Research Intern, Adversarial Intelligence](https://jobs.ashbyhq.com/horizon3ai/818f854b-f212-4817-8227-3b9e654d39a2/application)<br><sup>Chicago, IL&emsp;PhD or MS&emsp;4d</sup>
+
+#### Microsoft <sub>3 roles</sub>
+
+- [Research Intern - AI Coding Agents](https://apply.careers.microsoft.com/careers/job/1970393557073416)<br><sup>Redmond, WA&emsp;4d</sup>
+- [Research Intern - MSR Software-Hardware Co-design](https://apply.careers.microsoft.com/careers/job/1970393557073455)<br><sup>Redmond, WA&emsp;4d</sup>
+- [Cambridge Internship Program: MSRC AI Security Research](https://apply.careers.microsoft.com/careers/job/1970393557070382)<br><sup>Cambridge, UK&emsp;PhD or MS&emsp;6d</sup>
+
+#### Samsung Semiconductor <sub>4 roles</sub>
+
+- [Intern, AI Systems Performance Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003)<br><sup>San Jose, CA&emsp;4d</sup>
+- [Intern, Compiler Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202902003)<br><sup>San Jose, CA&emsp;PhD or MS&emsp;4d</sup>
+- [Intern, ML Compiler (Kernel Auto-Tuning)](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003)<br><sup>San Jose, CA&emsp;PhD or MS&emsp;4d</sup>
+- [Intern, AI System Architecture Research Scientist](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003)<br><sup>San Jose, CA&emsp;6d</sup>
+
+#### Rhoda AI
+
+- [Research Intern](https://jobs.ashbyhq.com/rhoda-ai/20056166-79de-420b-8569-d0b15ee83599/application)<br><sup>Mountain View&emsp;PhD or MS&emsp;5d</sup>
+
+#### Stack AV
+
+- [Research Intern (PhD), Autonomy](https://job-boards.greenhouse.io/stackav/jobs/5287594007)<br><sup>Pittsburgh, PA; Remote (US)&emsp;5d</sup>
+
+#### Hewlett Packard Enterprise
+
+- [Large-Scale Integrated Photonics Lab Research Associate Intern](https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Milpitas-California-United-States-of-America/Large-Scale-Integrated-Photonics-Lab-Research-Associate-Intern_1218729)<br><sup>Milpitas, CA&emsp;6d</sup>
+
+#### Genesis Molecular AI
+
+- [Computational Chemistry Intern - 2027](https://jobs.ashbyhq.com/genesis-molecular-ai/3de36849-b8da-4da9-bd22-d706343db9e1/application)<br><sup>San Mateo, CA&emsp;PhD or MS&emsp;7d</sup>
 
 ### LLM and NLP
 
-| Company | Role | Location | Degree | Posted | Apply |
-| --- | --- | --- | --- | --- | --- |
-| **Microsoft** | Research Intern - AI Coding Agents | Redmond, WA | PhD | 4d&nbsp;**New** | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557073416) |
-| ↳ | Cambridge Internship Program: MSRC AI Security Research | Cambridge, UK | PhD&nbsp;or&nbsp;MS | 6d&nbsp;**New** | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557070382) |
-| **Toyota Research Institute** | Human-Centered AI Research Intern, Causal Reasoning Models (Summer 2027) | Los Altos, CA | PhD | 7d&nbsp;**New** | [Apply](https://jobs.lever.co/tri/be41a03c-460e-4ff7-b817-f012aa1c4b37/apply) |
-| **Microsoft** | Research Intern - Next-Generation AI Agents | Redmond, WA | PhD | 8d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557070079) |
-| **Duolingo** | AI Research Intern (PhD) | New York, NY<br>Pittsburgh, PA | PhD | 11d | [Apply](https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002) |
-| **Trajectory** | Member of Technical Staff - Research Intern | San Francisco | PhD&nbsp;or&nbsp;MS | 12d | [Apply](https://jobs.ashbyhq.com/trajectory/a3fd075c-2480-4567-9bec-e587f2208ac8/application) |
-| **Toyota Research Institute** | Human-Centered AI Research Intern, Human Language Models | Los Altos, CA | PhD | 13d | [Apply](https://jobs.lever.co/tri/d4184c04-b963-489a-9a0b-91bc57d6267e/apply) |
-| **Microsoft** | Research Intern - Coding Agents & Post-Training Optimization | Redmond, WA | PhD | 15d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557053024) |
-| ↳ | Research Intern - Speech Processing | Redmond, WA | PhD | 15d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557053016) |
-| **Sierra** | Research Intern | San Francisco, CA | PhD | 17d | [Apply](https://jobs.ashbyhq.com/Sierra/ef896ee9-e903-4a1f-84c2-537373cb9081/application) |
-| **Microsoft** | Cambridge Internship Program Azure Research, Security and Privacy | Cambridge, UK | PhD&nbsp;or&nbsp;MS | 18d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557050102) |
-| ↳ | Research Intern - Office of Applied Research | Redmond, WA<br>New York, NY | PhD | 18d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557051409) |
-| **Stripe** | PhD Machine Learning Engineer, Intern | <details><summary>4 locations</summary>San Francisco<br>New York City<br>Seattle<br>Toronto, Canada</details> | PhD | 18d | [Apply](https://stripe.com/jobs/search?gh_jid=8328662) |
-| **Microsoft** | Applied Science: PhD Internship Opportunities, Turing | Redmond, WA | PhD | 19d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557050154) |
-| ↳ | Research Intern - Machine Learning and Optimization - Redmond | Redmond, WA | PhD | 20d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557049981) |
-| **Ai2** | Research Internship, Open Ecosystem | Seattle, WA | PhD&nbsp;or&nbsp;MS | 22d | [Apply](https://job-boards.greenhouse.io/thealleninstitute/jobs/8319350) |
-| **Graphcore** | AI Technology PhD Research Internship | Bristol, UK<br>Cambridge, UK<br>London, UK | PhD | 28d | [Apply](https://job-boards.greenhouse.io/graphcore/jobs/8894738002) |
-| **Microsoft** | Research Intern: Audio and Speech Processing | Munich, Germany | PhD | 28d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557043468) |
-| **Salesforce** | Summer 2027 Intern - AI Research | Palo Alto, CA | PhD&nbsp;or&nbsp;MS | 28d | [Apply](https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1) |
-| **Adobe** | 2027 Intern - Research PhD Intern | Bangalore, India | PhD | 29d | [Apply](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/XMLNAME-2027-Intern---Research-PhD-Intern_R173016) |
-| **Ai2** | Research Internship, AI for Science | Seattle, WA | PhD | 29d | [Apply](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293615) |
-| **Microsoft** | Applied Science PhD Internship | Reading, UK | PhD | 29d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557042487) |
-| ↳ | Research Intern - Extended Perception Interaction Cognition (EPIC) | Redmond, WA | PhD | 29d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557043754) |
-| **Huaweifinlandrnd** | Visiting Scholars for AI Safety | Not listed | PhD&nbsp;or&nbsp;MS | 32d | [Apply](https://huaweifinlandrnd.teamtailor.com/jobs/8555027-visiting-scholars-for-ai-safety) |
-| **Microsoft** | Research Intern - Agentic Data Memory | Redmond, WA | PhD | 32d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557040344) |
-| ↳ | Research Intern - MSR AI Interaction and Learning | Redmond, WA<br>New York, NY | PhD | 32d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557042156) |
-| ↳ | Research Intern - Machine Learning at MSR NYC | New York, NY<br>Cambridge, MA | PhD | 32d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557042145) |
-| **Scale AI** | Safety Research Scholar - Human Frontier Labs | Canada<br>UK<br>United States | PhD&nbsp;or&nbsp;MS | 32d | [Apply](https://job-boards.greenhouse.io/scaleai/jobs/4744402005) |
-| **Microsoft** | Researcher Intern, CoreAI | Redmond, WA<br>Mountain View, CA | PhD | 33d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557027387) |
-| ↳ | Research Intern - Interactive Multimodal Futures Group (Situated, Social & Ubiquitous Computing) | Redmond, WA | PhD | 34d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557041012) |
-| ↳ | Stagiaire en recherche - apprentissage automatique / Research Intern - Machine Learning | Montreal, Canada | PhD | 34d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557040927) |
-| **KLA** | Software Engineer Intern - AI | Ann Arbor, MI | PhD&nbsp;or&nbsp;MS | 35d | [Apply](https://kla.wd1.myworkdayjobs.com/search/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817) |
-| ↳ | Software Engineering Intern | Ann Arbor, MI | PhD&nbsp;or&nbsp;MS | 35d | [Apply](https://kla.wd1.myworkdayjobs.com/search/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821) |
-| **General Motors** | Summer 2027 Intern - Research and Development - Smart Manufacturing Systems | Warren, MI | PhD&nbsp;or&nbsp;MS | 36d | [Apply](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Summer-2027-Intern---Research-and-Development---Smart-Manufacturing-Systems_JR-202621657) |
-| **Microsoft** | Research Intern - Agentic Graph Learning | Redmond, WA | PhD | 36d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557039243) |
-| **NVIDIA** | Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Applied-Deep-Learning-PhD-Research-Intern--Reinforcement-Learning-for-LLMs---Fall-2026_JR2012398) |
-| ↳ | PhD Research Intern, Efficient Deep Learning - 2027 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Research-Intern--Efficient-Deep-Learning---2027_JR2025478) |
-| **Microsoft** | Research Intern - Document Intelligence and Content Understanding | Redmond, WA | PhD | 39d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557037649) |
-| ↳ | Applied Science: PhD Internship Opportunities - Multiple Locations | Redmond, WA<br>Mountain View, CA | PhD | 41d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556986140) |
-| **Sigma Computing** | AI/ML PhD Intern (Summer 2027) | San Francisco, CA<br>New York, NY | PhD | 41d | [Apply](https://job-boards.greenhouse.io/sigmacomputing/jobs/7861424003) |
-| **Microsoft** | Applied Science: PhD Microsoft AI Internship Opportunities | Redmond, WA<br>Mountain View, CA | PhD | 42d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556868271) |
-| **Figma** | PhD Intern, AI Applied Scientist (2027) | San Francisco, CA<br>New York, NY | PhD | 43d | [Apply](https://boards.greenhouse.io/figma/jobs/6207801004?gh_jid=6207801004) |
-| **Pangram Labs** | AI Research Intern | Brooklyn | PhD&nbsp;or&nbsp;MS | 44d | [Apply](https://jobs.ashbyhq.com/pangramlabs/2d00752c-b3f2-40e1-9c50-60147c858d0b/application) |
-| **Amazon** | 2027 Applied Science Internship - Gen AI & Large Language Models - United States, PhD Student Science Recruiting | Seattle, WA | PhD | 48d | [Apply](https://www.amazon.jobs/en/jobs/10564589/2027-applied-science-internship-gen-ai-large-language-models-united-states-phd-student-science-recruiting) |
-| ↳ | 2027 Applied Science Internship - Natural Language Processing and Speech Technologies - United States, PhD Student Science Recruiting | Seattle, WA | PhD | 48d | [Apply](https://www.amazon.jobs/en/jobs/10564593/2027-applied-science-internship-natural-language-processing-and-speech-technologies-united-states-phd-student-science-recruiting) |
-| ↳ | 2027 Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science Recruiting | Seattle, WA | PhD | 48d | [Apply](https://www.amazon.jobs/en/jobs/10564598/2027-applied-science-internship-recommender-systems-information-retrieval-machine-learning-united-states-phd-student-science-recruiting) |
-| **Lyft** | Applied Scientist Intern, PhD (Summer 2027) | San Francisco, CA | PhD | 50d | [Apply](https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002) |
-| **AMD** | Summer 2027 PhD Gen AI and Reinforcement Learning Research Intern | Santa Clara, CA | PhD | 57d | [Apply](https://careers.amd.com/careers-home/jobs/90910) |
-| **Together AI** | Research Intern, Frontier Agents (Summer 2027) | San Francisco | PhD | 2mo | [Apply](https://job-boards.greenhouse.io/togetherai/jobs/5238468007) |
-| **Amazon** | 2027 Applied Science Internship - Automated Reasoning - United States, PhD Student Science Recruiting, Automated Reasoning | Seattle, WA | PhD | 2mo | [Apply](https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning) |
-| **Visa** | Staff Research Scientist, Intern - PhD Agentic AI | Austin, TX | PhD | 2mo | [Apply](https://visa.wd5.myworkdayjobs.com/visa/job/US---Austin-TX/Staff-Research-Scientist--Intern---PhD-Agentic-AI_REF088582W-1) |
-| ↳ | Staff Research Scientist, Intern - PhD Foundational AI | Foster City, CA | PhD | 2mo | [Apply](https://visa.wd5.myworkdayjobs.com/visa/job/US---Foster-City-CA/Staff-Research-Scientist--Intern---PhD-Foundational-AI_REF088579W-1) |
-| **Kitware** | AI Research Internship | Clifton Park, NY | PhD | 2mo | [Apply](https://jobs.lever.co/kitware/ff25a349-a362-45d2-b1e4-2487c1df4f75/apply) |
-| **Toyota Research Institute** | Human-Centered AI Research Intern, Causal Reasoning Models | Los Altos, CA | PhD | 2mo | [Apply](https://jobs.lever.co/tri/6433edb6-76be-409f-9a73-9b9d9c207f9f/apply) |
-| **AfterQuery** | Research Fellow | San Francisco | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://jobs.ashbyhq.com/afterquery/b1794d2c-fdbf-4165-a244-9e3ccc9cc800/application) |
-| ↳ | Research Scholar | San Francisco | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://jobs.ashbyhq.com/afterquery/68053d93-6d15-4b4a-8a04-65aa5646feb2/application) |
-| **Veeam Software** | AI/ML Intern Summer 2027 | San Jose, CA | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4971207101) |
-| **Marvell** | Ph.D. Intern - AI/ML & Design Automation | Santa Clara, CA | PhD | 2mo | [Apply](https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Santa-Clara-CA/PhD-Intern---AI-ML---Design-Automation_2604412) |
-| **Pluralis Research** | Research Scientist Intern | San Francisco | PhD | 2mo | [Apply](https://jobs.ashbyhq.com/pluralis-research/c8f78978-a693-4863-bcc0-66af5c3fd0be/application) |
-| **Normal Computing** | AI Research Resident | New York | PhD&nbsp;or&nbsp;MS | 3mo | [Apply](https://jobs.ashbyhq.com/NormalComputing/975c754f-e5dd-4137-9e3e-63c81405d84f/application) |
-| **Epic Games** | Machine Learning Intern | London, UK<br>Multiple locations<br>Montreal, Canada | PhD | 3mo | [Apply](https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004) |
-| **Modal** | ML Research Intern | New York | PhD | 3mo | [Apply](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a/application) |
-| **Qualcomm** | Intern: On-device AgenticAI | Seoul, South Korea | PhD | 4mo | [Apply](https://careers.qualcomm.com/careers/job/446719804308) |
-| ↳ | Intern - Generative AI model personalization and efficient fine-tuning | Seoul, South Korea | PhD&nbsp;or&nbsp;MS | 4mo | [Apply](https://careers.qualcomm.com/careers/job/446717739438) |
-| **Baseten** | Base Labs Fellowship | San Francisco | PhD&nbsp;or&nbsp;MS | 4mo | [Apply](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51/application) |
-| **Mistral AI** | Applied Scientist (Internship) | Paris, France | PhD&nbsp;or&nbsp;MS | 4mo | [Apply](https://jobs.ashbyhq.com/mistral.ai/de46ba8b-00cb-4618-83df-66e15a78434e/application) |
-| **Quadrillion** | Research Intern | New York City | PhD | 4mo | [Apply](https://jobs.ashbyhq.com/quadrillion-labs/579cef88-1dbf-45b5-a938-7ddc23505765/application) |
-| **Amazon** | 2027 Applied Science Intern (Machine Learning, Recommender Systems), Amazon International Machine Learning | Melbourne, Australia | PhD | 4mo | [Apply](https://www.amazon.jobs/en/jobs/10456239/2027-applied-science-intern-machine-learning-recommender-systems-amazon-international-machine-learning) |
-| **Vmax** | Research Fellowship - Mechanistic Interpretability | San Francisco | PhD | 6mo | [Apply](https://jobs.ashbyhq.com/vmax/7344d5fd-6fa3-4bce-b7bd-e73aa4dd568b/application) |
-| **Cohere** | Research Internship (Winter 2027) | Canada | PhD | 6mo | [Apply](https://jobs.ashbyhq.com/cohere/73bd3e2b-6597-4124-b64b-1e5dbc32e785/application) |
-| **Qualcomm** | PhD Internship- AI Research | Hà Nội, Vietnam<br>Ho Chi Minh, Vietnam | PhD | 8mo | [Apply](https://careers.qualcomm.com/careers/job/446717502399) |
-| **Microsoft** | Research Sciences INTERN | India<br>Tokyo, Japan | PhD&nbsp;or&nbsp;MS | 8mo | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556641091) |
-| **Architect Labs** | Member of Technical Staff - Research Intern | Palo Alto | PhD&nbsp;or&nbsp;MS | 9mo | [Apply](https://jobs.ashbyhq.com/architect/1999377b-b23b-461f-b79a-d4edce0d46b1/application) |
-| **Huaweiuk** | Research Intern - Computer Vision (Visuals) | London, UK | PhD | 9mo | [Apply](https://huaweiuk.teamtailor.com/jobs/7163545-research-intern-computer-vision-visuals) |
-| **Vmax** | Research Fellowship - Open Endedness | San Francisco | PhD | 12mo | [Apply](https://jobs.ashbyhq.com/vmax/c4e1e51b-65c5-41f0-9bed-c90bc452859b/application) |
-| **Eloquent AI** | Eloquent AI Fellowship Program | San Francisco | PhD&nbsp;or&nbsp;MS | 15mo | [Apply](https://jobs.ashbyhq.com/eloquentai/6da20f29-5de4-4c58-9057-05d2937faca7/application) |
+<details><summary>76 roles at 40 companies</summary>
 
-[Back to top](#contents)
+#### Microsoft <sub>23 roles</sub>
+
+- [Research Intern - AI Coding Agents](https://apply.careers.microsoft.com/careers/job/1970393557073416)<br><sup>Redmond, WA&emsp;4d</sup>
+- [Cambridge Internship Program: MSRC AI Security Research](https://apply.careers.microsoft.com/careers/job/1970393557070382)<br><sup>Cambridge, UK&emsp;PhD or MS&emsp;6d</sup>
+- [Research Intern - Next-Generation AI Agents](https://apply.careers.microsoft.com/careers/job/1970393557070079)<br><sup>Redmond, WA&emsp;8d</sup>
+- [Research Intern - Coding Agents & Post-Training Optimization](https://apply.careers.microsoft.com/careers/job/1970393557053024)<br><sup>Redmond, WA&emsp;15d</sup>
+- [Research Intern - Speech Processing](https://apply.careers.microsoft.com/careers/job/1970393557053016)<br><sup>Redmond, WA&emsp;15d</sup>
+- [Cambridge Internship Program Azure Research, Security and Privacy](https://apply.careers.microsoft.com/careers/job/1970393557050102)<br><sup>Cambridge, UK&emsp;PhD or MS&emsp;18d</sup>
+- [Research Intern - Office of Applied Research](https://apply.careers.microsoft.com/careers/job/1970393557051409)<br><sup>Redmond, WA; New York, NY&emsp;18d</sup>
+- [Applied Science: PhD Internship Opportunities, Turing](https://apply.careers.microsoft.com/careers/job/1970393557050154)<br><sup>Redmond, WA&emsp;19d</sup>
+- [Research Intern - Machine Learning and Optimization - Redmond](https://apply.careers.microsoft.com/careers/job/1970393557049981)<br><sup>Redmond, WA&emsp;20d</sup>
+- [Research Intern: Audio and Speech Processing](https://apply.careers.microsoft.com/careers/job/1970393557043468)<br><sup>Munich, Germany&emsp;28d</sup>
+- [Applied Science PhD Internship](https://apply.careers.microsoft.com/careers/job/1970393557042487)<br><sup>Reading, UK&emsp;29d</sup>
+- [Research Intern - Extended Perception Interaction Cognition (EPIC)](https://apply.careers.microsoft.com/careers/job/1970393557043754)<br><sup>Redmond, WA&emsp;29d</sup>
+- [Research Intern - Agentic Data Memory](https://apply.careers.microsoft.com/careers/job/1970393557040344)<br><sup>Redmond, WA&emsp;32d</sup>
+- [Research Intern - MSR AI Interaction and Learning](https://apply.careers.microsoft.com/careers/job/1970393557042156)<br><sup>Redmond, WA; New York, NY&emsp;32d</sup>
+- [Research Intern - Machine Learning at MSR NYC](https://apply.careers.microsoft.com/careers/job/1970393557042145)<br><sup>New York, NY; Cambridge, MA&emsp;32d</sup>
+- [Researcher Intern, CoreAI](https://apply.careers.microsoft.com/careers/job/1970393557027387)<br><sup>Redmond, WA; Mountain View, CA&emsp;33d</sup>
+- [Research Intern - Interactive Multimodal Futures Group (Situated, Social & Ubiquitous Computing)](https://apply.careers.microsoft.com/careers/job/1970393557041012)<br><sup>Redmond, WA&emsp;34d</sup>
+- [Stagiaire en recherche - apprentissage automatique / Research Intern - Machine Learning](https://apply.careers.microsoft.com/careers/job/1970393557040927)<br><sup>Montreal, Canada&emsp;34d</sup>
+- [Research Intern - Agentic Graph Learning](https://apply.careers.microsoft.com/careers/job/1970393557039243)<br><sup>Redmond, WA&emsp;36d</sup>
+- [Research Intern - Document Intelligence and Content Understanding](https://apply.careers.microsoft.com/careers/job/1970393557037649)<br><sup>Redmond, WA&emsp;39d</sup>
+- [Applied Science: PhD Internship Opportunities - Multiple Locations](https://apply.careers.microsoft.com/careers/job/1970393556986140)<br><sup>Redmond, WA; Mountain View, CA&emsp;41d</sup>
+- [Applied Science: PhD Microsoft AI Internship Opportunities](https://apply.careers.microsoft.com/careers/job/1970393556868271)<br><sup>Redmond, WA; Mountain View, CA&emsp;42d</sup>
+- [Research Sciences INTERN](https://apply.careers.microsoft.com/careers/job/1970393556641091)<br><sup>India; Tokyo, Japan&emsp;PhD or MS&emsp;8mo</sup>
+
+#### Toyota Research Institute <sub>3 roles</sub>
+
+- [Human-Centered AI Research Intern, Causal Reasoning Models (Summer 2027)](https://jobs.lever.co/tri/be41a03c-460e-4ff7-b817-f012aa1c4b37/apply)<br><sup>Los Altos, CA&emsp;7d</sup>
+- [Human-Centered AI Research Intern, Human Language Models](https://jobs.lever.co/tri/d4184c04-b963-489a-9a0b-91bc57d6267e/apply)<br><sup>Los Altos, CA&emsp;13d</sup>
+- [Human-Centered AI Research Intern, Causal Reasoning Models](https://jobs.lever.co/tri/6433edb6-76be-409f-9a73-9b9d9c207f9f/apply)<br><sup>Los Altos, CA&emsp;2mo</sup>
+
+#### Duolingo
+
+- [AI Research Intern (PhD)](https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002)<br><sup>New York, NY; Pittsburgh, PA&emsp;11d</sup>
+
+#### Trajectory
+
+- [Member of Technical Staff - Research Intern](https://jobs.ashbyhq.com/trajectory/a3fd075c-2480-4567-9bec-e587f2208ac8/application)<br><sup>San Francisco&emsp;PhD or MS&emsp;12d</sup>
+
+#### Sierra
+
+- [Research Intern](https://jobs.ashbyhq.com/Sierra/ef896ee9-e903-4a1f-84c2-537373cb9081/application)<br><sup>San Francisco, CA&emsp;17d</sup>
+
+#### Stripe
+
+- [PhD Machine Learning Engineer, Intern](https://stripe.com/jobs/search?gh_jid=8328662)<br><sup>San Francisco; New York City +2&emsp;18d</sup>
+
+#### Ai2 <sub>2 roles</sub>
+
+- [Research Internship, Open Ecosystem](https://job-boards.greenhouse.io/thealleninstitute/jobs/8319350)<br><sup>Seattle, WA&emsp;PhD or MS&emsp;22d</sup>
+- [Research Internship, AI for Science](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293615)<br><sup>Seattle, WA&emsp;29d</sup>
+
+#### Graphcore
+
+- [AI Technology PhD Research Internship](https://job-boards.greenhouse.io/graphcore/jobs/8894738002)<br><sup>Bristol, UK; Cambridge, UK +1&emsp;28d</sup>
+
+#### Salesforce
+
+- [Summer 2027 Intern - AI Research](https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111-1)<br><sup>Palo Alto, CA&emsp;PhD or MS&emsp;28d</sup>
+
+#### Adobe
+
+- [2027 Intern - Research PhD Intern](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/XMLNAME-2027-Intern---Research-PhD-Intern_R173016)<br><sup>Bangalore, India&emsp;29d</sup>
+
+#### Huaweifinlandrnd
+
+- [Visiting Scholars for AI Safety](https://huaweifinlandrnd.teamtailor.com/jobs/8555027-visiting-scholars-for-ai-safety)<br><sup>Location not listed&emsp;PhD or MS&emsp;32d</sup>
+
+#### Scale AI
+
+- [Safety Research Scholar - Human Frontier Labs](https://job-boards.greenhouse.io/scaleai/jobs/4744402005)<br><sup>Canada; UK +1&emsp;PhD or MS&emsp;32d</sup>
+
+#### KLA <sub>2 roles</sub>
+
+- [Software Engineer Intern - AI](https://kla.wd1.myworkdayjobs.com/search/job/Ann-Arbor-MI/Software-Engineer-Intern---AI_2641817)<br><sup>Ann Arbor, MI&emsp;PhD or MS&emsp;35d</sup>
+- [Software Engineering Intern](https://kla.wd1.myworkdayjobs.com/search/job/Ann-Arbor-MI/Software-Engineering-Intern_2641821)<br><sup>Ann Arbor, MI&emsp;PhD or MS&emsp;35d</sup>
+
+#### General Motors
+
+- [Summer 2027 Intern - Research and Development - Smart Manufacturing Systems](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Warren-Michigan-United-States-of-America/Summer-2027-Intern---Research-and-Development---Smart-Manufacturing-Systems_JR-202621657)<br><sup>Warren, MI&emsp;PhD or MS&emsp;36d</sup>
+
+#### NVIDIA <sub>2 roles</sub>
+
+- [Applied Deep Learning PhD Research Intern, Reinforcement Learning for LLMs - Fall 2026](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Applied-Deep-Learning-PhD-Research-Intern--Reinforcement-Learning-for-LLMs---Fall-2026_JR2012398)<br><sup>Santa Clara, CA&emsp;36d</sup>
+- [PhD Research Intern, Efficient Deep Learning - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Research-Intern--Efficient-Deep-Learning---2027_JR2025478)<br><sup>Santa Clara, CA&emsp;36d</sup>
+
+#### Sigma Computing
+
+- [AI/ML PhD Intern (Summer 2027)](https://job-boards.greenhouse.io/sigmacomputing/jobs/7861424003)<br><sup>San Francisco, CA; New York, NY&emsp;41d</sup>
+
+#### Figma
+
+- [PhD Intern, AI Applied Scientist (2027)](https://boards.greenhouse.io/figma/jobs/6207801004?gh_jid=6207801004)<br><sup>San Francisco, CA; New York, NY&emsp;43d</sup>
+
+#### Pangram Labs
+
+- [AI Research Intern](https://jobs.ashbyhq.com/pangramlabs/2d00752c-b3f2-40e1-9c50-60147c858d0b/application)<br><sup>Brooklyn&emsp;PhD or MS&emsp;44d</sup>
+
+#### Amazon <sub>5 roles</sub>
+
+- [2027 Applied Science Internship - Gen AI & Large Language Models - United States, PhD Student Science Recruiting](https://www.amazon.jobs/en/jobs/10564589/2027-applied-science-internship-gen-ai-large-language-models-united-states-phd-student-science-recruiting)<br><sup>Seattle, WA&emsp;48d</sup>
+- [2027 Applied Science Internship - Natural Language Processing and Speech Technologies - United States, PhD Student Science Recruiting](https://www.amazon.jobs/en/jobs/10564593/2027-applied-science-internship-natural-language-processing-and-speech-technologies-united-states-phd-student-science-recruiting)<br><sup>Seattle, WA&emsp;48d</sup>
+- [2027 Applied Science Internship - Recommender Systems/ Information Retrieval (Machine Learning) - United States, PhD Student Science Recruiting](https://www.amazon.jobs/en/jobs/10564598/2027-applied-science-internship-recommender-systems-information-retrieval-machine-learning-united-states-phd-student-science-recruiting)<br><sup>Seattle, WA&emsp;48d</sup>
+- [2027 Applied Science Internship - Automated Reasoning - United States, PhD Student Science Recruiting, Automated Reasoning](https://www.amazon.jobs/en/jobs/10552930/2027-applied-science-internship-automated-reasoning-united-states-phd-student-science-recruiting-automated-reasoning)<br><sup>Seattle, WA&emsp;2mo</sup>
+- [2027 Applied Science Intern (Machine Learning, Recommender Systems), Amazon International Machine Learning](https://www.amazon.jobs/en/jobs/10456239/2027-applied-science-intern-machine-learning-recommender-systems-amazon-international-machine-learning)<br><sup>Melbourne, Australia&emsp;4mo</sup>
+
+#### Lyft
+
+- [Applied Scientist Intern, PhD (Summer 2027)](https://app.careerpuck.com/job-board/lyft/job/8843341002?gh_jid=8843341002)<br><sup>San Francisco, CA&emsp;50d</sup>
+
+#### AMD
+
+- [Summer 2027 PhD Gen AI and Reinforcement Learning Research Intern](https://careers.amd.com/careers-home/jobs/90910)<br><sup>Santa Clara, CA&emsp;57d</sup>
+
+#### Together AI
+
+- [Research Intern, Frontier Agents (Summer 2027)](https://job-boards.greenhouse.io/togetherai/jobs/5238468007)<br><sup>San Francisco&emsp;2mo</sup>
+
+#### Visa <sub>2 roles</sub>
+
+- [Staff Research Scientist, Intern - PhD Agentic AI](https://visa.wd5.myworkdayjobs.com/visa/job/US---Austin-TX/Staff-Research-Scientist--Intern---PhD-Agentic-AI_REF088582W-1)<br><sup>Austin, TX&emsp;2mo</sup>
+- [Staff Research Scientist, Intern - PhD Foundational AI](https://visa.wd5.myworkdayjobs.com/visa/job/US---Foster-City-CA/Staff-Research-Scientist--Intern---PhD-Foundational-AI_REF088579W-1)<br><sup>Foster City, CA&emsp;2mo</sup>
+
+#### Kitware
+
+- [AI Research Internship](https://jobs.lever.co/kitware/ff25a349-a362-45d2-b1e4-2487c1df4f75/apply)<br><sup>Clifton Park, NY&emsp;2mo</sup>
+
+#### AfterQuery <sub>2 roles</sub>
+
+- [Research Fellow](https://jobs.ashbyhq.com/afterquery/b1794d2c-fdbf-4165-a244-9e3ccc9cc800/application)<br><sup>San Francisco&emsp;PhD or MS&emsp;2mo</sup>
+- [Research Scholar](https://jobs.ashbyhq.com/afterquery/68053d93-6d15-4b4a-8a04-65aa5646feb2/application)<br><sup>San Francisco&emsp;PhD or MS&emsp;2mo</sup>
+
+#### Veeam Software
+
+- [AI/ML Intern Summer 2027](https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4971207101)<br><sup>San Jose, CA&emsp;PhD or MS&emsp;2mo</sup>
+
+#### Marvell
+
+- [Ph.D. Intern - AI/ML & Design Automation](https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Santa-Clara-CA/PhD-Intern---AI-ML---Design-Automation_2604412)<br><sup>Santa Clara, CA&emsp;2mo</sup>
+
+#### Pluralis Research
+
+- [Research Scientist Intern](https://jobs.ashbyhq.com/pluralis-research/c8f78978-a693-4863-bcc0-66af5c3fd0be/application)<br><sup>San Francisco&emsp;2mo</sup>
+
+#### Normal Computing
+
+- [AI Research Resident](https://jobs.ashbyhq.com/NormalComputing/975c754f-e5dd-4137-9e3e-63c81405d84f/application)<br><sup>New York&emsp;PhD or MS&emsp;3mo</sup>
+
+#### Epic Games
+
+- [Machine Learning Intern](https://epicgames.com/careers/jobs/5708589004?gh_jid=5708589004)<br><sup>London, UK; Multiple locations +1&emsp;3mo</sup>
+
+#### Modal
+
+- [ML Research Intern](https://jobs.ashbyhq.com/modal/38888294-6bc7-4dab-b072-6d0f0c2ed79a/application)<br><sup>New York&emsp;3mo</sup>
+
+#### Qualcomm <sub>3 roles</sub>
+
+- [Intern: On-device AgenticAI](https://careers.qualcomm.com/careers/job/446719804308)<br><sup>Seoul, South Korea&emsp;4mo</sup>
+- [Intern - Generative AI model personalization and efficient fine-tuning](https://careers.qualcomm.com/careers/job/446717739438)<br><sup>Seoul, South Korea&emsp;PhD or MS&emsp;4mo</sup>
+- [PhD Internship- AI Research](https://careers.qualcomm.com/careers/job/446717502399)<br><sup>Hà Nội, Vietnam; Ho Chi Minh, Vietnam&emsp;8mo</sup>
+
+#### Baseten
+
+- [Base Labs Fellowship](https://jobs.ashbyhq.com/baseten/58d7d8e6-86ee-43a1-baec-3dddcb661d51/application)<br><sup>San Francisco&emsp;PhD or MS&emsp;4mo</sup>
+
+#### Mistral AI
+
+- [Applied Scientist (Internship)](https://jobs.ashbyhq.com/mistral.ai/de46ba8b-00cb-4618-83df-66e15a78434e/application)<br><sup>Paris, France&emsp;PhD or MS&emsp;4mo</sup>
+
+#### Quadrillion
+
+- [Research Intern](https://jobs.ashbyhq.com/quadrillion-labs/579cef88-1dbf-45b5-a938-7ddc23505765/application)<br><sup>New York City&emsp;4mo</sup>
+
+#### Vmax <sub>2 roles</sub>
+
+- [Research Fellowship - Mechanistic Interpretability](https://jobs.ashbyhq.com/vmax/7344d5fd-6fa3-4bce-b7bd-e73aa4dd568b/application)<br><sup>San Francisco&emsp;6mo</sup>
+- [Research Fellowship - Open Endedness](https://jobs.ashbyhq.com/vmax/c4e1e51b-65c5-41f0-9bed-c90bc452859b/application)<br><sup>San Francisco&emsp;12mo</sup>
+
+#### Cohere
+
+- [Research Internship (Winter 2027)](https://jobs.ashbyhq.com/cohere/73bd3e2b-6597-4124-b64b-1e5dbc32e785/application)<br><sup>Canada&emsp;6mo</sup>
+
+#### Architect Labs
+
+- [Member of Technical Staff - Research Intern](https://jobs.ashbyhq.com/architect/1999377b-b23b-461f-b79a-d4edce0d46b1/application)<br><sup>Palo Alto&emsp;PhD or MS&emsp;9mo</sup>
+
+#### Huaweiuk
+
+- [Research Intern - Computer Vision (Visuals)](https://huaweiuk.teamtailor.com/jobs/7163545-research-intern-computer-vision-visuals)<br><sup>London, UK&emsp;9mo</sup>
+
+#### Eloquent AI
+
+- [Eloquent AI Fellowship Program](https://jobs.ashbyhq.com/eloquentai/6da20f29-5de4-4c58-9057-05d2937faca7/application)<br><sup>San Francisco&emsp;PhD or MS&emsp;15mo</sup>
+
+</details>
 
 ### Computer Vision
 
-| Company | Role | Location | Degree | Posted | Apply |
-| --- | --- | --- | --- | --- | --- |
-| **Adobe** | 2027 Intern - Research Scientist | London, UK | PhD&nbsp;or&nbsp;MS | 4d&nbsp;**New** | [Apply](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/London/XMLNAME-2027-Intern---Research-Scientist_R173345) |
-| **Qualcomm** | FY27 Intern - Deep Learning Researcher Internship - 4 months, Amsterdam | Amsterdam Drenthe, Netherlands | PhD | 14d | [Apply](https://careers.qualcomm.com/careers/job/446721932621) |
-| **KLA** | Image Processing Intern | Milpitas, CA | PhD&nbsp;or&nbsp;MS | 19d | [Apply](https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Image-Processing-Intern_2642159) |
-| **Intel** | AI Software Engineering PhD Intern | Phoenix, AZ | PhD | 21d | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-PhD-Intern_JR0286730) |
-| **SpAItial** | PhD Research Intern, 3D World Models | Munich, Germany | PhD | 28d | [Apply](https://jobs.ashbyhq.com/spaitial/39ab566f-8626-4633-a0ab-504e082032d6/application) |
-| **NVIDIA** | PhD Research Intern, Fundamental Generative AI - 2027 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406) |
-| **Cartesian** | Applied ML/CS PhD Internship (6+ months) | Cambridge, MA | PhD | 40d | [Apply](https://job-boards.greenhouse.io/cartesiansystems/jobs/4438398009) |
-| **Roblox** | [2027] Applied Scientist - PhD Intern | San Mateo, CA | PhD | 40d | [Apply](https://careers.roblox.com/jobs/8242621?gh_jid=8242621) |
-| **Amazon** | 2027 Applied Scientist Internship – PhD, Amazon University Talent Acquisition | <details><summary>6 locations</summary>London, UK<br>Madrid, Spain<br>Luxembourg<br>Berlin, Germany<br>Bucharest, Romania<br>Turin, Italy</details> | PhD | 46d | [Apply](https://www.amazon.jobs/en/jobs/10567694/2027-applied-scientist-internship-phd-amazon-university-talent-acquisition) |
-| ↳ | 2027 Applied Science Internship - Computer Vision - United States, PhD Student Science Recruiting | Seattle, WA | PhD | 48d | [Apply](https://www.amazon.jobs/en/jobs/10564601/2027-applied-science-internship-computer-vision-united-states-phd-student-science-recruiting) |
-| **Intel** | Research Scientist Intern - Graphics, ML | Remote (US) | PhD | 48d | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525) |
-| **KLA** | Algorithm Engineering Intern (AI, Computer Vision & Software Engineering) | Milpitas, CA | PhD | 56d | [Apply](https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2) |
-| **Cantina Labs** | Research Intern | Singapore | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://jobs.ashbyhq.com/cantina/4af0a727-71de-4553-aaca-d86bca524c58/application) |
-| **Odyssey** | Research Internship | Palo Alto | PhD | 2mo | [Apply](https://jobs.ashbyhq.com/odysseyml/85dc0f84-8a0a-45b2-ba70-30364750b5be/application) |
-| **Helsing** | AI Research Intern (PhD) – 3D Computer Vision | <details><summary>5 locations</summary>Barcelona, Spain<br>Berlin, Spain<br>London, Spain<br>Munich, Spain<br>Paris, Spain</details> | PhD | 3mo | [Apply](https://helsing.ai/jobs/4941957101?gh_jid=4941957101) |
-| **Amazon** | 2027 Applied Science Intern (Computer Vision), Amazon International Machine Learning | Melbourne, Australia | PhD | 4mo | [Apply](https://www.amazon.jobs/en/jobs/10459543/2027-applied-science-intern-computer-vision-amazon-international-machine-learning) |
-| **Oddin** | Applied Science Intern (Phd) - World Models | Remote | PhD | 8mo | [Apply](https://jobs.lever.co/oddin/f6683592-7ff8-4c0a-86dd-8b0d36d3207d/apply) |
-| **Qualcomm** | FY26 Intern - Deep Learning Researcher Internship - 4 months, Amsterdam | Amsterdam Drenthe, Netherlands | PhD | 13mo | [Apply](https://careers.qualcomm.com/careers/job/446715095913) |
+<details><summary>18 roles at 13 companies</summary>
 
-[Back to top](#contents)
+#### Adobe
+
+- [2027 Intern - Research Scientist](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/London/XMLNAME-2027-Intern---Research-Scientist_R173345)<br><sup>London, UK&emsp;PhD or MS&emsp;4d</sup>
+
+#### Qualcomm <sub>2 roles</sub>
+
+- [FY27 Intern - Deep Learning Researcher Internship - 4 months, Amsterdam](https://careers.qualcomm.com/careers/job/446721932621)<br><sup>Amsterdam Drenthe, Netherlands&emsp;14d</sup>
+- [FY26 Intern - Deep Learning Researcher Internship - 4 months, Amsterdam](https://careers.qualcomm.com/careers/job/446715095913)<br><sup>Amsterdam Drenthe, Netherlands&emsp;13mo</sup>
+
+#### KLA <sub>2 roles</sub>
+
+- [Image Processing Intern](https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Image-Processing-Intern_2642159)<br><sup>Milpitas, CA&emsp;PhD or MS&emsp;19d</sup>
+- [Algorithm Engineering Intern (AI, Computer Vision & Software Engineering)](https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Algorithm-Engineering-Intern--AI--Computer-Vision---Software-Engineering-_2641392-2)<br><sup>Milpitas, CA&emsp;56d</sup>
+
+#### Intel <sub>2 roles</sub>
+
+- [AI Software Engineering PhD Intern](https://intel.wd1.myworkdayjobs.com/external/job/US-Arizona-Phoenix/AI-Software-Engineering-PhD-Intern_JR0286730)<br><sup>Phoenix, AZ&emsp;21d</sup>
+- [Research Scientist Intern - Graphics, ML](https://intel.wd1.myworkdayjobs.com/external/job/Virtual-US/Research-Scientist-Intern---Graphics--ML_JR0287525)<br><sup>Remote (US)&emsp;48d</sup>
+
+#### SpAItial
+
+- [PhD Research Intern, 3D World Models](https://jobs.ashbyhq.com/spaitial/39ab566f-8626-4633-a0ab-504e082032d6/application)<br><sup>Munich, Germany&emsp;28d</sup>
+
+#### NVIDIA
+
+- [PhD Research Intern, Fundamental Generative AI - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Research-Intern--Fundamental-Generative-AI---2027_JR2025406)<br><sup>Santa Clara, CA&emsp;36d</sup>
+
+#### Cartesian
+
+- [Applied ML/CS PhD Internship (6+ months)](https://job-boards.greenhouse.io/cartesiansystems/jobs/4438398009)<br><sup>Cambridge, MA&emsp;40d</sup>
+
+#### Roblox
+
+- [[2027] Applied Scientist - PhD Intern](https://careers.roblox.com/jobs/8242621?gh_jid=8242621)<br><sup>San Mateo, CA&emsp;40d</sup>
+
+#### Amazon <sub>3 roles</sub>
+
+- [2027 Applied Scientist Internship – PhD, Amazon University Talent Acquisition](https://www.amazon.jobs/en/jobs/10567694/2027-applied-scientist-internship-phd-amazon-university-talent-acquisition)<br><sup>London, UK; Madrid, Spain +4&emsp;46d</sup>
+- [2027 Applied Science Internship - Computer Vision - United States, PhD Student Science Recruiting](https://www.amazon.jobs/en/jobs/10564601/2027-applied-science-internship-computer-vision-united-states-phd-student-science-recruiting)<br><sup>Seattle, WA&emsp;48d</sup>
+- [2027 Applied Science Intern (Computer Vision), Amazon International Machine Learning](https://www.amazon.jobs/en/jobs/10459543/2027-applied-science-intern-computer-vision-amazon-international-machine-learning)<br><sup>Melbourne, Australia&emsp;4mo</sup>
+
+#### Cantina Labs
+
+- [Research Intern](https://jobs.ashbyhq.com/cantina/4af0a727-71de-4553-aaca-d86bca524c58/application)<br><sup>Singapore&emsp;PhD or MS&emsp;2mo</sup>
+
+#### Odyssey
+
+- [Research Internship](https://jobs.ashbyhq.com/odysseyml/85dc0f84-8a0a-45b2-ba70-30364750b5be/application)<br><sup>Palo Alto&emsp;2mo</sup>
+
+#### Helsing
+
+- [AI Research Intern (PhD) – 3D Computer Vision](https://helsing.ai/jobs/4941957101?gh_jid=4941957101)<br><sup>Barcelona, Spain; Berlin, Spain +3&emsp;3mo</sup>
+
+#### Oddin
+
+- [Applied Science Intern (Phd) - World Models](https://jobs.lever.co/oddin/f6683592-7ff8-4c0a-86dd-8b0d36d3207d/apply)<br><sup>Remote&emsp;8mo</sup>
+
+</details>
 
 ### Robotics and Autonomous Driving
 
-| Company | Role | Location | Degree | Posted | Apply |
-| --- | --- | --- | --- | --- | --- |
-| **Toyota Research Institute** | Automated Driving Advanced Development Intern, Machine Learning Research (Cambridge) | Cambridge, MA | PhD&nbsp;or&nbsp;MS | 1d&nbsp;**New** | [Apply](https://jobs.lever.co/tri/3a7510ff-7cef-4d6e-8c32-0b6e6b8a2476/apply) |
-| ↳ | Research Intern, Spatial Intelligence for Robotics | Cambridge, MA | PhD | 1d&nbsp;**New** | [Apply](https://jobs.lever.co/tri/2d65fd58-00bb-49bc-b4db-e381df1ebd1e/apply) |
-| ↳ | Research Intern, Continual Adaptation for Robotics | Cambridge, MA | PhD | 4d&nbsp;**New** | [Apply](https://jobs.lever.co/tri/6c9002a1-6ed1-42b7-829c-5ba6661446ac/apply) |
-| **Rhoda AI** | Research Intern | Mountain View | PhD&nbsp;or&nbsp;MS | 5d&nbsp;**New** | [Apply](https://jobs.ashbyhq.com/rhoda-ai/20056166-79de-420b-8569-d0b15ee83599/application) |
-| **Stack AV** | Research Intern (PhD), Autonomy | Pittsburgh, PA<br>Remote (US) | PhD | 5d&nbsp;**New** | [Apply](https://job-boards.greenhouse.io/stackav/jobs/5287594007) |
-| **General Motors** | AI Researcher (AV) Internship (PhD Student) | Herzliya, Israel | PhD | 8d | [Apply](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Herzliya-Tel-Aviv-District-Israel/AI-Researcher--AV--Internship--PhD-Student-_JR-202623638) |
-| **Qualcomm** | FY27 PhD Internship: Data-Centric AI for End-to-End Autonomous Driving - 6 months, Munich, Unterschleißheim, Germany | Munich, Germany | PhD | 11d | [Apply](https://careers.qualcomm.com/careers/job/446722003217) |
-| **Rivian** | UIUC Research Park Intern - ML AI Motor Controls Algorithm | Champaign, IL | PhD&nbsp;or&nbsp;MS | 11d | [Apply](https://careers.rivian.com/careers-home/jobs/35896) |
-| **Toyota Research Institute** | Robotics Intern, World Action Models for Robot Policy | Cambridge, MA | PhD&nbsp;or&nbsp;MS | 11d | [Apply](https://jobs.lever.co/tri/e1ed2b1f-d345-4e7c-b963-76195369538d/apply) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Software Engineer, Multiverse | San Francisco, CA | PhD&nbsp;or&nbsp;MS | 11d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8350832) |
-| ↳ | 2027 Summer Intern, Machine Learning, MS/PhD, Simulation Realism (World Model) | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 11d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8358262) |
-| ↳ | 2027 Summer Intern, PhD, Machine Learning - Generative World Models & Controllable Simulation | Mountain View, CA | PhD | 11d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8351210) |
-| **Intel** | Robotics PhD Intern | Hillsboro, OR | PhD | 13d | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Robotics-PhD-Intern_JR0288833) |
-| **Toyota Research Institute** | Machine Learning/Agentic AI Intern | Cambridge, MA | PhD | 18d | [Apply](https://jobs.lever.co/tri/f8c9ed26-4574-4ad2-954b-b7f5ec365495/apply) |
-| **Waymo** | 2027 Summer Intern, PhD, Research Scientist Intern | Mountain View, CA | PhD | 18d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8337719) |
-| **NVIDIA** | PhD Researcher Intern, World Foundation Models | Seoul, South Korea | PhD | 19d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Korea-Seoul/PhD-Researcher-Intern--World-Foundation-Models_JR2028487) |
-| **Toyota Research Institute** | Human Interactive Driving Research Intern, Decision-Making for Driving at the Limits | Los Altos, CA | PhD | 19d | [Apply](https://jobs.lever.co/tri/3e69a8d4-6286-4d00-8677-7597e98fdb56/apply) |
-| ↳ | Human Interactive Driving Research Intern, Learning-Based Control for Safe Autonomous Driving | Los Altos, CA | PhD&nbsp;or&nbsp;MS | 19d | [Apply](https://jobs.lever.co/tri/e67d9f3e-f731-4f66-ab87-bdc45fe45d88/apply) |
-| ↳ | Human Interactive Driving Research Intern, Perception for Driving at the Limits | Los Altos, CA | PhD | 19d | [Apply](https://jobs.lever.co/tri/33c33641-756d-4cd1-8238-0100af2224b8/apply) |
-| ↳ | Human Interactive Driving Research Intern, World Models | Los Altos, CA | PhD | 19d | [Apply](https://jobs.lever.co/tri/828d98d0-f914-404f-b537-5d05236128bb/apply) |
-| ↳ | Robotics Intern, Human-Machine Interaction Research | Los Altos, CA | PhD | 19d | [Apply](https://jobs.lever.co/tri/16336213-1880-482f-87d0-b15fa4141047/apply) |
-| **Boston Dynamics** | Atlas VLA Research Intern | Waltham | PhD&nbsp;or&nbsp;MS | 20d | [Apply](https://bostondynamics.wd1.myworkdayjobs.com/boston_dynamics/job/Waltham-Office-POST/Atlas-VLA-Research-Intern_R3317) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Sensor Performance Engineer Intern | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 21d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8319171) |
-| **Skydio** | Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ) | San Mateo, CA | PhD | 22d | [Apply](https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048/application) |
-| ↳ | Autonomy Engineer Intern, Reinforcement Learning, 2027 (Zurich) | Zurich, Switzerland | PhD | 22d | [Apply](https://jobs.ashbyhq.com/skydio/bdf927bf-8ec0-4bf4-9145-8211db836b6a/application) |
-| ↳ | PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027 | San Mateo, CA | PhD | 22d | [Apply](https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f/application) |
-| ↳ | PhD Autonomy Engineer Intern, 2027 | San Mateo, CA | PhD | 22d | [Apply](https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c/application) |
-| **Toyota Research Institute** | Robotics Intern - Trustworthy Learning under Uncertainty | Los Altos, CA | PhD | 22d | [Apply](https://jobs.lever.co/tri/6f60ff79-c902-466a-912c-7ab849ce6424/apply) |
-| ↳ | Robotics Intern, Post-Training and Continual Learning | Los Altos, CA | PhD | 22d | [Apply](https://jobs.lever.co/tri/f6541d1f-b72f-456f-829f-bf118ac10c43/apply) |
-| ↳ | Robotics Intern, World Foundation Models | Los Altos, CA | PhD | 22d | [Apply](https://jobs.lever.co/tri/016bbb58-857a-4367-b1aa-0cdc9f818478/apply) |
-| **NVIDIA** | Research Intern, Robotics - 2027 | Pasir Panjang, Singapore | PhD | 24d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Singapore-Pasir-Panjang/Research-Intern--Robotics---2027_JR2028499) |
-| ↳ | Research Intern, Robotics — NVIDIA Research | Pasir Panjang, Singapore | PhD | 24d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Singapore-Pasir-Panjang/Research-Intern--Robotics---NVIDIA-Research_JR2028498) |
-| ↳ | Reinforcement Learning and World Model for Autonomous Simulation Intern - 2027 | Shanghai, China | PhD | 25d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/China-Shanghai/Reinforcement-Learning-and-World-Model-for-Autonomous-Simulation-Intern---2027_JR2028022) |
-| **Toyota Research Institute** | Human Aware Interactions and Learning Intern | Cambridge, MA | PhD&nbsp;or&nbsp;MS | 26d | [Apply](https://jobs.lever.co/tri/71e99c38-aa29-4414-956d-cc526644b9b7/apply) |
-| **Waymo** | 2027 Summer Intern, PhD, AI Foundations - Recipes | Mountain View, CA | PhD | 26d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8306841) |
-| ↳ | 2027 Summer Intern, PhD, Research, Multimodal Foundation Models | Mountain View, CA | PhD | 26d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8306867) |
-| ↳ | 2027 Summer Intern, PhD, Research, RSI for Autonomous Driving | Mountain View, CA | PhD | 26d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8306779) |
-| **NVIDIA** | PhD Research Intern, Robotic Perception and Learning - 2027 | Redmond, WA | PhD | 27d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-WA-Redmond/PhD-Research-Intern--Robotic-Perception-and-Learning---2027_JR2027089) |
-| **RoboForce** | AI Resident | Milpitas, CA | PhD&nbsp;or&nbsp;MS | 27d | [Apply](https://job-boards.greenhouse.io/roboforce/jobs/5459229008) |
-| **Ai2** | Research Internship, Robotics | Seattle, WA | PhD | 29d | [Apply](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293641) |
-| **General Motors** | 2027 Summer Intern, SEAM, Embodied AI (PhD) | Sunnyvale, CA | PhD | 29d | [Apply](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143) |
-| **Waymo** | 2027 Summer Intern, PhD, Machine Learning - Simulation & Closed-Loop Training | Mountain View, CA | PhD | 29d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8283558) |
-| ↳ | 2027 Summer Intern, PhD, Research Scientist, Visual Reasoning | Mountain View, CA | PhD | 29d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8292367) |
-| ↳ | 2027 Summer Intern, PhD, Research, Behavior Post-training | Mountain View, CA<br>San Francisco, CA | PhD | 29d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8289816) |
-| ↳ | 2027 Summer Intern, PhD, Research, VLM Harnesses for AV Planning | Mountain View, CA | PhD | 29d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8301854) |
-| **General Motors** | 2027 Summer Intern, AI Research, Embodied AI (PhD) | Sunnyvale, CA | PhD | 33d | [Apply](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146) |
-| **Rivian** | Software Engineering Intern - Machine Learning Research, Perception (Spring 2027 Co-Op) | Palo Alto, CA | PhD | 33d | [Apply](https://careers.rivian.com/careers-home/jobs/33801) |
-| **Field AI** | Robotics Research, Embodied AI Intern (Spring & Summer 2027) | Irvine, CA | PhD | 34d | [Apply](https://jobs.lever.co/field-ai/ef35c537-b864-479f-9dbe-b30429ac7704/apply) |
-| ↳ | Robotics Research, Robot Learning & Manipulation Intern (Spring, Summer, & Fall 2027) | Irvine, CA | PhD&nbsp;or&nbsp;MS | 34d | [Apply](https://jobs.lever.co/field-ai/b37569c3-d07f-4968-82dc-44020f34e54e/apply) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Machine Learning, Planning/Prediction | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 35d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8279620) |
-| ↳ | 2027 Summer Intern, PhD, Machine Learning, Simulation Realism | London, UK | PhD | 35d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8265868) |
-| **NVIDIA** | PhD Research Intern, Autonomous Systems and Physical AI Research - 2027 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Autonomous-Systems-and-Physical-AI-Research---2027_JR2024171) |
-| ↳ | PhD Research Intern, Embodied and Agentic AI - 2027 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Embodied-and-Agentic-AI---2027_JR2025792) |
-| ↳ | PhD Research Intern, Generalist Embodied Agents Research - 2027 | Multiple locations | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generalist-Embodied-Agents-Research---2027_JR2025103) |
-| ↳ | PhD Research Intern, Generative AI - 2026 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generative-AI---2026_JR2016035) |
-| ↳ | PhD Research Intern, Learning Embodied Skills from Human Data - 2027 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Learning-Embodied-Skills-from-Human-Data---2027_JR2025405) |
-| ↳ | PhD Research Intern, Physical AI - Foundation Models - 2027 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generative-AI-for-Physical-AI---2027_JR2025025) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Perception, Model Lifecycle | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 36d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8248411) |
-| ↳ | 2027 Summer Intern, PhD, Research, AV Planning | Mountain View, CA | PhD | 38d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8258070) |
-| ↳ | 2027 Summer Intern, PhD, Research, Post Training | Mountain View, CA<br>San Francisco, CA | PhD | 38d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8257006) |
-| **NVIDIA** | PhD Research Intern, Robotics - Summer 2027 | Zurich, Switzerland<br>Multiple locations | PhD | 39d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Switzerland-Zurich/PhD-Research-Intern--Robotics---Summer-2027_JR2027294) |
-| ↳ | Robotics Simulation and Evaluation PhD Intern - Summer 2027 | Zurich, Switzerland | PhD | 39d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Switzerland-Zurich/Robotics-Simulation-and-Evaluation-PhD-Intern---Summer-2027_JR2027531) |
-| **Waymo** | 2027 Summer Intern, PhD, Machine Learning, Planning/Prediction | Mountain View, CA | PhD | 40d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8262154) |
-| ↳ | 2027 Summer Intern, PhD, Research, World Modeling Evaluation | Mountain View, CA | PhD | 40d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8265173) |
-| ↳ | 2027 Summer Intern, MS/PhD, Perception, Robotics | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 41d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227633) |
-| ↳ | 2027 Summer Intern, MS/PhD, Research, Perception Foundation Models | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 41d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8257801) |
-| **General Motors** | 2027 Summer Intern – Machine Learning Intern, Autonomous Vehicles: Software Validation (PhD) | Sunnyvale, CA | PhD | 43d | [Apply](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--PhD-_JR-202621649) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, ML Systems & Behavior Discovery | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 43d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8257159) |
-| ↳ | 2027 Summer Intern, MS/PhD, Software Engineer, Eval Data Infra | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 43d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8257205) |
-| ↳ | 2027 Summer Intern, PhD, Research, World Action Model | Mountain View, CA | PhD | 46d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8243732) |
-| **General Motors** | 2027 Summer Intern – AI/ML Engineer, Autonomous Vehicles: Simulation (PhD) | Sunnyvale, CA | PhD | 47d | [Apply](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicles--Simulation--PhD-_JR-202621511) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Machine Learning, Driver Refinement Foundations | Mountain View, CA<br>San Francisco, CA | PhD&nbsp;or&nbsp;MS | 47d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8243556) |
-| **Field AI** | Robotics Research, Humanoid Whole Body Learning Intern (Summer 2027) PhD | Boston, MA | PhD | 49d | [Apply](https://jobs.lever.co/field-ai/4d6e794b-1fcb-472f-babb-9b482eb02edf/apply) |
-| **Waymo** | 2027 Summer Intern, PhD, Planner Machine Learning | San Francisco, CA | PhD | 49d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8234876) |
-| ↳ | 2027 Summer Intern, PhD, Machine Learning Research, Planning/Prediction | Mountain View, CA | PhD | 50d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8237997) |
-| ↳ | 2027 Summer Intern, PhD, Perception Systems Engineering: Pedestrian Detection Precision | San Francisco, CA | PhD | 50d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8234670) |
-| **Field AI** | Robotics Research, Humanoid Manipulation Intern (Spring 2027) \| PhD | Boston, MA | PhD | 51d | [Apply](https://jobs.lever.co/field-ai/40a22216-c73b-4ec1-bfc1-dc0e1938eaba/apply) |
-| ↳ | Robotics Research, Humanoid Manipulation Intern (Summer 2027) \| PhD | Boston, MA | PhD | 51d | [Apply](https://jobs.lever.co/field-ai/ada8184d-153b-4172-8f55-2b0ae74c6820/apply) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Perception, Machine Learning | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 52d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227411) |
-| ↳ | 2027 Summer Intern, PhD, Software Engineer, Simulation | Mountain View, CA | PhD | 54d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8227640) |
-| ↳ | 2027 Summer Intern, MS/PhD, Software Engineer | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 55d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8224729) |
-| ↳ | 2027 Summer Intern, PhD, Perception/Road Understanding, ML Engineer | Mountain View, CA | PhD | 55d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8224746) |
-| ↳ | 2027 Summer Intern, MS/PhD, Machine Learning Engineer | San Francisco, CA | PhD&nbsp;or&nbsp;MS | 56d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8223735) |
-| ↳ | 2027 Summer Intern, PhD, Data Science | Mountain View, CA<br>San Francisco, CA | PhD | 56d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8221956) |
-| ↳ | 2027 Summer Intern, MS/PhD, Software Engineer, Simulation Evaluation ML Model | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 57d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8221795) |
-| ↳ | 2027 Summer Intern, MS/PhD, Software/ML Engineer, Simulation | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 57d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8221851) |
-| ↳ | 2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles | Mountain View, CA | PhD | 2mo | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8203191) |
-| **XPeng** | AI Research Intern – Predictive World Model | Santa Clara, CA | PhD | 2mo | [Apply](https://job-boards.greenhouse.io/xpengmotors/jobs/8819001002) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Conflict Behavior | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8210138) |
-| ↳ | 2027 Summer Intern, MS/PhD, Machine Learning, Simulation Realism | London, UK | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8208465) |
-| ↳ | 2027 Summer Intern, PhD, Machine Learning, Computer Vision | Mountain View, CA | PhD | 2mo | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8202025) |
-| ↳ | 2027 Summer Intern, PhD, Safety Research, Human Behavior Analytics | Mountain View, CA | PhD | 2mo | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8197899) |
-| **DiDi Labs** | Motion Planning Engineer (PhD, Intern) | San Jose, CA | PhD | 2mo | [Apply](https://job-boards.greenhouse.io/didi/jobs/8198303) |
-| **Waymo** | 2027 Summer Intern, PhD, Vehicle Intent and Prediction | Mountain View, CA | PhD | 2mo | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8189848) |
-| **Skydio** | PhD Autonomy Engineer Intern - Computer Vision / Deep Learning Summer 2027 | Zurich, Switzerland | PhD | 2mo | [Apply](https://jobs.ashbyhq.com/skydio/611a7f87-bc4c-468f-976f-ecd33b731fa3/application) |
-| **Build AI** | Research Intern | San Francisco | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://jobs.ashbyhq.com/build-ai/14e404c4-e189-4e49-9ef7-238da9655caf/application) |
-| **42dot** | [MS/PhD Intern] AI Engineer (정규직 전환형) | Pangyo, South Korea | PhD&nbsp;or&nbsp;MS | 4mo | [Apply](https://jobs.ashbyhq.com/42dot/c4af7536-c24f-4754-9fe9-d92d237403f3/application) |
-| **Huaweiuk** | Robotics Intern | London, UK | PhD | 6mo | [Apply](https://huaweiuk.teamtailor.com/jobs/7669536-robotics-intern) |
-| **Applied Intuition** | Research Intern - 3D Vision and Generation, Self-Driving | Sunnyvale | PhD&nbsp;or&nbsp;MS | 9mo | [Apply](https://jobs.ashbyhq.com/applied/91e0686e-272a-4780-b33d-d7860b94a7b4/application) |
-| ↳ | Research Intern - Reinforcement Learning, Robotics | Sunnyvale | PhD&nbsp;or&nbsp;MS | 9mo | [Apply](https://jobs.ashbyhq.com/applied/bb953f29-0059-4a40-aa9e-3a8c88733902/application) |
-| ↳ | Research Intern - Robotic Hardware, Simulation and Data | Sunnyvale | PhD&nbsp;or&nbsp;MS | 9mo | [Apply](https://jobs.ashbyhq.com/applied/5bb0567a-8d07-4cc4-be7c-c06b31361883/application) |
-| ↳ | Research Intern - World-Action Foundation Model, Robotics | Sunnyvale | PhD&nbsp;or&nbsp;MS | 9mo | [Apply](https://jobs.ashbyhq.com/applied/edc2528d-6e6c-4a67-b871-bfe7d9c890b4/application) |
-| **Waabi** | 2027 Intern, PhD Research Scientist | Toronto, Canada | PhD | 11mo | [Apply](https://jobs.lever.co/waabi/62700386-b9db-4c78-aec3-5ef59cbe841e/apply) |
-| **Qualcomm** | Intern- Deep Learning R&D for Automated Driving | Seoul, South Korea | PhD | 11mo | [Apply](https://careers.qualcomm.com/careers/job/446715887234) |
-| **Toyota Research Institute** | Human Interactive Driving Intern – World Models | Los Altos, CA | PhD | 12mo | [Apply](https://jobs.lever.co/tri/63d61db3-ac43-4c0d-8b9b-5006e3b92149/apply) |
-| ↳ | Automated Driving Advanced Development Intern, Machine Learning Research | Los Altos, CA | PhD | 12mo | [Apply](https://jobs.lever.co/tri/62b161d6-21e0-4d10-9997-ff7ae91a2ff4/apply) |
-| **Dexmate** | Research Intern, PhD (AI, Robotics) | Fremont | PhD | 20mo | [Apply](https://jobs.ashbyhq.com/dexmate/9361af41-d1e4-4b27-be37-683685bf48dc/application) |
-| **Applied Intuition** | Research Intern - Reinforcement Learning, Self-Driving | Sunnyvale | PhD&nbsp;or&nbsp;MS | 26mo | [Apply](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application) |
+<details><summary>108 roles at 22 companies</summary>
 
-[Back to top](#contents)
+#### Toyota Research Institute <sub>16 roles</sub>
+
+- [Automated Driving Advanced Development Intern, Machine Learning Research (Cambridge)](https://jobs.lever.co/tri/3a7510ff-7cef-4d6e-8c32-0b6e6b8a2476/apply)<br><sup>Cambridge, MA&emsp;PhD or MS&emsp;1d</sup>
+- [Research Intern, Spatial Intelligence for Robotics](https://jobs.lever.co/tri/2d65fd58-00bb-49bc-b4db-e381df1ebd1e/apply)<br><sup>Cambridge, MA&emsp;1d</sup>
+- [Research Intern, Continual Adaptation for Robotics](https://jobs.lever.co/tri/6c9002a1-6ed1-42b7-829c-5ba6661446ac/apply)<br><sup>Cambridge, MA&emsp;4d</sup>
+- [Robotics Intern, World Action Models for Robot Policy](https://jobs.lever.co/tri/e1ed2b1f-d345-4e7c-b963-76195369538d/apply)<br><sup>Cambridge, MA&emsp;PhD or MS&emsp;11d</sup>
+- [Machine Learning/Agentic AI Intern](https://jobs.lever.co/tri/f8c9ed26-4574-4ad2-954b-b7f5ec365495/apply)<br><sup>Cambridge, MA&emsp;18d</sup>
+- [Human Interactive Driving Research Intern, Decision-Making for Driving at the Limits](https://jobs.lever.co/tri/3e69a8d4-6286-4d00-8677-7597e98fdb56/apply)<br><sup>Los Altos, CA&emsp;19d</sup>
+- [Human Interactive Driving Research Intern, Learning-Based Control for Safe Autonomous Driving](https://jobs.lever.co/tri/e67d9f3e-f731-4f66-ab87-bdc45fe45d88/apply)<br><sup>Los Altos, CA&emsp;PhD or MS&emsp;19d</sup>
+- [Human Interactive Driving Research Intern, Perception for Driving at the Limits](https://jobs.lever.co/tri/33c33641-756d-4cd1-8238-0100af2224b8/apply)<br><sup>Los Altos, CA&emsp;19d</sup>
+- [Human Interactive Driving Research Intern, World Models](https://jobs.lever.co/tri/828d98d0-f914-404f-b537-5d05236128bb/apply)<br><sup>Los Altos, CA&emsp;19d</sup>
+- [Robotics Intern, Human-Machine Interaction Research](https://jobs.lever.co/tri/16336213-1880-482f-87d0-b15fa4141047/apply)<br><sup>Los Altos, CA&emsp;19d</sup>
+- [Robotics Intern - Trustworthy Learning under Uncertainty](https://jobs.lever.co/tri/6f60ff79-c902-466a-912c-7ab849ce6424/apply)<br><sup>Los Altos, CA&emsp;22d</sup>
+- [Robotics Intern, Post-Training and Continual Learning](https://jobs.lever.co/tri/f6541d1f-b72f-456f-829f-bf118ac10c43/apply)<br><sup>Los Altos, CA&emsp;22d</sup>
+- [Robotics Intern, World Foundation Models](https://jobs.lever.co/tri/016bbb58-857a-4367-b1aa-0cdc9f818478/apply)<br><sup>Los Altos, CA&emsp;22d</sup>
+- [Human Aware Interactions and Learning Intern](https://jobs.lever.co/tri/71e99c38-aa29-4414-956d-cc526644b9b7/apply)<br><sup>Cambridge, MA&emsp;PhD or MS&emsp;26d</sup>
+- [Human Interactive Driving Intern – World Models](https://jobs.lever.co/tri/63d61db3-ac43-4c0d-8b9b-5006e3b92149/apply)<br><sup>Los Altos, CA&emsp;12mo</sup>
+- [Automated Driving Advanced Development Intern, Machine Learning Research](https://jobs.lever.co/tri/62b161d6-21e0-4d10-9997-ff7ae91a2ff4/apply)<br><sup>Los Altos, CA&emsp;12mo</sup>
+
+#### Rhoda AI
+
+- [Research Intern](https://jobs.ashbyhq.com/rhoda-ai/20056166-79de-420b-8569-d0b15ee83599/application)<br><sup>Mountain View&emsp;PhD or MS&emsp;5d</sup>
+
+#### Stack AV
+
+- [Research Intern (PhD), Autonomy](https://job-boards.greenhouse.io/stackav/jobs/5287594007)<br><sup>Pittsburgh, PA; Remote (US)&emsp;5d</sup>
+
+#### General Motors <sub>5 roles</sub>
+
+- [AI Researcher (AV) Internship (PhD Student)](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Herzliya-Tel-Aviv-District-Israel/AI-Researcher--AV--Internship--PhD-Student-_JR-202623638)<br><sup>Herzliya, Israel&emsp;8d</sup>
+- [2027 Summer Intern, SEAM, Embodied AI (PhD)](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--SEAM--Embodied-AI_JR-202622143)<br><sup>Sunnyvale, CA&emsp;29d</sup>
+- [2027 Summer Intern, AI Research, Embodied AI (PhD)](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern--AI-Research--Embodied-AI_JR-202622146)<br><sup>Sunnyvale, CA&emsp;33d</sup>
+- [2027 Summer Intern – Machine Learning Intern, Autonomous Vehicles: Software Validation (PhD)](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--PhD-_JR-202621649)<br><sup>Sunnyvale, CA&emsp;43d</sup>
+- [2027 Summer Intern – AI/ML Engineer, Autonomous Vehicles: Simulation (PhD)](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---AI-ML-Engineer--Autonomous-Vehicles--Simulation--PhD-_JR-202621511)<br><sup>Sunnyvale, CA&emsp;47d</sup>
+
+#### Qualcomm <sub>2 roles</sub>
+
+- [FY27 PhD Internship: Data-Centric AI for End-to-End Autonomous Driving - 6 months, Munich, Unterschleißheim, Germany](https://careers.qualcomm.com/careers/job/446722003217)<br><sup>Munich, Germany&emsp;11d</sup>
+- [Intern- Deep Learning R&D for Automated Driving](https://careers.qualcomm.com/careers/job/446715887234)<br><sup>Seoul, South Korea&emsp;11mo</sup>
+
+#### Rivian <sub>2 roles</sub>
+
+- [UIUC Research Park Intern - ML AI Motor Controls Algorithm](https://careers.rivian.com/careers-home/jobs/35896)<br><sup>Champaign, IL&emsp;PhD or MS&emsp;11d</sup>
+- [Software Engineering Intern - Machine Learning Research, Perception (Spring 2027 Co-Op)](https://careers.rivian.com/careers-home/jobs/33801)<br><sup>Palo Alto, CA&emsp;33d</sup>
+
+#### Waymo <sub>42 roles</sub>
+
+- [2027 Summer Intern, MS/PhD, Software Engineer, Multiverse](https://careers.withwaymo.com/jobs?gh_jid=8350832)<br><sup>San Francisco, CA&emsp;PhD or MS&emsp;11d</sup>
+- [2027 Summer Intern, Machine Learning, MS/PhD, Simulation Realism (World Model)](https://careers.withwaymo.com/jobs?gh_jid=8358262)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;11d</sup>
+- [2027 Summer Intern, PhD, Machine Learning - Generative World Models & Controllable Simulation](https://careers.withwaymo.com/jobs?gh_jid=8351210)<br><sup>Mountain View, CA&emsp;11d</sup>
+- [2027 Summer Intern, PhD, Research Scientist Intern](https://careers.withwaymo.com/jobs?gh_jid=8337719)<br><sup>Mountain View, CA&emsp;18d</sup>
+- [2027 Summer Intern, MS/PhD, Sensor Performance Engineer Intern](https://careers.withwaymo.com/jobs?gh_jid=8319171)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;21d</sup>
+- [2027 Summer Intern, PhD, AI Foundations - Recipes](https://careers.withwaymo.com/jobs?gh_jid=8306841)<br><sup>Mountain View, CA&emsp;26d</sup>
+- [2027 Summer Intern, PhD, Research, Multimodal Foundation Models](https://careers.withwaymo.com/jobs?gh_jid=8306867)<br><sup>Mountain View, CA&emsp;26d</sup>
+- [2027 Summer Intern, PhD, Research, RSI for Autonomous Driving](https://careers.withwaymo.com/jobs?gh_jid=8306779)<br><sup>Mountain View, CA&emsp;26d</sup>
+- [2027 Summer Intern, PhD, Machine Learning - Simulation & Closed-Loop Training](https://careers.withwaymo.com/jobs?gh_jid=8283558)<br><sup>Mountain View, CA&emsp;29d</sup>
+- [2027 Summer Intern, PhD, Research Scientist, Visual Reasoning](https://careers.withwaymo.com/jobs?gh_jid=8292367)<br><sup>Mountain View, CA&emsp;29d</sup>
+- [2027 Summer Intern, PhD, Research, Behavior Post-training](https://careers.withwaymo.com/jobs?gh_jid=8289816)<br><sup>Mountain View, CA; San Francisco, CA&emsp;29d</sup>
+- [2027 Summer Intern, PhD, Research, VLM Harnesses for AV Planning](https://careers.withwaymo.com/jobs?gh_jid=8301854)<br><sup>Mountain View, CA&emsp;29d</sup>
+- [2027 Summer Intern, MS/PhD, Machine Learning, Planning/Prediction](https://careers.withwaymo.com/jobs?gh_jid=8279620)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;35d</sup>
+- [2027 Summer Intern, PhD, Machine Learning, Simulation Realism](https://careers.withwaymo.com/jobs?gh_jid=8265868)<br><sup>London, UK&emsp;35d</sup>
+- [2027 Summer Intern, MS/PhD, Perception, Model Lifecycle](https://careers.withwaymo.com/jobs?gh_jid=8248411)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;36d</sup>
+- [2027 Summer Intern, PhD, Research, AV Planning](https://careers.withwaymo.com/jobs?gh_jid=8258070)<br><sup>Mountain View, CA&emsp;38d</sup>
+- [2027 Summer Intern, PhD, Research, Post Training](https://careers.withwaymo.com/jobs?gh_jid=8257006)<br><sup>Mountain View, CA; San Francisco, CA&emsp;38d</sup>
+- [2027 Summer Intern, PhD, Machine Learning, Planning/Prediction](https://careers.withwaymo.com/jobs?gh_jid=8262154)<br><sup>Mountain View, CA&emsp;40d</sup>
+- [2027 Summer Intern, PhD, Research, World Modeling Evaluation](https://careers.withwaymo.com/jobs?gh_jid=8265173)<br><sup>Mountain View, CA&emsp;40d</sup>
+- [2027 Summer Intern, MS/PhD, Perception, Robotics](https://careers.withwaymo.com/jobs?gh_jid=8227633)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;41d</sup>
+- [2027 Summer Intern, MS/PhD, Research, Perception Foundation Models](https://careers.withwaymo.com/jobs?gh_jid=8257801)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;41d</sup>
+- [2027 Summer Intern, MS/PhD, ML Systems & Behavior Discovery](https://careers.withwaymo.com/jobs?gh_jid=8257159)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;43d</sup>
+- [2027 Summer Intern, MS/PhD, Software Engineer, Eval Data Infra](https://careers.withwaymo.com/jobs?gh_jid=8257205)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;43d</sup>
+- [2027 Summer Intern, PhD, Research, World Action Model](https://careers.withwaymo.com/jobs?gh_jid=8243732)<br><sup>Mountain View, CA&emsp;46d</sup>
+- [2027 Summer Intern, MS/PhD, Machine Learning, Driver Refinement Foundations](https://careers.withwaymo.com/jobs?gh_jid=8243556)<br><sup>Mountain View, CA; San Francisco, CA&emsp;PhD or MS&emsp;47d</sup>
+- [2027 Summer Intern, PhD, Planner Machine Learning](https://careers.withwaymo.com/jobs?gh_jid=8234876)<br><sup>San Francisco, CA&emsp;49d</sup>
+- [2027 Summer Intern, PhD, Machine Learning Research, Planning/Prediction](https://careers.withwaymo.com/jobs?gh_jid=8237997)<br><sup>Mountain View, CA&emsp;50d</sup>
+- [2027 Summer Intern, PhD, Perception Systems Engineering: Pedestrian Detection Precision](https://careers.withwaymo.com/jobs?gh_jid=8234670)<br><sup>San Francisco, CA&emsp;50d</sup>
+- [2027 Summer Intern, MS/PhD, Perception, Machine Learning](https://careers.withwaymo.com/jobs?gh_jid=8227411)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;52d</sup>
+- [2027 Summer Intern, PhD, Software Engineer, Simulation](https://careers.withwaymo.com/jobs?gh_jid=8227640)<br><sup>Mountain View, CA&emsp;54d</sup>
+- [2027 Summer Intern, MS/PhD, Software Engineer](https://careers.withwaymo.com/jobs?gh_jid=8224729)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;55d</sup>
+- [2027 Summer Intern, PhD, Perception/Road Understanding, ML Engineer](https://careers.withwaymo.com/jobs?gh_jid=8224746)<br><sup>Mountain View, CA&emsp;55d</sup>
+- [2027 Summer Intern, MS/PhD, Machine Learning Engineer](https://careers.withwaymo.com/jobs?gh_jid=8223735)<br><sup>San Francisco, CA&emsp;PhD or MS&emsp;56d</sup>
+- [2027 Summer Intern, PhD, Data Science](https://careers.withwaymo.com/jobs?gh_jid=8221956)<br><sup>Mountain View, CA; San Francisco, CA&emsp;56d</sup>
+- [2027 Summer Intern, MS/PhD, Software Engineer, Simulation Evaluation ML Model](https://careers.withwaymo.com/jobs?gh_jid=8221795)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;57d</sup>
+- [2027 Summer Intern, MS/PhD, Software/ML Engineer, Simulation](https://careers.withwaymo.com/jobs?gh_jid=8221851)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;57d</sup>
+- [2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles](https://careers.withwaymo.com/jobs?gh_jid=8203191)<br><sup>Mountain View, CA&emsp;2mo</sup>
+- [2027 Summer Intern, MS/PhD, Conflict Behavior](https://careers.withwaymo.com/jobs?gh_jid=8210138)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;2mo</sup>
+- [2027 Summer Intern, MS/PhD, Machine Learning, Simulation Realism](https://careers.withwaymo.com/jobs?gh_jid=8208465)<br><sup>London, UK&emsp;PhD or MS&emsp;2mo</sup>
+- [2027 Summer Intern, PhD, Machine Learning, Computer Vision](https://careers.withwaymo.com/jobs?gh_jid=8202025)<br><sup>Mountain View, CA&emsp;2mo</sup>
+- [2027 Summer Intern, PhD, Safety Research, Human Behavior Analytics](https://careers.withwaymo.com/jobs?gh_jid=8197899)<br><sup>Mountain View, CA&emsp;2mo</sup>
+- [2027 Summer Intern, PhD, Vehicle Intent and Prediction](https://careers.withwaymo.com/jobs?gh_jid=8189848)<br><sup>Mountain View, CA&emsp;2mo</sup>
+
+#### Intel
+
+- [Robotics PhD Intern](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Robotics-PhD-Intern_JR0288833)<br><sup>Hillsboro, OR&emsp;13d</sup>
+
+#### NVIDIA <sub>13 roles</sub>
+
+- [PhD Researcher Intern, World Foundation Models](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Korea-Seoul/PhD-Researcher-Intern--World-Foundation-Models_JR2028487)<br><sup>Seoul, South Korea&emsp;19d</sup>
+- [Research Intern, Robotics - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Singapore-Pasir-Panjang/Research-Intern--Robotics---2027_JR2028499)<br><sup>Pasir Panjang, Singapore&emsp;24d</sup>
+- [Research Intern, Robotics — NVIDIA Research](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Singapore-Pasir-Panjang/Research-Intern--Robotics---NVIDIA-Research_JR2028498)<br><sup>Pasir Panjang, Singapore&emsp;24d</sup>
+- [Reinforcement Learning and World Model for Autonomous Simulation Intern - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/China-Shanghai/Reinforcement-Learning-and-World-Model-for-Autonomous-Simulation-Intern---2027_JR2028022)<br><sup>Shanghai, China&emsp;25d</sup>
+- [PhD Research Intern, Robotic Perception and Learning - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-WA-Redmond/PhD-Research-Intern--Robotic-Perception-and-Learning---2027_JR2027089)<br><sup>Redmond, WA&emsp;27d</sup>
+- [PhD Research Intern, Autonomous Systems and Physical AI Research - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Autonomous-Systems-and-Physical-AI-Research---2027_JR2024171)<br><sup>Santa Clara, CA&emsp;36d</sup>
+- [PhD Research Intern, Embodied and Agentic AI - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Embodied-and-Agentic-AI---2027_JR2025792)<br><sup>Santa Clara, CA&emsp;36d</sup>
+- [PhD Research Intern, Generalist Embodied Agents Research - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generalist-Embodied-Agents-Research---2027_JR2025103)<br><sup>Multiple locations&emsp;36d</sup>
+- [PhD Research Intern, Generative AI - 2026](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generative-AI---2026_JR2016035)<br><sup>Santa Clara, CA&emsp;36d</sup>
+- [PhD Research Intern, Learning Embodied Skills from Human Data - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Learning-Embodied-Skills-from-Human-Data---2027_JR2025405)<br><sup>Santa Clara, CA&emsp;36d</sup>
+- [PhD Research Intern, Physical AI - Foundation Models - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Generative-AI-for-Physical-AI---2027_JR2025025)<br><sup>Santa Clara, CA&emsp;36d</sup>
+- [PhD Research Intern, Robotics - Summer 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Switzerland-Zurich/PhD-Research-Intern--Robotics---Summer-2027_JR2027294)<br><sup>Zurich, Switzerland; Multiple locations&emsp;39d</sup>
+- [Robotics Simulation and Evaluation PhD Intern - Summer 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Switzerland-Zurich/Robotics-Simulation-and-Evaluation-PhD-Intern---Summer-2027_JR2027531)<br><sup>Zurich, Switzerland&emsp;39d</sup>
+
+#### Boston Dynamics
+
+- [Atlas VLA Research Intern](https://bostondynamics.wd1.myworkdayjobs.com/boston_dynamics/job/Waltham-Office-POST/Atlas-VLA-Research-Intern_R3317)<br><sup>Waltham&emsp;PhD or MS&emsp;20d</sup>
+
+#### Skydio <sub>5 roles</sub>
+
+- [Autonomy Engineer Intern, Reinforcement Learning, 2027 (HQ)](https://jobs.ashbyhq.com/skydio/19352f5e-c30d-4184-a070-3c25b0ebc048/application)<br><sup>San Mateo, CA&emsp;22d</sup>
+- [Autonomy Engineer Intern, Reinforcement Learning, 2027 (Zurich)](https://jobs.ashbyhq.com/skydio/bdf927bf-8ec0-4bf4-9145-8211db836b6a/application)<br><sup>Zurich, Switzerland&emsp;22d</sup>
+- [PhD Autonomy Engineer Intern - Deep Learning / Computer Vision, 2027](https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f/application)<br><sup>San Mateo, CA&emsp;22d</sup>
+- [PhD Autonomy Engineer Intern, 2027](https://jobs.ashbyhq.com/skydio/fe26fdf8-15b2-44e6-8e43-ace13431453c/application)<br><sup>San Mateo, CA&emsp;22d</sup>
+- [PhD Autonomy Engineer Intern - Computer Vision / Deep Learning Summer 2027](https://jobs.ashbyhq.com/skydio/611a7f87-bc4c-468f-976f-ecd33b731fa3/application)<br><sup>Zurich, Switzerland&emsp;2mo</sup>
+
+#### RoboForce
+
+- [AI Resident](https://job-boards.greenhouse.io/roboforce/jobs/5459229008)<br><sup>Milpitas, CA&emsp;PhD or MS&emsp;27d</sup>
+
+#### Ai2
+
+- [Research Internship, Robotics](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293641)<br><sup>Seattle, WA&emsp;29d</sup>
+
+#### Field AI <sub>5 roles</sub>
+
+- [Robotics Research, Embodied AI Intern (Spring & Summer 2027)](https://jobs.lever.co/field-ai/ef35c537-b864-479f-9dbe-b30429ac7704/apply)<br><sup>Irvine, CA&emsp;34d</sup>
+- [Robotics Research, Robot Learning & Manipulation Intern (Spring, Summer, & Fall 2027)](https://jobs.lever.co/field-ai/b37569c3-d07f-4968-82dc-44020f34e54e/apply)<br><sup>Irvine, CA&emsp;PhD or MS&emsp;34d</sup>
+- [Robotics Research, Humanoid Whole Body Learning Intern (Summer 2027) PhD](https://jobs.lever.co/field-ai/4d6e794b-1fcb-472f-babb-9b482eb02edf/apply)<br><sup>Boston, MA&emsp;49d</sup>
+- [Robotics Research, Humanoid Manipulation Intern (Spring 2027) \| PhD](https://jobs.lever.co/field-ai/40a22216-c73b-4ec1-bfc1-dc0e1938eaba/apply)<br><sup>Boston, MA&emsp;51d</sup>
+- [Robotics Research, Humanoid Manipulation Intern (Summer 2027) \| PhD](https://jobs.lever.co/field-ai/ada8184d-153b-4172-8f55-2b0ae74c6820/apply)<br><sup>Boston, MA&emsp;51d</sup>
+
+#### XPeng
+
+- [AI Research Intern – Predictive World Model](https://job-boards.greenhouse.io/xpengmotors/jobs/8819001002)<br><sup>Santa Clara, CA&emsp;2mo</sup>
+
+#### DiDi Labs
+
+- [Motion Planning Engineer (PhD, Intern)](https://job-boards.greenhouse.io/didi/jobs/8198303)<br><sup>San Jose, CA&emsp;2mo</sup>
+
+#### Build AI
+
+- [Research Intern](https://jobs.ashbyhq.com/build-ai/14e404c4-e189-4e49-9ef7-238da9655caf/application)<br><sup>San Francisco&emsp;PhD or MS&emsp;2mo</sup>
+
+#### 42dot
+
+- [[MS/PhD Intern] AI Engineer (정규직 전환형)](https://jobs.ashbyhq.com/42dot/c4af7536-c24f-4754-9fe9-d92d237403f3/application)<br><sup>Pangyo, South Korea&emsp;PhD or MS&emsp;4mo</sup>
+
+#### Huaweiuk
+
+- [Robotics Intern](https://huaweiuk.teamtailor.com/jobs/7669536-robotics-intern)<br><sup>London, UK&emsp;6mo</sup>
+
+#### Applied Intuition <sub>5 roles</sub>
+
+- [Research Intern - 3D Vision and Generation, Self-Driving](https://jobs.ashbyhq.com/applied/91e0686e-272a-4780-b33d-d7860b94a7b4/application)<br><sup>Sunnyvale&emsp;PhD or MS&emsp;9mo</sup>
+- [Research Intern - Reinforcement Learning, Robotics](https://jobs.ashbyhq.com/applied/bb953f29-0059-4a40-aa9e-3a8c88733902/application)<br><sup>Sunnyvale&emsp;PhD or MS&emsp;9mo</sup>
+- [Research Intern - Robotic Hardware, Simulation and Data](https://jobs.ashbyhq.com/applied/5bb0567a-8d07-4cc4-be7c-c06b31361883/application)<br><sup>Sunnyvale&emsp;PhD or MS&emsp;9mo</sup>
+- [Research Intern - World-Action Foundation Model, Robotics](https://jobs.ashbyhq.com/applied/edc2528d-6e6c-4a67-b871-bfe7d9c890b4/application)<br><sup>Sunnyvale&emsp;PhD or MS&emsp;9mo</sup>
+- [Research Intern - Reinforcement Learning, Self-Driving](https://jobs.ashbyhq.com/applied/ce58d9fd-f22b-4336-80b5-ba1e8d764526/application)<br><sup>Sunnyvale&emsp;PhD or MS&emsp;26mo</sup>
+
+#### Waabi
+
+- [2027 Intern, PhD Research Scientist](https://jobs.lever.co/waabi/62700386-b9db-4c78-aec3-5ef59cbe841e/apply)<br><sup>Toronto, Canada&emsp;11mo</sup>
+
+#### Dexmate
+
+- [Research Intern, PhD (AI, Robotics)](https://jobs.ashbyhq.com/dexmate/9361af41-d1e4-4b27-be37-683685bf48dc/application)<br><sup>Fremont&emsp;20mo</sup>
+
+</details>
 
 ### Systems and Infrastructure
 
-| Company | Role | Location | Degree | Posted | Apply |
-| --- | --- | --- | --- | --- | --- |
-| **Microsoft** | Research Intern - MSR Software-Hardware Co-design | Redmond, WA | PhD | 4d&nbsp;**New** | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557073455) |
-| **NVIDIA** | Software Engineering Intern, NCCL - 2027 | Shanghai, China | PhD | 4d&nbsp;**New** | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2027_JR2029488) |
-| **Samsung Semiconductor** | Intern, AI Systems Performance Engineer | San Jose, CA | PhD | 4d&nbsp;**New** | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003) |
-| ↳ | Intern, Compiler Engineer | San Jose, CA | PhD&nbsp;or&nbsp;MS | 4d&nbsp;**New** | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202902003) |
-| ↳ | Intern, ML Compiler (Kernel Auto-Tuning) | San Jose, CA | PhD&nbsp;or&nbsp;MS | 4d&nbsp;**New** | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003) |
-| **Hewlett Packard Enterprise** | Large-Scale Integrated Photonics Lab Research Associate Intern | Milpitas, CA | PhD | 6d&nbsp;**New** | [Apply](https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Milpitas-California-United-States-of-America/Large-Scale-Integrated-Photonics-Lab-Research-Associate-Intern_1218729) |
-| **Samsung Semiconductor** | Intern, AI System Architecture Research Scientist | San Jose, CA | PhD | 6d&nbsp;**New** | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003) |
-| **NVIDIA** | AI Developer Technology Engineering Intern - 2027 | Shenzhen, China | PhD&nbsp;or&nbsp;MS | 11d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/China-Shenzhen/AI-Developer-Technology-Engineering-Intern---2027_JR2024818) |
-| **Qualcomm** | FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months) | Markham, Canada | PhD&nbsp;or&nbsp;MS | 11d | [Apply](https://careers.qualcomm.com/careers/job/446722001120) |
-| **Samsung Semiconductor** | Intern, AI Application Engineer | Folsom, CA | PhD&nbsp;or&nbsp;MS | 15d | [Apply](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003) |
-| **Intel** | AI Hardware Engineering Intern | Santa Clara, CA | PhD | 25d | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Hardware-Engineering-Intern_JR0287533) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Software Engineer, ML Frameworks and Efficiency | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 25d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8287385) |
-| **NVIDIA** | AI Compiler Formal Verification Intern | Zurich, Switzerland | PhD | 28d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Switzerland-Zurich/AI-Compiler-Formal-Verification-Intern_JR2027025) |
-| ↳ | NVIDIA 2027 Summer Internships: Ph.D. Engineering | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Summer-Internships--PhD-Engineering_JR2023856) |
-| ↳ | PhD Research Intern, AI Accelerator Design and VLSI - 2027 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--AI-Accelerator-Design-and-VLSI---2027_JR2026584-1) |
-| ↳ | PhD Research Intern, Architecture – 2027 | Multiple locations | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Architecture---2027_JR2025395) |
-| ↳ | PhD Research Intern, Hardware and Systems Architecture - 2027 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Hardware-and-Systems-Architecture---2027_JR2025893) |
-| **AMD** | 2027 PhD AI Training Systems and Performance Engineer Intern/Co-Op | San Jose, CA | PhD | 43d | [Apply](https://careers.amd.com/careers-home/jobs/93332) |
-| ↳ | Spring/Summer 2027 PhD AI Agentic/ML System Co-op | San Jose, CA | PhD&nbsp;or&nbsp;MS | 43d | [Apply](https://careers.amd.com/careers-home/jobs/91767) |
-| ↳ | Spring/Summer 2027 PhD Large Language Model Engineer Co-op | San Jose, CA | PhD | 43d | [Apply](https://careers.amd.com/careers-home/jobs/91764) |
-| **Marvell** | Research Intern (PhD), AI-Scale Protocols & Simulation | Hyderabad, India | PhD | 44d | [Apply](https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255) |
-| ↳ | Research Intern, Physical AI and GPU (PhD) | Hyderabad, India | PhD | 47d | [Apply](https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Hyderabad/Research-Intern--Physical-AI-and-GPU--PhD-_2604253) |
-| **Amazon** | 2027 Summer Applied Science Internship - Information & Knowledge Management (Machine Learning)- United States, PhD Student Science Recruiting | Seattle, WA | PhD | 48d | [Apply](https://www.amazon.jobs/en/jobs/10564585/2027-summer-applied-science-internship-information-knowledge-management-machine-learning-united-states-phd-student-science-recruiting) |
-| **Intel** | AI SOC Power Delivery Pathfinding PhD Intern | Hillsboro, OR | PhD | 48d | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-SOC-Power-Delivery-Pathfinding-PhD-Intern_JR0287538) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Software Engineer, Onboard Developer Platform | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 48d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8240198) |
-| **Micron** | Intern – Memory Systems Architecture & AI | San Jose, CA | PhD | 50d | [Apply](https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---Memory-Systems-Architecture---AI_JR112524) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Software Engineer, Sys Intel & Machine Learning | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 53d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8233746) |
-| ↳ | 2027 Summer Intern, MS/PhD, Software Engineering, Onboard Software Integrity | Mountain View, CA | PhD&nbsp;or&nbsp;MS | 53d | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8234161) |
-| **AMD** | 2027 PhD HPC & Sovereign AI Center of Excellence Intern/Co-op | Austin, TX | PhD | 57d | [Apply](https://careers.amd.com/careers-home/jobs/92691) |
-| ↳ | Summer 2027 PhD AI Research Infrastructure, RL Post-Training Intern | Santa Clara, CA | PhD | 57d | [Apply](https://careers.amd.com/careers-home/jobs/90950) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Sim-Realism ML Infrastructure | London, UK | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8205680) |
-| **AMD** | 2027 PhD AI Model Optimization & Software Engineer Intern/Co-op | San Jose, CA<br>Austin, TX | PhD | 2mo | [Apply](https://careers.amd.com/careers-home/jobs/92522) |
-| **Normal Computing** | Thermodynamic Hardware Resident | New York | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://jobs.ashbyhq.com/NormalComputing/5d57d8b1-612d-4ee0-941e-78a032a1ada2/application) |
-| **Analog Devices** | Mixed Signal Engineer Intern | Wilmington, MA | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://analogdevices.wd1.myworkdayjobs.com/external/job/US-MA-Wilmington/Mixed-Signal-Engineer-Intern_R265299) |
-| **Netflix** | Machine Learning/AI Infrastructure Engineering Intern (AI Platform) PhD, Winter 2027 | Los Gatos, CA | PhD | 3mo | [Apply](https://explore.jobs.netflix.net/careers/job/790317917022) |
+<details><summary>35 roles at 14 companies</summary>
 
-[Back to top](#contents)
+#### Microsoft
+
+- [Research Intern - MSR Software-Hardware Co-design](https://apply.careers.microsoft.com/careers/job/1970393557073455)<br><sup>Redmond, WA&emsp;4d</sup>
+
+#### NVIDIA <sub>7 roles</sub>
+
+- [Software Engineering Intern, NCCL - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/China-Shanghai/Software-Engineering-Intern--NCCL---2027_JR2029488)<br><sup>Shanghai, China&emsp;4d</sup>
+- [AI Developer Technology Engineering Intern - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/China-Shenzhen/AI-Developer-Technology-Engineering-Intern---2027_JR2024818)<br><sup>Shenzhen, China&emsp;PhD or MS&emsp;11d</sup>
+- [AI Compiler Formal Verification Intern](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Switzerland-Zurich/AI-Compiler-Formal-Verification-Intern_JR2027025)<br><sup>Zurich, Switzerland&emsp;28d</sup>
+- [NVIDIA 2027 Summer Internships: Ph.D. Engineering](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/NVIDIA-2027-Summer-Internships--PhD-Engineering_JR2023856)<br><sup>Santa Clara, CA&emsp;36d</sup>
+- [PhD Research Intern, AI Accelerator Design and VLSI - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--AI-Accelerator-Design-and-VLSI---2027_JR2026584-1)<br><sup>Santa Clara, CA&emsp;36d</sup>
+- [PhD Research Intern, Architecture – 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Architecture---2027_JR2025395)<br><sup>Multiple locations&emsp;36d</sup>
+- [PhD Research Intern, Hardware and Systems Architecture - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Hardware-and-Systems-Architecture---2027_JR2025893)<br><sup>Santa Clara, CA&emsp;36d</sup>
+
+#### Samsung Semiconductor <sub>5 roles</sub>
+
+- [Intern, AI Systems Performance Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003)<br><sup>San Jose, CA&emsp;4d</sup>
+- [Intern, Compiler Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202902003)<br><sup>San Jose, CA&emsp;PhD or MS&emsp;4d</sup>
+- [Intern, ML Compiler (Kernel Auto-Tuning)](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003)<br><sup>San Jose, CA&emsp;PhD or MS&emsp;4d</sup>
+- [Intern, AI System Architecture Research Scientist](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003)<br><sup>San Jose, CA&emsp;6d</sup>
+- [Intern, AI Application Engineer](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003)<br><sup>Folsom, CA&emsp;PhD or MS&emsp;15d</sup>
+
+#### Hewlett Packard Enterprise
+
+- [Large-Scale Integrated Photonics Lab Research Associate Intern](https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Milpitas-California-United-States-of-America/Large-Scale-Integrated-Photonics-Lab-Research-Associate-Intern_1218729)<br><sup>Milpitas, CA&emsp;6d</sup>
+
+#### Qualcomm
+
+- [FY27 Intern - RF/Analog Verification Engineering Internship - Canada (4 or 16 months)](https://careers.qualcomm.com/careers/job/446722001120)<br><sup>Markham, Canada&emsp;PhD or MS&emsp;11d</sup>
+
+#### Intel <sub>2 roles</sub>
+
+- [AI Hardware Engineering Intern](https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Hardware-Engineering-Intern_JR0287533)<br><sup>Santa Clara, CA&emsp;25d</sup>
+- [AI SOC Power Delivery Pathfinding PhD Intern](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/AI-SOC-Power-Delivery-Pathfinding-PhD-Intern_JR0287538)<br><sup>Hillsboro, OR&emsp;48d</sup>
+
+#### Waymo <sub>5 roles</sub>
+
+- [2027 Summer Intern, MS/PhD, Software Engineer, ML Frameworks and Efficiency](https://careers.withwaymo.com/jobs?gh_jid=8287385)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;25d</sup>
+- [2027 Summer Intern, MS/PhD, Software Engineer, Onboard Developer Platform](https://careers.withwaymo.com/jobs?gh_jid=8240198)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;48d</sup>
+- [2027 Summer Intern, MS/PhD, Software Engineer, Sys Intel & Machine Learning](https://careers.withwaymo.com/jobs?gh_jid=8233746)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;53d</sup>
+- [2027 Summer Intern, MS/PhD, Software Engineering, Onboard Software Integrity](https://careers.withwaymo.com/jobs?gh_jid=8234161)<br><sup>Mountain View, CA&emsp;PhD or MS&emsp;53d</sup>
+- [2027 Summer Intern, MS/PhD, Sim-Realism ML Infrastructure](https://careers.withwaymo.com/jobs?gh_jid=8205680)<br><sup>London, UK&emsp;PhD or MS&emsp;2mo</sup>
+
+#### AMD <sub>6 roles</sub>
+
+- [2027 PhD AI Training Systems and Performance Engineer Intern/Co-Op](https://careers.amd.com/careers-home/jobs/93332)<br><sup>San Jose, CA&emsp;43d</sup>
+- [Spring/Summer 2027 PhD AI Agentic/ML System Co-op](https://careers.amd.com/careers-home/jobs/91767)<br><sup>San Jose, CA&emsp;PhD or MS&emsp;43d</sup>
+- [Spring/Summer 2027 PhD Large Language Model Engineer Co-op](https://careers.amd.com/careers-home/jobs/91764)<br><sup>San Jose, CA&emsp;43d</sup>
+- [2027 PhD HPC & Sovereign AI Center of Excellence Intern/Co-op](https://careers.amd.com/careers-home/jobs/92691)<br><sup>Austin, TX&emsp;57d</sup>
+- [Summer 2027 PhD AI Research Infrastructure, RL Post-Training Intern](https://careers.amd.com/careers-home/jobs/90950)<br><sup>Santa Clara, CA&emsp;57d</sup>
+- [2027 PhD AI Model Optimization & Software Engineer Intern/Co-op](https://careers.amd.com/careers-home/jobs/92522)<br><sup>San Jose, CA; Austin, TX&emsp;2mo</sup>
+
+#### Marvell <sub>2 roles</sub>
+
+- [Research Intern (PhD), AI-Scale Protocols & Simulation](https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255)<br><sup>Hyderabad, India&emsp;44d</sup>
+- [Research Intern, Physical AI and GPU (PhD)](https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Hyderabad/Research-Intern--Physical-AI-and-GPU--PhD-_2604253)<br><sup>Hyderabad, India&emsp;47d</sup>
+
+#### Amazon
+
+- [2027 Summer Applied Science Internship - Information & Knowledge Management (Machine Learning)- United States, PhD Student Science Recruiting](https://www.amazon.jobs/en/jobs/10564585/2027-summer-applied-science-internship-information-knowledge-management-machine-learning-united-states-phd-student-science-recruiting)<br><sup>Seattle, WA&emsp;48d</sup>
+
+#### Micron
+
+- [Intern – Memory Systems Architecture & AI](https://micron.wd1.myworkdayjobs.com/external/job/San-Jose-CA/Intern---Memory-Systems-Architecture---AI_JR112524)<br><sup>San Jose, CA&emsp;50d</sup>
+
+#### Normal Computing
+
+- [Thermodynamic Hardware Resident](https://jobs.ashbyhq.com/NormalComputing/5d57d8b1-612d-4ee0-941e-78a032a1ada2/application)<br><sup>New York&emsp;PhD or MS&emsp;2mo</sup>
+
+#### Analog Devices
+
+- [Mixed Signal Engineer Intern](https://analogdevices.wd1.myworkdayjobs.com/external/job/US-MA-Wilmington/Mixed-Signal-Engineer-Intern_R265299)<br><sup>Wilmington, MA&emsp;PhD or MS&emsp;2mo</sup>
+
+#### Netflix
+
+- [Machine Learning/AI Infrastructure Engineering Intern (AI Platform) PhD, Winter 2027](https://explore.jobs.netflix.net/careers/job/790317917022)<br><sup>Los Gatos, CA&emsp;3mo</sup>
+
+</details>
 
 ### AI for Science
 
-| Company | Role | Location | Degree | Posted | Apply |
-| --- | --- | --- | --- | --- | --- |
-| **NVIDIA** | PhD Research Intern, AI for Climate and Weather Simulation - 2027 | Remote (UK)<br>Santa Clara, CA | PhD | today&nbsp;**New** | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/UK-Remote/PhD-Research-Intern--AI-for-Climate-and-Weather-Simulation---2027_JR2030004) |
-| **Ai2** | Research Internship, AI for Neuroscience | Seattle, WA | PhD | 3d&nbsp;**New** | [Apply](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293636) |
-| **Genesis Molecular AI** | Computational Chemistry Intern - 2027 | San Mateo, CA | PhD&nbsp;or&nbsp;MS | 7d&nbsp;**New** | [Apply](https://jobs.ashbyhq.com/genesis-molecular-ai/3de36849-b8da-4da9-bd22-d706343db9e1/application) |
-| **Analog Devices** | Machine Learning for Computational Sensing Research Intern | Boston, MA | PhD | 8d | [Apply](https://analogdevices.wd1.myworkdayjobs.com/external/job/US-MA-Boston/Machine-Learning-for-Computational-Sensing-Research-Intern_R268371) |
-| **Lila Sciences** | Co-op, AI for Protein Design | San Francisco, CA | PhD | 11d | [Apply](https://job-boards.greenhouse.io/lilasciences/jobs/4480337009) |
-| **Toyota Research Institute** | Accelerated Science Intern, Representation Learning for Molecules and Materials | Los Altos, CA | PhD | 12d | [Apply](https://jobs.lever.co/tri/86e6a285-bb0a-4e84-8bf9-bd498d45c33d/apply) |
-| ↳ | Bridging Atomistic Modeling to Real Electrochemical Systems Modeling Intern | Los Altos, CA | PhD | 14d | [Apply](https://jobs.lever.co/tri/44812007-50a8-49e6-87ed-3fac9fa6b418/apply) |
-| **Lila Sciences** | Co-Op, AI-Driven Equation Discovery | Cambridge, MA<br>San Francisco, CA | PhD&nbsp;or&nbsp;MS | 18d | [Apply](https://job-boards.greenhouse.io/lilasciences/jobs/4469152009) |
-| ↳ | Co-Op, Agentic Simulations for Materials Science | Cambridge, MA<br>San Francisco, CA | PhD&nbsp;or&nbsp;MS | 22d | [Apply](https://job-boards.greenhouse.io/lilasciences/jobs/4465059009) |
-| ↳ | Co-Op, Reaction Prediction & Benchmarking | Cambridge, MA<br>San Francisco, CA | PhD&nbsp;or&nbsp;MS | 22d | [Apply](https://job-boards.greenhouse.io/lilasciences/jobs/4465064009) |
-| **Genentech** | 2027 Spring Intern - Data Science & Machine Learning | South San Francisco | PhD | 26d | [Apply](https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657) |
-| **Lam Research** | Summer 2027 - Process Simulation Engineering Intern - MS/PhD | Fremont, CA | PhD&nbsp;or&nbsp;MS | 26d | [Apply](https://careers.lamresearch.com/careers/job/1099556521831) |
-| **Johnson & Johnson** | Summer intern, Digital Signal/ Imaging AI | Cambridge, MA | PhD | 28d | [Apply](https://jj.wd5.myworkdayjobs.com/jj/job/Cambridge-Massachusetts-United-States-of-America/Summer-intern--Digital-Signal--Imaging-AI_R-105510) |
-| **Microsoft** | Research Intern - Machine Learning and Statistics | Cambridge, MA<br>Redmond, WA | PhD | 34d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557040502) |
-| **Genentech** | 2027 Spring Intern - Prescient Frontier Research | South San Francisco | PhD | 35d | [Apply](https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Prescient-Frontier-Research_202610-124986) |
-| **Microsoft** | Research Intern - Machine Learning for Biology and Healthcare | Cambridge, MA | PhD | 35d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557040333) |
-| **NVIDIA** | PhD Research Intern, AI-Aided Engineering – 2027 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--AI-Aided-Engineering---2027_JR2026940) |
-| ↳ | PhD Research Intern, Cross-Disciplinary Vision Science - Summer 2027 | Multiple locations | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Cross-Disciplinary-Vision-Science---Summer-2027_JR2026499) |
-| ↳ | PhD Research Intern, Quantum Simulation and AI - 2027 | Santa Clara, CA | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Quantum-Simulation-and-AI---2027_JR2026004) |
-| ↳ | PhD Research Intern, Quantum and AI for Chemistry - 2027 | Toronto, Canada | PhD | 36d | [Apply](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Canada-Toronto/PhD-Research-Intern--Quantum-and-AI-for-Chemistry---2027_JR2024997) |
-| **Moderna** | Co-Op, Biometrics | Cambridge, MA | PhD&nbsp;or&nbsp;MS | 49d | [Apply](https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Cambridge-Massachusetts/Co-Op--Biometrics_R19864) |
-| ↳ | Intern, Biometrics | Cambridge, MA | PhD&nbsp;or&nbsp;MS | 49d | [Apply](https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865) |
-| **GE HealthCare** | Research Intern - AI | Bengaluru, India | PhD | 2mo | [Apply](https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Research-Intern---AI_R4043882-1) |
-| **Xaira Therapeutics** | AI Scientist Intern, Computational Protein Design | Seattle, WA<br>South San Francisco, CA | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://job-boards.greenhouse.io/xairatherapeutics/jobs/5225658007) |
-| **Philips** | AI Imaging Data Scientist Intern | Shanghai, China | PhD&nbsp;or&nbsp;MS | 3mo | [Apply](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shanghai/AI-Data-Scientist-Intern_589226) |
-| **CuspAI** | MLFF Distillation & GCMC Integration - Internship | London, UK | PhD&nbsp;or&nbsp;MS | 4mo | [Apply](https://jobs.ashbyhq.com/cuspai/d7b80299-ed98-4dfe-b306-729cd10d3f04/application) |
+<details><summary>26 roles at 15 companies</summary>
 
-[Back to top](#contents)
+#### NVIDIA <sub>5 roles</sub>
+
+- [PhD Research Intern, AI for Climate and Weather Simulation - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/UK-Remote/PhD-Research-Intern--AI-for-Climate-and-Weather-Simulation---2027_JR2030004)<br><sup>Remote (UK); Santa Clara, CA&emsp;today</sup>
+- [PhD Research Intern, AI-Aided Engineering – 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--AI-Aided-Engineering---2027_JR2026940)<br><sup>Santa Clara, CA&emsp;36d</sup>
+- [PhD Research Intern, Cross-Disciplinary Vision Science - Summer 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Cross-Disciplinary-Vision-Science---Summer-2027_JR2026499)<br><sup>Multiple locations&emsp;36d</sup>
+- [PhD Research Intern, Quantum Simulation and AI - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PhD-Research-Intern--Quantum-Simulation-and-AI---2027_JR2026004)<br><sup>Santa Clara, CA&emsp;36d</sup>
+- [PhD Research Intern, Quantum and AI for Chemistry - 2027](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Canada-Toronto/PhD-Research-Intern--Quantum-and-AI-for-Chemistry---2027_JR2024997)<br><sup>Toronto, Canada&emsp;36d</sup>
+
+#### Ai2
+
+- [Research Internship, AI for Neuroscience](https://job-boards.greenhouse.io/thealleninstitute/jobs/8293636)<br><sup>Seattle, WA&emsp;3d</sup>
+
+#### Genesis Molecular AI
+
+- [Computational Chemistry Intern - 2027](https://jobs.ashbyhq.com/genesis-molecular-ai/3de36849-b8da-4da9-bd22-d706343db9e1/application)<br><sup>San Mateo, CA&emsp;PhD or MS&emsp;7d</sup>
+
+#### Analog Devices
+
+- [Machine Learning for Computational Sensing Research Intern](https://analogdevices.wd1.myworkdayjobs.com/external/job/US-MA-Boston/Machine-Learning-for-Computational-Sensing-Research-Intern_R268371)<br><sup>Boston, MA&emsp;8d</sup>
+
+#### Lila Sciences <sub>4 roles</sub>
+
+- [Co-op, AI for Protein Design](https://job-boards.greenhouse.io/lilasciences/jobs/4480337009)<br><sup>San Francisco, CA&emsp;11d</sup>
+- [Co-Op, AI-Driven Equation Discovery](https://job-boards.greenhouse.io/lilasciences/jobs/4469152009)<br><sup>Cambridge, MA; San Francisco, CA&emsp;PhD or MS&emsp;18d</sup>
+- [Co-Op, Agentic Simulations for Materials Science](https://job-boards.greenhouse.io/lilasciences/jobs/4465059009)<br><sup>Cambridge, MA; San Francisco, CA&emsp;PhD or MS&emsp;22d</sup>
+- [Co-Op, Reaction Prediction & Benchmarking](https://job-boards.greenhouse.io/lilasciences/jobs/4465064009)<br><sup>Cambridge, MA; San Francisco, CA&emsp;PhD or MS&emsp;22d</sup>
+
+#### Toyota Research Institute <sub>2 roles</sub>
+
+- [Accelerated Science Intern, Representation Learning for Molecules and Materials](https://jobs.lever.co/tri/86e6a285-bb0a-4e84-8bf9-bd498d45c33d/apply)<br><sup>Los Altos, CA&emsp;12d</sup>
+- [Bridging Atomistic Modeling to Real Electrochemical Systems Modeling Intern](https://jobs.lever.co/tri/44812007-50a8-49e6-87ed-3fac9fa6b418/apply)<br><sup>Los Altos, CA&emsp;14d</sup>
+
+#### Genentech <sub>2 roles</sub>
+
+- [2027 Spring Intern - Data Science & Machine Learning](https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657)<br><sup>South San Francisco&emsp;26d</sup>
+- [2027 Spring Intern - Prescient Frontier Research](https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Prescient-Frontier-Research_202610-124986)<br><sup>South San Francisco&emsp;35d</sup>
+
+#### Lam Research
+
+- [Summer 2027 - Process Simulation Engineering Intern - MS/PhD](https://careers.lamresearch.com/careers/job/1099556521831)<br><sup>Fremont, CA&emsp;PhD or MS&emsp;26d</sup>
+
+#### Johnson & Johnson
+
+- [Summer intern, Digital Signal/ Imaging AI](https://jj.wd5.myworkdayjobs.com/jj/job/Cambridge-Massachusetts-United-States-of-America/Summer-intern--Digital-Signal--Imaging-AI_R-105510)<br><sup>Cambridge, MA&emsp;28d</sup>
+
+#### Microsoft <sub>2 roles</sub>
+
+- [Research Intern - Machine Learning and Statistics](https://apply.careers.microsoft.com/careers/job/1970393557040502)<br><sup>Cambridge, MA; Redmond, WA&emsp;34d</sup>
+- [Research Intern - Machine Learning for Biology and Healthcare](https://apply.careers.microsoft.com/careers/job/1970393557040333)<br><sup>Cambridge, MA&emsp;35d</sup>
+
+#### Moderna <sub>2 roles</sub>
+
+- [Co-Op, Biometrics](https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Cambridge-Massachusetts/Co-Op--Biometrics_R19864)<br><sup>Cambridge, MA&emsp;PhD or MS&emsp;49d</sup>
+- [Intern, Biometrics](https://modernatx.wd1.myworkdayjobs.com/m_tx/job/Cambridge-Massachusetts/Intern--Biometrics_R19865)<br><sup>Cambridge, MA&emsp;PhD or MS&emsp;49d</sup>
+
+#### GE HealthCare
+
+- [Research Intern - AI](https://gehc.wd5.myworkdayjobs.com/gehc_externalsite/job/IND19-01-Bengaluru-EPIP-122-Phase-II/Research-Intern---AI_R4043882-1)<br><sup>Bengaluru, India&emsp;2mo</sup>
+
+#### Xaira Therapeutics
+
+- [AI Scientist Intern, Computational Protein Design](https://job-boards.greenhouse.io/xairatherapeutics/jobs/5225658007)<br><sup>Seattle, WA; South San Francisco, CA&emsp;PhD or MS&emsp;2mo</sup>
+
+#### Philips
+
+- [AI Imaging Data Scientist Intern](https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Shanghai/AI-Data-Scientist-Intern_589226)<br><sup>Shanghai, China&emsp;PhD or MS&emsp;3mo</sup>
+
+#### CuspAI
+
+- [MLFF Distillation & GCMC Integration - Internship](https://jobs.ashbyhq.com/cuspai/d7b80299-ed98-4dfe-b306-729cd10d3f04/application)<br><sup>London, UK&emsp;PhD or MS&emsp;4mo</sup>
+
+</details>
 
 ### Data Science and Recommendation
 
-| Company | Role | Location | Degree | Posted | Apply |
-| --- | --- | --- | --- | --- | --- |
-| **Microsoft** | Data Science: PhD Internship Opportunities - Redmond | Redmond, WA | PhD | 13d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393556982928) |
-| **Intel** | AI Data Science / Software Engineering PhD Intern New 2027 | Santa Clara, CA<br>Hillsboro, OR | PhD | 28d | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Data-Science---Software-Engineering-PhD-Intern-New-2027_JR0288138) |
-| **Microsoft** | Data Science - Forward Deployed Engineer: PhD Internship Opportunities | Redmond, WA | PhD | 28d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557040991) |
-| **Duolingo** | Data Scientist, Intern (PhD) | New York, NY<br>Pittsburgh, PA | PhD | 33d | [Apply](https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002) |
-| **Expedia Group** | Applied Science Intern - PhD - 2027 - Austin, San Jose, Seattle | Austin Domain 11 - HomeAway<br>London, UK | PhD | 36d | [Apply](https://expedia.wd108.myworkdayjobs.com/search/job/Austin-Domain-11---HomeAway/Applied-Science-Intern---PhD---2027---Austin--San-Jose--Seattle_R-110382-1) |
-| **Roblox** | [2027] Data Scientist - PhD Intern | San Mateo, CA | PhD | 40d | [Apply](https://careers.roblox.com/jobs/8242619?gh_jid=8242619) |
-| **Intel** | Data Science and Analytics - PhD Intern | Hillsboro, OR | PhD | 41d | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Data-Science-and-Analytics---PhD-Intern_JR0287859) |
-| **Pinterest** | Machine Learning Intern 2027 (Toronto) | Toronto, Canada | PhD&nbsp;or&nbsp;MS | 47d | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=8138080) |
-| ↳ | PhD Data Science Internship 2027 (USA) | <details><summary>4 locations</summary>San Francisco, CA<br>Palo Alto, CA<br>Seattle, WA<br>New York, NY</details> | PhD | 47d | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=8140169) |
-| ↳ | PhD Machine Learning Internship 2027 (USA) | <details><summary>4 locations</summary>San Francisco, CA<br>Palo Alto, CA<br>Seattle, WA<br>New York, NY</details> | PhD | 47d | [Apply](https://www.pinterestcareers.com/jobs/?gh_jid=8140140) |
-| **Stripe** | PhD Data Scientist, Intern | <details><summary>4 locations</summary>New York<br>Seattle<br>South San Francisco HQ<br>Toronto, Canada</details> | PhD | 47d | [Apply](https://stripe.com/jobs/search?gh_jid=8194283) |
-| **DoorDash** | Machine Learning Intern (PhD) - Summer 2027 | <details><summary>4 locations</summary>San Francisco, CA<br>Sunnyvale, CA<br>New York City, NY<br>Seattle, WA</details> | PhD | 53d | [Apply](https://job-boards.greenhouse.io/doordashusa/jobs/8233953) |
-| **Amazon** | 2027 Data Science Internship - United States, PhD or Masters Student | Seattle, WA | PhD&nbsp;or&nbsp;MS | 56d | [Apply](https://www.amazon.jobs/en/jobs/10556927/2027-data-science-internship-united-states-phd-or-masters-student) |
-| **Figma** | PhD Intern, Data Science (2027) | San Francisco, CA<br>New York, NY | PhD | 57d | [Apply](https://boards.greenhouse.io/figma/jobs/6200626004?gh_jid=6200626004) |
-| **Waymo** | 2027 Summer Intern, MS/PhD, Product Data Science | San Francisco, CA | PhD | 2mo | [Apply](https://careers.withwaymo.com/jobs?gh_jid=8199365) |
-| **Integra FEC** | (SPRING) Data Scientist Intern - PhD | Austin, TX | PhD | 2mo | [Apply](https://job-boards.greenhouse.io/integra/jobs/5406092008) |
-| ↳ | (SUMMER) Data Scientist Intern - PhD | Austin, TX | PhD | 2mo | [Apply](https://job-boards.greenhouse.io/integra/jobs/5406094008) |
+<details><summary>17 roles at 12 companies</summary>
 
-[Back to top](#contents)
+#### Microsoft <sub>2 roles</sub>
+
+- [Data Science: PhD Internship Opportunities - Redmond](https://apply.careers.microsoft.com/careers/job/1970393556982928)<br><sup>Redmond, WA&emsp;13d</sup>
+- [Data Science - Forward Deployed Engineer: PhD Internship Opportunities](https://apply.careers.microsoft.com/careers/job/1970393557040991)<br><sup>Redmond, WA&emsp;28d</sup>
+
+#### Intel <sub>2 roles</sub>
+
+- [AI Data Science / Software Engineering PhD Intern New 2027](https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Data-Science---Software-Engineering-PhD-Intern-New-2027_JR0288138)<br><sup>Santa Clara, CA; Hillsboro, OR&emsp;28d</sup>
+- [Data Science and Analytics - PhD Intern](https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Data-Science-and-Analytics---PhD-Intern_JR0287859)<br><sup>Hillsboro, OR&emsp;41d</sup>
+
+#### Duolingo
+
+- [Data Scientist, Intern (PhD)](https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002)<br><sup>New York, NY; Pittsburgh, PA&emsp;33d</sup>
+
+#### Expedia Group
+
+- [Applied Science Intern - PhD - 2027 - Austin, San Jose, Seattle](https://expedia.wd108.myworkdayjobs.com/search/job/Austin-Domain-11---HomeAway/Applied-Science-Intern---PhD---2027---Austin--San-Jose--Seattle_R-110382-1)<br><sup>Austin Domain 11 - HomeAway; London, UK&emsp;36d</sup>
+
+#### Roblox
+
+- [[2027] Data Scientist - PhD Intern](https://careers.roblox.com/jobs/8242619?gh_jid=8242619)<br><sup>San Mateo, CA&emsp;40d</sup>
+
+#### Pinterest <sub>3 roles</sub>
+
+- [Machine Learning Intern 2027 (Toronto)](https://www.pinterestcareers.com/jobs/?gh_jid=8138080)<br><sup>Toronto, Canada&emsp;PhD or MS&emsp;47d</sup>
+- [PhD Data Science Internship 2027 (USA)](https://www.pinterestcareers.com/jobs/?gh_jid=8140169)<br><sup>San Francisco, CA; Palo Alto, CA +2&emsp;47d</sup>
+- [PhD Machine Learning Internship 2027 (USA)](https://www.pinterestcareers.com/jobs/?gh_jid=8140140)<br><sup>San Francisco, CA; Palo Alto, CA +2&emsp;47d</sup>
+
+#### Stripe
+
+- [PhD Data Scientist, Intern](https://stripe.com/jobs/search?gh_jid=8194283)<br><sup>New York; Seattle +2&emsp;47d</sup>
+
+#### DoorDash
+
+- [Machine Learning Intern (PhD) - Summer 2027](https://job-boards.greenhouse.io/doordashusa/jobs/8233953)<br><sup>San Francisco, CA; Sunnyvale, CA +2&emsp;53d</sup>
+
+#### Amazon
+
+- [2027 Data Science Internship - United States, PhD or Masters Student](https://www.amazon.jobs/en/jobs/10556927/2027-data-science-internship-united-states-phd-or-masters-student)<br><sup>Seattle, WA&emsp;PhD or MS&emsp;56d</sup>
+
+#### Figma
+
+- [PhD Intern, Data Science (2027)](https://boards.greenhouse.io/figma/jobs/6200626004?gh_jid=6200626004)<br><sup>San Francisco, CA; New York, NY&emsp;57d</sup>
+
+#### Waymo
+
+- [2027 Summer Intern, MS/PhD, Product Data Science](https://careers.withwaymo.com/jobs?gh_jid=8199365)<br><sup>San Francisco, CA&emsp;2mo</sup>
+
+#### Integra FEC <sub>2 roles</sub>
+
+- [(SPRING) Data Scientist Intern - PhD](https://job-boards.greenhouse.io/integra/jobs/5406092008)<br><sup>Austin, TX&emsp;2mo</sup>
+- [(SUMMER) Data Scientist Intern - PhD](https://job-boards.greenhouse.io/integra/jobs/5406094008)<br><sup>Austin, TX&emsp;2mo</sup>
+
+</details>
 
 ### Quantitative Research
 
-| Company | Role | Location | Degree | Posted | Apply |
-| --- | --- | --- | --- | --- | --- |
-| **Schonfeld** | 2027 Emerging Markets and Delta One Quantitative Researcher/Strat Intern | Hong Kong | PhD&nbsp;or&nbsp;MS | 14d | [Apply](https://job-boards.greenhouse.io/schonfeld/jobs/8350719) |
-| **Optiver** | Expressions of Interest - Quantitative Research Internship, PhD (Summer 2028 -Shanghai) | Shanghai, China | PhD | 28d | [Apply](https://www.optiver.com/join-us/jobs/8901902002/?gh_jid=8901902002) |
-| **IMC** | Hardware Machine Learning PhD Research Internship | New York | PhD | 55d | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4975945101) |
-| **The Voleon Group** | Research Intern (London) | London, UK | PhD | 2mo | [Apply](https://jobs.ashbyhq.com/voleon/ef2b0892-1772-4240-a535-4043d66d848e/application) |
-| **Schonfeld** | 2027 PhD Quantitative Research Intern | Miami, FL | PhD | 2mo | [Apply](https://job-boards.greenhouse.io/schonfeld/jobs/8172076) |
-| **IMC** | Deep Learning Research Intern - 2027 - Sydney | Sydney, Australia | PhD | 2mo | [Apply](https://job-boards.eu.greenhouse.io/imc/jobs/4956547101) |
-| **Tower Research Capital** | Quantitative Research Internship - 6 Months, Central Execution Research | London, UK | PhD | 3mo | [Apply](https://www.tower-research.com/open-positions/?gh_jid=8113986) |
-| **The Voleon Group** | Research Intern | Berkeley, CA | PhD | 3mo | [Apply](https://jobs.ashbyhq.com/voleon/e182a100-56cb-4949-9f33-3c26786b41d9/application) |
-| **Hudson River Trading** | Algorithm Development (Quant Research & Trading) PhD Internship – Summer 2027 | London, UK<br>New York, NY<br>Singapore | PhD | 4mo | [Apply](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8059837) |
-| **Jump Trading** | Campus AI Researcher, PhD/Postdoc (Intern) | London, UK | PhD | 4mo | [Apply](https://www.jumptrading.com/hr/job?gh_jid=7976964) |
-| ↳ | Campus Quantitative Researcher, PhD (Intern) | Chicago<br>New York | PhD | 4mo | [Apply](https://www.jumptrading.com/hr/job?gh_jid=8049938) |
-| **Jane Street** | Machine Learning Engineer | New York, NY<br>London, UK | PhD&nbsp;or&nbsp;MS | 4mo | [Apply](https://www.janestreet.com/join-jane-street/apply/8611307002?gh_jid=8611307002) |
-| **Point72** | Machine Learning Researcher - Intern | New York | PhD&nbsp;or&nbsp;MS | 27mo | [Apply](https://boards.greenhouse.io/point72/jobs/7302611002?gh_jid=7302611002) |
-| ↳ | Quantitative Research Intern | New York<br>Seattle | PhD&nbsp;or&nbsp;MS | 27mo | [Apply](https://boards.greenhouse.io/point72/jobs/7297667002?gh_jid=7297667002) |
-| ↳ | Quantitative Researcher - Intern | <details><summary>4 locations</summary>London<br>Paris<br>Hong Kong<br>Tokyo</details> | PhD&nbsp;or&nbsp;MS | 27mo | [Apply](https://boards.greenhouse.io/point72/jobs/7297657002?gh_jid=7297657002) |
-| ↳ | Quantitative Researcher Intern | New York | PhD&nbsp;or&nbsp;MS | 27mo | [Apply](https://boards.greenhouse.io/point72/jobs/7586061002?gh_jid=7586061002) |
+<details><summary>16 roles at 9 companies</summary>
 
-[Back to top](#contents)
+#### Schonfeld <sub>2 roles</sub>
+
+- [2027 Emerging Markets and Delta One Quantitative Researcher/Strat Intern](https://job-boards.greenhouse.io/schonfeld/jobs/8350719)<br><sup>Hong Kong&emsp;PhD or MS&emsp;14d</sup>
+- [2027 PhD Quantitative Research Intern](https://job-boards.greenhouse.io/schonfeld/jobs/8172076)<br><sup>Miami, FL&emsp;2mo</sup>
+
+#### Optiver
+
+- [Expressions of Interest - Quantitative Research Internship, PhD (Summer 2028 -Shanghai)](https://www.optiver.com/join-us/jobs/8901902002/?gh_jid=8901902002)<br><sup>Shanghai, China&emsp;28d</sup>
+
+#### IMC <sub>2 roles</sub>
+
+- [Hardware Machine Learning PhD Research Internship](https://job-boards.eu.greenhouse.io/imc/jobs/4975945101)<br><sup>New York&emsp;55d</sup>
+- [Deep Learning Research Intern - 2027 - Sydney](https://job-boards.eu.greenhouse.io/imc/jobs/4956547101)<br><sup>Sydney, Australia&emsp;2mo</sup>
+
+#### The Voleon Group <sub>2 roles</sub>
+
+- [Research Intern (London)](https://jobs.ashbyhq.com/voleon/ef2b0892-1772-4240-a535-4043d66d848e/application)<br><sup>London, UK&emsp;2mo</sup>
+- [Research Intern](https://jobs.ashbyhq.com/voleon/e182a100-56cb-4949-9f33-3c26786b41d9/application)<br><sup>Berkeley, CA&emsp;3mo</sup>
+
+#### Tower Research Capital
+
+- [Quantitative Research Internship - 6 Months, Central Execution Research](https://www.tower-research.com/open-positions/?gh_jid=8113986)<br><sup>London, UK&emsp;3mo</sup>
+
+#### Hudson River Trading
+
+- [Algorithm Development (Quant Research & Trading) PhD Internship – Summer 2027](https://www.hudsonrivertrading.com/careers/job/?gh_jid=8059837)<br><sup>London, UK; New York, NY +1&emsp;4mo</sup>
+
+#### Jump Trading <sub>2 roles</sub>
+
+- [Campus AI Researcher, PhD/Postdoc (Intern)](https://www.jumptrading.com/hr/job?gh_jid=7976964)<br><sup>London, UK&emsp;4mo</sup>
+- [Campus Quantitative Researcher, PhD (Intern)](https://www.jumptrading.com/hr/job?gh_jid=8049938)<br><sup>Chicago; New York&emsp;4mo</sup>
+
+#### Jane Street
+
+- [Machine Learning Engineer](https://www.janestreet.com/join-jane-street/apply/8611307002?gh_jid=8611307002)<br><sup>New York, NY; London, UK&emsp;PhD or MS&emsp;4mo</sup>
+
+#### Point72 <sub>4 roles</sub>
+
+- [Machine Learning Researcher - Intern](https://boards.greenhouse.io/point72/jobs/7302611002?gh_jid=7302611002)<br><sup>New York&emsp;PhD or MS&emsp;27mo</sup>
+- [Quantitative Research Intern](https://boards.greenhouse.io/point72/jobs/7297667002?gh_jid=7297667002)<br><sup>New York; Seattle&emsp;PhD or MS&emsp;27mo</sup>
+- [Quantitative Researcher - Intern](https://boards.greenhouse.io/point72/jobs/7297657002?gh_jid=7297657002)<br><sup>London; Paris +2&emsp;PhD or MS&emsp;27mo</sup>
+- [Quantitative Researcher Intern](https://boards.greenhouse.io/point72/jobs/7586061002?gh_jid=7586061002)<br><sup>New York&emsp;PhD or MS&emsp;27mo</sup>
+
+</details>
 
 ### Other ML Research
 
-| Company | Role | Location | Degree | Posted | Apply |
-| --- | --- | --- | --- | --- | --- |
-| **Horizon3** | Research Intern, Adversarial Intelligence | Chicago, IL | PhD&nbsp;or&nbsp;MS | 4d&nbsp;**New** | [Apply](https://jobs.ashbyhq.com/horizon3ai/818f854b-f212-4817-8227-3b9e654d39a2/application) |
-| **Toyota Research Institute** | Future Product Innovation Research Intern, Human Computer Interaction | Los Altos, CA | PhD | 5d&nbsp;**New** | [Apply](https://jobs.lever.co/tri/e01def2d-0ee0-4f24-bf38-0b52a8047ea7/apply) |
-| ↳ | Future Product Innovation Research Intern, Human-AI Computational Design | Los Altos, CA | PhD | 5d&nbsp;**New** | [Apply](https://jobs.lever.co/tri/ad346610-e4a6-4cd2-a357-11d731b136a2/apply) |
-| **Analog Devices** | Advanced Algorithms Research Intern | Boston, MA | PhD | 8d | [Apply](https://analogdevices.wd1.myworkdayjobs.com/external/job/US-MA-Boston/Advanced-Algorithms-Research-Intern_R268506) |
-| **KLA** | Advanced Algorithm Intern | Milpitas, CA | PhD | 8d | [Apply](https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Advanced-Algorithm-Intern_2641569-1) |
-| **PayPal** | Machine Learning Engineer PhD Intern - Summer 2027 | San Jose, CA | PhD | 12d | [Apply](https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-PhD-Intern---Summer-2027_R0138579) |
-| **Qualcomm** | FY27 Intern - Wireless R&D, Engineering Internship - 6 month, France | Issy Les Moulineaux, France<br>Lannion, France | PhD&nbsp;or&nbsp;MS | 15d | [Apply](https://careers.qualcomm.com/careers/job/446721911135) |
-| **Hewlett Packard Enterprise** | Research/PhD | Bengaluru, India | PhD | 18d | [Apply](https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423) |
-| **Microsoft** | Microsoft Research Cambridge Internship Program - Machine Intelligence | Cambridge, UK | PhD | 19d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557050083) |
-| **Adobe** | 2027 Intern - Applied and Research Scientist/Engineer | San Jose | PhD&nbsp;or&nbsp;MS | 28d | [Apply](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Applied-and-Research-Scientist-Engineer_R172064) |
-| **Zillow** | Applied Scientist (Economics) Intern | Seattle, WA | PhD&nbsp;or&nbsp;MS | 28d | [Apply](https://zillow.wd5.myworkdayjobs.com/zillow_group_external/job/Seattle-WA-2nd-Ave/Applied-Scientist--Economics--Intern_P751642-1) |
-| **Microsoft** | Research Intern - Efficient AI Software Systems | Redmond, WA | PhD | 32d | [Apply](https://apply.careers.microsoft.com/careers/job/1970393557041731) |
-| **General Motors** | 2027 Summer Intern - Research and Development - AI/Machine Learning | Mountain View, CA | PhD | 36d | [Apply](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620) |
-| **Intel** | AI-Driven Physical Design Engineering (PhD Intern) | Santa Clara, CA | PhD | 39d | [Apply](https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Driven-Physical-Design-Engineering--PhD-Intern-_JR0287661) |
-| **Boeing** | Boeing Engineering & Technology Innovation Graduate Researcher Program, Applied Mathematician Intern | North Charleston, SC | PhD | 40d | [Apply](https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---North-Charleston-SC/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Applied-Mathematician-Intern_JR2026523704) |
-| ↳ | Boeing Engineering & Technology Innovation Graduate Researcher Program, Software Engineering Artificial Intelligence Intern | Tukwila, WA | PhD | 40d | [Apply](https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687) |
-| **Hewlett Packard Enterprise** | Wireless Networking Intern | San Jose, CA | PhD | 40d | [Apply](https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Jose-California-United-States-of-America/Wireless-Networking-Intern_1214969) |
-| **Autodesk** | PhD Researcher, AI Research | Toronto, Canada | PhD | 41d | [Apply](https://autodesk.wd1.myworkdayjobs.com/ext/job/Toronto-ON-CAN/PhD-Researcher--AI-Research_26WD101373-1) |
-| **Salesforce** | Summer 2027 Intern - Tableau Research | Palo Alto, CA | PhD | 41d | [Apply](https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---Palo-Alto/Summer-2027-Intern---Tableau-Research_JR363252-1) |
-| **Snorkel AI** | Research Fellow | New York City, NY (hybrid)<br>San Francisco, CA (hybrid)<br>Remote (US) | PhD | 41d | [Apply](https://job-boards.greenhouse.io/snorkelai/jobs/6175199004) |
-| **Lyft** | PhD Machine Learning Software Engineer Intern (Summer 2027) | San Francisco, CA | PhD | 42d | [Apply](https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002) |
-| **Lam Research** | 2027 Engineering Intern - AI/ML & Tool Innovation (SABRE Electroplating) - Masters/PhD (6 months) | Tualatin, OR | PhD&nbsp;or&nbsp;MS | 46d | [Apply](https://careers.lamresearch.com/careers/job/1099556323254) |
-| ↳ | Engineering Intern 1 | Singapore | PhD&nbsp;or&nbsp;MS | 47d | [Apply](https://careers.lamresearch.com/careers/job/1099555996314) |
-| **Amazon** | 2027 Applied Science Internship - Canada, PhD Student Science Recruiting | Vancouver, Canada<br>San Francisco, CA | PhD | 48d | [Apply](https://www.amazon.jobs/en/jobs/10564588/2027-applied-science-internship-canada-phd-student-science-recruiting) |
-| ↳ | 2027 Applied Science Internship - Reinforcement Learning & Optimization (Machine Learning) - United States, PhD Student Science Recruiting | Seattle, WA | PhD | 48d | [Apply](https://www.amazon.jobs/en/jobs/10564597/2027-applied-science-internship-reinforcement-learning-optimization-machine-learning-united-states-phd-student-science-recruiting) |
-| ↳ | 2027 Research Science Internship - United States, PhD Student Science Recruiting | Seattle, WA | PhD | 48d | [Apply](https://www.amazon.jobs/en/jobs/10564602/2027-research-science-internship-united-states-phd-student-science-recruiting) |
-| **HP Inc** | Electrical/Hardware Engineering Intern | Corvallis, OR | PhD | 50d | [Apply](https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Corvallis-Oregon-United-States-of-America/Electrical-Hardware-Engineering-Intern_UNI4760-1) |
-| **AMD** | Summer 2027 PhD Technical Program Manager, AI Research Intern | Santa Clara, CA | PhD | 57d | [Apply](https://careers.amd.com/careers-home/jobs/91019) |
-| **Upstart** | Applied Scientist Intern | United States<br>Remote | PhD&nbsp;or&nbsp;MS | 2mo | [Apply](https://careers.upstart.com/jobs?gh_jid=8213476) |
-| **Hewlett Packard Enterprise** | PhD Research Intern | Milpitas, CA | PhD | 2mo | [Apply](https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Milpitas-California-United-States-of-America/PhD-Research-Intern_1213426) |
-| **Datadog** | Research Science Intern (PhD) | New York, NY<br>Pittsburgh, PA | PhD | 2mo | [Apply](https://careers.datadoghq.com/detail/8203657/?gh_jid=8203657) |
-| **Coinbase** | Machine Learning Engineer Intern | San Francisco, CA | PhD | 2mo | [Apply](https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441) |
-| **Block** | Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op) | Bay Area, CA<br>Toronto, Canada | PhD&nbsp;or&nbsp;MS | 5mo | [Apply](http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008) |
+<details><summary>33 roles at 25 companies</summary>
 
-[Back to top](#contents)
+#### Horizon3
+
+- [Research Intern, Adversarial Intelligence](https://jobs.ashbyhq.com/horizon3ai/818f854b-f212-4817-8227-3b9e654d39a2/application)<br><sup>Chicago, IL&emsp;PhD or MS&emsp;4d</sup>
+
+#### Toyota Research Institute <sub>2 roles</sub>
+
+- [Future Product Innovation Research Intern, Human Computer Interaction](https://jobs.lever.co/tri/e01def2d-0ee0-4f24-bf38-0b52a8047ea7/apply)<br><sup>Los Altos, CA&emsp;5d</sup>
+- [Future Product Innovation Research Intern, Human-AI Computational Design](https://jobs.lever.co/tri/ad346610-e4a6-4cd2-a357-11d731b136a2/apply)<br><sup>Los Altos, CA&emsp;5d</sup>
+
+#### Analog Devices
+
+- [Advanced Algorithms Research Intern](https://analogdevices.wd1.myworkdayjobs.com/external/job/US-MA-Boston/Advanced-Algorithms-Research-Intern_R268506)<br><sup>Boston, MA&emsp;8d</sup>
+
+#### KLA
+
+- [Advanced Algorithm Intern](https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Advanced-Algorithm-Intern_2641569-1)<br><sup>Milpitas, CA&emsp;8d</sup>
+
+#### PayPal
+
+- [Machine Learning Engineer PhD Intern - Summer 2027](https://paypal.wd1.myworkdayjobs.com/jobs/job/San-Jose-California-United-States-of-America/Machine-Learning-Engineer-PhD-Intern---Summer-2027_R0138579)<br><sup>San Jose, CA&emsp;12d</sup>
+
+#### Qualcomm
+
+- [FY27 Intern - Wireless R&D, Engineering Internship - 6 month, France](https://careers.qualcomm.com/careers/job/446721911135)<br><sup>Issy Les Moulineaux, France; Lannion, France&emsp;PhD or MS&emsp;15d</sup>
+
+#### Hewlett Packard Enterprise <sub>3 roles</sub>
+
+- [Research/PhD](https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423)<br><sup>Bengaluru, India&emsp;18d</sup>
+- [Wireless Networking Intern](https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/San-Jose-California-United-States-of-America/Wireless-Networking-Intern_1214969)<br><sup>San Jose, CA&emsp;40d</sup>
+- [PhD Research Intern](https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Milpitas-California-United-States-of-America/PhD-Research-Intern_1213426)<br><sup>Milpitas, CA&emsp;2mo</sup>
+
+#### Microsoft <sub>2 roles</sub>
+
+- [Microsoft Research Cambridge Internship Program - Machine Intelligence](https://apply.careers.microsoft.com/careers/job/1970393557050083)<br><sup>Cambridge, UK&emsp;19d</sup>
+- [Research Intern - Efficient AI Software Systems](https://apply.careers.microsoft.com/careers/job/1970393557041731)<br><sup>Redmond, WA&emsp;32d</sup>
+
+#### Adobe
+
+- [2027 Intern - Applied and Research Scientist/Engineer](https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Applied-and-Research-Scientist-Engineer_R172064)<br><sup>San Jose&emsp;PhD or MS&emsp;28d</sup>
+
+#### Zillow
+
+- [Applied Scientist (Economics) Intern](https://zillow.wd5.myworkdayjobs.com/zillow_group_external/job/Seattle-WA-2nd-Ave/Applied-Scientist--Economics--Intern_P751642-1)<br><sup>Seattle, WA&emsp;PhD or MS&emsp;28d</sup>
+
+#### General Motors
+
+- [2027 Summer Intern - Research and Development - AI/Machine Learning](https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Mountain-View-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Research-and-Development---AI-Machine-Learning_JR-202621620)<br><sup>Mountain View, CA&emsp;36d</sup>
+
+#### Intel
+
+- [AI-Driven Physical Design Engineering (PhD Intern)](https://intel.wd1.myworkdayjobs.com/external/job/US-California-Santa-Clara/AI-Driven-Physical-Design-Engineering--PhD-Intern-_JR0287661)<br><sup>Santa Clara, CA&emsp;39d</sup>
+
+#### Boeing <sub>2 roles</sub>
+
+- [Boeing Engineering & Technology Innovation Graduate Researcher Program, Applied Mathematician Intern](https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---North-Charleston-SC/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Applied-Mathematician-Intern_JR2026523704)<br><sup>North Charleston, SC&emsp;40d</sup>
+- [Boeing Engineering & Technology Innovation Graduate Researcher Program, Software Engineering Artificial Intelligence Intern](https://boeing.wd1.myworkdayjobs.com/external_careers/job/USA---Tukwila-WA/Boeing-Engineering---Technology-Innovation-Graduate-Researcher-Program--Software-Engineering-Artificial-Intelligence-Intern_JR2026523687)<br><sup>Tukwila, WA&emsp;40d</sup>
+
+#### Autodesk
+
+- [PhD Researcher, AI Research](https://autodesk.wd1.myworkdayjobs.com/ext/job/Toronto-ON-CAN/PhD-Researcher--AI-Research_26WD101373-1)<br><sup>Toronto, Canada&emsp;41d</sup>
+
+#### Salesforce
+
+- [Summer 2027 Intern - Tableau Research](https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/California---Palo-Alto/Summer-2027-Intern---Tableau-Research_JR363252-1)<br><sup>Palo Alto, CA&emsp;41d</sup>
+
+#### Snorkel AI
+
+- [Research Fellow](https://job-boards.greenhouse.io/snorkelai/jobs/6175199004)<br><sup>New York City, NY (hybrid); San Francisco, CA (hybrid) +1&emsp;41d</sup>
+
+#### Lyft
+
+- [PhD Machine Learning Software Engineer Intern (Summer 2027)](https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002)<br><sup>San Francisco, CA&emsp;42d</sup>
+
+#### Lam Research <sub>2 roles</sub>
+
+- [2027 Engineering Intern - AI/ML & Tool Innovation (SABRE Electroplating) - Masters/PhD (6 months)](https://careers.lamresearch.com/careers/job/1099556323254)<br><sup>Tualatin, OR&emsp;PhD or MS&emsp;46d</sup>
+- [Engineering Intern 1](https://careers.lamresearch.com/careers/job/1099555996314)<br><sup>Singapore&emsp;PhD or MS&emsp;47d</sup>
+
+#### Amazon <sub>3 roles</sub>
+
+- [2027 Applied Science Internship - Canada, PhD Student Science Recruiting](https://www.amazon.jobs/en/jobs/10564588/2027-applied-science-internship-canada-phd-student-science-recruiting)<br><sup>Vancouver, Canada; San Francisco, CA&emsp;48d</sup>
+- [2027 Applied Science Internship - Reinforcement Learning & Optimization (Machine Learning) - United States, PhD Student Science Recruiting](https://www.amazon.jobs/en/jobs/10564597/2027-applied-science-internship-reinforcement-learning-optimization-machine-learning-united-states-phd-student-science-recruiting)<br><sup>Seattle, WA&emsp;48d</sup>
+- [2027 Research Science Internship - United States, PhD Student Science Recruiting](https://www.amazon.jobs/en/jobs/10564602/2027-research-science-internship-united-states-phd-student-science-recruiting)<br><sup>Seattle, WA&emsp;48d</sup>
+
+#### HP Inc
+
+- [Electrical/Hardware Engineering Intern](https://hp.wd5.myworkdayjobs.com/externalcareersite/job/Corvallis-Oregon-United-States-of-America/Electrical-Hardware-Engineering-Intern_UNI4760-1)<br><sup>Corvallis, OR&emsp;50d</sup>
+
+#### AMD
+
+- [Summer 2027 PhD Technical Program Manager, AI Research Intern](https://careers.amd.com/careers-home/jobs/91019)<br><sup>Santa Clara, CA&emsp;57d</sup>
+
+#### Upstart
+
+- [Applied Scientist Intern](https://careers.upstart.com/jobs?gh_jid=8213476)<br><sup>United States; Remote&emsp;PhD or MS&emsp;2mo</sup>
+
+#### Datadog
+
+- [Research Science Intern (PhD)](https://careers.datadoghq.com/detail/8203657/?gh_jid=8203657)<br><sup>New York, NY; Pittsburgh, PA&emsp;2mo</sup>
+
+#### Coinbase
+
+- [Machine Learning Engineer Intern](https://www.coinbase.com/careers/positions/8175441?gh_jid=8175441)<br><sup>San Francisco, CA&emsp;2mo</sup>
+
+#### Block
+
+- [Applied Research Intern, Proactive Intelligence & Customer World Models (PhD / Graduate Co-op)](http://block.xyz/careers/jobs/5108007008?gh_jid=5108007008)<br><sup>Bay Area, CA; Toronto, Canada&emsp;PhD or MS&emsp;5mo</sup>
+
+</details>
 
 ## Internships posted by research teams
 
 In the last 30 days, members of hiring teams announced 108 research internships on X and LinkedIn that are not in the career-page list above. The most recent are below. [View the original posts and their authors on CookLLM](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts) (jobs membership).
 
-| Company | Role | Platform | Posted |
-| --- | --- | --- | --- |
-| **Siemens** | [PhD Research Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row) | X | today |
-| **Google** | [PhD SWE Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row) | LinkedIn | today |
-| **Google** | [Student Researcher / Research Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row) | LinkedIn | 1d |
-| **Meta** | [Research Scientist Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row) | LinkedIn | 1d |
-| **Adobe** | [Research Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row) | LinkedIn | 1d |
-| **Sarvam AI** | [Human AI Interaction Research Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row) | X | 1d |
-| **Adobe** | [Research Scientist Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row) | X | 4d |
-| **Adobe** | [Research Scientist Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row) | LinkedIn | 4d |
-| **Amazon** | [PhD Applied Scientist Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row) | LinkedIn | 4d |
-| **Apple** | [Research Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row) | LinkedIn | 4d |
+#### Google <sub>2 roles</sub>
+
+- [PhD SWE Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row)<br><sup>LinkedIn&emsp;today</sup>
+- [Student Researcher / Research Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row)<br><sup>LinkedIn&emsp;1d</sup>
+
+#### Siemens
+
+- [PhD Research Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row)<br><sup>X&emsp;today</sup>
+
+#### Adobe <sub>3 roles</sub>
+
+- [Research Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row)<br><sup>LinkedIn&emsp;1d</sup>
+- [Research Scientist Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row)<br><sup>X&emsp;4d</sup>
+- [Research Scientist Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row)<br><sup>LinkedIn&emsp;4d</sup>
+
+#### Meta
+
+- [Research Scientist Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row)<br><sup>LinkedIn&emsp;1d</sup>
+
+#### Sarvam AI
+
+- [Human AI Interaction Research Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row)<br><sup>X&emsp;1d</sup>
+
+#### Amazon
+
+- [PhD Applied Scientist Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row)<br><sup>LinkedIn&emsp;4d</sup>
+
+#### Apple
+
+- [Research Intern](https://cookllm.com/en/jobs/board?utm_source=github&utm_medium=readme&utm_campaign=phd-internships&utm_content=direct-posts-row)<br><sup>LinkedIn&emsp;4d</sup>
 
 ## How this list is made
 

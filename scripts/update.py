@@ -75,7 +75,7 @@ DATA_TITLE = re.compile(r"data scien|recommend|ranking|personaliz|\bads\b", re.I
 # How the Degree column reads. A spot check of 30 roles (2026-11-17) found
 # most roles tagged phd_preferred take MS and PhD students alike, so the
 # table says that rather than "preferred"
-DEGREE = {"required": "PhD", "preferred": "PhD&nbsp;or&nbsp;MS"}
+DEGREE = {"required": "PhD", "preferred": "PhD or MS"}
 
 NEW_DAYS = 7  # roles this new get a New mark
 POST_DAYS = 30  # direct posts this recent are counted
@@ -238,70 +238,104 @@ def age(posted: str, today: dt.date) -> str:
     return f"{days}d" if days < 60 else f"{days // 30}mo"
 
 
-def where(locations: list[str]) -> str:
+def days_old(item: dict, today: dt.date) -> int:
+    return (today - dt.date.fromisoformat(item["posted"])).days
+
+
+def places_short(locations: list[str]) -> str:
+    """Two places at most, then how many more"""
     if not locations:
-        return "Not listed"
-    if len(locations) <= 3:
-        return "<br>".join(cell(p) for p in locations)
-    shown = "<br>".join(cell(p) for p in locations)
-    return f"<details><summary>{len(locations)} locations</summary>{shown}</details>"
+        return "Location not listed"
+    more = f" +{len(locations) - 2}" if len(locations) > 2 else ""
+    return "; ".join(cell(p) for p in locations[:2]) + more
 
 
-def role_table(roles: list[dict], today: dt.date) -> str:
-    rows = [
-        "| Company | Role | Location | Degree | Posted | Apply |",
-        "| --- | --- | --- | --- | --- | --- |",
-    ]
-    last = None
-    for r in roles:
-        company = "↳" if r["company"] == last else f"**{cell(r['company'])}**"
-        last = r["company"]
-        new = (today - dt.date.fromisoformat(r["posted"])).days <= NEW_DAYS
-        posted = age(r["posted"], today) + ("&nbsp;**New**" if new else "")
-        rows.append(
-            f"| {company} | {cell(r['title'])} | {where(r['locations'])} "
-            f"| {DEGREE[r['phd']]} | {posted} | [Apply]({r['apply']}) |"
-        )
-    return "\n".join(rows)
+def by_company(items: list[dict], today: dt.date) -> list[tuple[str, list[dict]]]:
+    """Companies by their newest item, each company's items newest first"""
+    groups: dict[str, list[dict]] = {}
+    for item in items:
+        groups.setdefault(item["company"], []).append(item)
+    for group in groups.values():
+        group.sort(key=lambda x: days_old(x, today))
+    return sorted(groups.items(), key=lambda g: (days_old(g[1][0], today), g[0].lower()))
 
 
-def post_table(posts: dict, today: dt.date) -> str:
-    rows = [
-        "| Company | Role | Platform | Posted |",
-        "| --- | --- | --- | --- |",
-    ]
-    # Each role links to the board on CookLLM, where members see the post
+def details_line(*parts: str) -> str:
+    # Small text right under the title (sup sits closer to it than sub)
+    return "<sup>" + "&emsp;".join(p for p in parts if p) + "</sup>"
+
+
+def company_blocks(items: list[dict], today: dt.date, line) -> str:
+    """
+    Each company once, as a heading, with its roles below it: one role or
+    ten read the same, and a list reads well on a phone (user 11-17: the
+    table's ↳ rows were ugly)
+    """
+    blocks = []
+    for company, group in by_company(items, today):
+        count = f" <sub>{len(group)} roles</sub>" if len(group) > 1 else ""
+        rows = "\n".join(line(item) for item in group)
+        blocks.append(f"#### {cell(company)}{count}\n\n{rows}")
+    return "\n\n".join(blocks)
+
+
+def role_line(today: dt.date):
+    def line(r: dict) -> str:
+        # The title is the apply link; the degree is shown only when MS
+        # students can apply too, since PhD is what every role here asks for
+        degree = DEGREE[r["phd"]] if r["phd"] == "preferred" else ""
+        meta = details_line(places_short(r["locations"]), degree, age(r["posted"], today))
+        return f"- [{cell(r['title'])}]({r['apply']})<br>{meta}"
+
+    return line
+
+
+def post_line(today: dt.date):
+    # Each post links to the board on CookLLM, where members see it
     link = site_link("direct-posts-row")
-    for p in posts["latest"]:
-        rows.append(
-            f"| **{cell(p['company'])}** | [{cell(p['title'])}]({link}) "
-            f"| {p['platform']} | {age(p['posted'], today)} |"
-        )
-    return "\n".join(rows)
+
+    def line(p: dict) -> str:
+        meta = details_line(p["platform"], age(p["posted"], today))
+        return f"- [{cell(p['title'])}]({link})<br>{meta}"
+
+    return line
+
+
+def nbsp(text: str) -> str:
+    return text.replace(" ", "&nbsp;")
 
 
 def readme(roles: list[dict], posts: dict, tracked: int, now: dt.datetime) -> str:
     today = now.date()
     template = (ROOT / "templates" / "README.md").read_text()
-    by_section = {key: [r for r in roles if r["section"] == key] for key, _ in SECTIONS}
-    toc, tables = [], []
+    fresh = [r for r in roles if days_old(r, today) <= NEW_DAYS]
+    new_heading = f"New in the last {NEW_DAYS} days"
+    toc = [f"[{nbsp(new_heading)}](#{anchor(new_heading)})&nbsp;{len(fresh)}"]
+    tables = [f"### {new_heading}\n\n{company_blocks(fresh, today, role_line(today))}"]
     for key, heading in SECTIONS:
-        group = by_section[key]
+        group = [r for r in roles if r["section"] == key]
         if not group:
             continue
-        toc.append(f"  - [{heading}](#{anchor(heading)}) ({len(group)})")
-        tables.append(f"### {heading}\n\n{role_table(group, today)}\n\n[Back to top](#contents)")
+        companies = len({r["company"] for r in group})
+        toc.append(f"[{nbsp(heading)}](#{anchor(heading)})&nbsp;{len(group)}")
+        # Closed by default: the page stays short, the counts say what is inside
+        tables.append(
+            f"### {heading}\n\n<details><summary>{len(group)} roles at {companies} "
+            f"{'company' if companies == 1 else 'companies'}</summary>\n\n"
+            f"{company_blocks(group, today, role_line(today))}\n\n</details>"
+        )
     values = {
         "UPDATED": now.strftime("%B %-d, %Y %H:%M"),
         "TOTAL": str(len(roles)),
         "COMPANIES": str(len({r["company"] for r in roles})),
+        "NEW": str(len(fresh)),
         "TRACKED": f"{tracked:,}",
         "NEW_DAYS": str(NEW_DAYS),
-        "TOC": "\n".join(toc),
+        "TOC": "&emsp;".join(toc),
         "TABLES": "\n\n".join(tables),
         "POST_DAYS": str(posts["days"]),
         "POST_COUNT": str(posts["count"]),
-        "POST_TABLE": post_table(posts, today),
+        "POST_TABLE": company_blocks(posts["latest"], today, post_line(today)),
         "SITE_MATCH": site_link("daily-email", "/en/jobs/match"),
         "SITE_POSTS": site_link("direct-posts"),
         "SITE_HOME": site_link("footer", "/en"),
