@@ -1,10 +1,56 @@
 {
- "updated": "2026-11-18T08:35:00+00:00",
- "snapshot": "2026-11-18T06:18:52.032Z",
+ "updated": "2026-11-19T08:51:00+00:00",
+ "snapshot": "2026-11-19T08:22:19.589Z",
  "days": 30,
- "count": 109,
+ "count": 116,
  "companies": 33,
  "latest": [
+  {
+   "company": "Meta",
+   "title": "PhD Research Scientist Intern, Ads Quality",
+   "locations": [
+    "Menlo Park, CA"
+   ],
+   "posted": "2026-11-19",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
+  {
+   "company": "Google",
+   "title": "Research Intern, PhD / Student Researcher, PhD / Student Researcher - BS/MS",
+   "locations": [
+    "North America"
+   ],
+   "posted": "2026-11-19",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 4
+  },
+  {
+   "company": "Amazon",
+   "title": "PhD intern",
+   "locations": [],
+   "posted": "2026-11-19",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
+  {
+   "company": "Salesforce",
+   "title": "Summer 2027 Intern - AI Research",
+   "locations": [
+    "Palo Alto, CA"
+   ],
+   "posted": "2026-11-19",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
   {
    "company": "Spotify",
    "title": "PhD research intern",
@@ -67,52 +113,6 @@
    "title": "Research Intern",
    "locations": [],
    "posted": "2026-11-16",
-   "platforms": [
-    "LinkedIn"
-   ],
-   "posts": 1
-  },
-  {
-   "company": "Sarvam AI",
-   "title": "Human AI Interaction Research Intern",
-   "locations": [],
-   "posted": "2026-11-16",
-   "platforms": [
-    "X"
-   ],
-   "posts": 1
-  },
-  {
-   "company": "Adobe",
-   "title": "Research Scientist Intern",
-   "locations": [
-    "San Jose, CA",
-    "Seattle, WA"
-   ],
-   "posted": "2026-11-13",
-   "platforms": [
-    "X",
-    "LinkedIn"
-   ],
-   "posts": 3
-  },
-  {
-   "company": "Amazon",
-   "title": "PhD Applied Scientist Intern",
-   "locations": [],
-   "posted": "2026-11-13",
-   "platforms": [
-    "LinkedIn"
-   ],
-   "posts": 2
-  },
-  {
-   "company": "Apple",
-   "title": "Research Intern",
-   "locations": [
-    "Cupertino, CA"
-   ],
-   "posted": "2026-11-13",
    "platforms": [
     "LinkedIn"
    ],

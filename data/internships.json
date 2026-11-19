@@ -1,7 +1,131 @@
 {
- "updated": "2026-11-18T08:35:00+00:00",
- "snapshot": "2026-11-18T06:18:52.032Z",
+ "updated": "2026-11-19T08:51:00+00:00",
+ "snapshot": "2026-11-19T08:22:19.589Z",
  "roles": [
+  {
+   "company": "Crusoe",
+   "title": "AI Applied Research PhD Intern, Summer 2027",
+   "locations": [
+    "San Francisco",
+    "CA - US"
+   ],
+   "phd": "required",
+   "posted": "2026-11-19",
+   "section": "llm",
+   "directions": [
+    "llm",
+    "rl"
+   ],
+   "apply": "https://jobs.ashbyhq.com/Crusoe/8d1d162e-7bed-44fb-aff8-6af75b62937b/application"
+  },
+  {
+   "company": "Lightmatter",
+   "title": "Photonics Circuit Simulation Intern – Summer 2027",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-11-19",
+   "section": "systems",
+   "directions": [],
+   "apply": "https://boards.greenhouse.io/lightmatter/jobs/5479849008?gh_jid=5479849008"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Research Intern - Computer Vision and Deep Learning",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-11-19",
+   "section": "vision",
+   "directions": [
+    "vision"
+   ],
+   "apply": "https://apply.careers.microsoft.com/careers/job/1970393557075490"
+  },
+  {
+   "company": "Samsung Semiconductor",
+   "title": "Intern, Architecture Research Engineer (Agentic AI Workload Characterization)",
+   "locations": [
+    "San Jose, CA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-11-19",
+   "section": "systems",
+   "directions": [
+    "llm"
+   ],
+   "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208600003"
+  },
+  {
+   "company": "Samsung Semiconductor",
+   "title": "Intern, Architecture Research Engineer (Resilient Collective Communications)",
+   "locations": [
+    "San Jose, CA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-11-19",
+   "section": "systems",
+   "directions": [],
+   "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8207759003"
+  },
+  {
+   "company": "Samsung Semiconductor",
+   "title": "Intern, HBM Memory Architecture",
+   "locations": [
+    "San Jose, CA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-11-19",
+   "section": "systems",
+   "directions": [],
+   "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8206036003"
+  },
+  {
+   "company": "Samsung Semiconductor",
+   "title": "Intern, LLM Inference Acceleration Architecture (Distributed Memory-Centric Accelerators)",
+   "locations": [
+    "San Jose, CA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-11-19",
+   "section": "systems",
+   "directions": [
+    "llm"
+   ],
+   "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208641003"
+  },
+  {
+   "company": "Toyota Research Institute",
+   "title": "Robotics Intern, Generalist Robot Learning (GRL)",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-11-19",
+   "section": "robotics",
+   "directions": [
+    "vision",
+    "rl",
+    "robotics"
+   ],
+   "apply": "https://jobs.lever.co/tri/4cac9569-cc90-4dcd-96b8-d9777c35c943/apply"
+  },
+  {
+   "company": "Applied Materials",
+   "title": "2027 Spring System Data Scientist /Analyst Co-op, MS or Phd - Gloucester, MA",
+   "locations": [
+    "Gloucester, MA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-11-18",
+   "section": "science",
+   "directions": [
+    "science"
+   ],
+   "apply": "https://amat.wd1.myworkdayjobs.com/external/job/GloucesterMA/XMLNAME-2027-Spring-System-Data-Scientist--Analyst-Co-op--MS-or-Phd---Gloucester--MA_R2632175"
+  },
   {
    "company": "Microsoft",
    "title": "Research Intern - Firmware Security",
@@ -36,6 +160,49 @@
     "rl"
    ],
    "apply": "https://apply.careers.microsoft.com/careers/job/1970393557075074"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Research Intern - Model Foundations for Knowledge & Reasoning - Microsoft Research",
+   "locations": [
+    "Vancouver, Canada"
+   ],
+   "phd": "required",
+   "posted": "2026-11-18",
+   "section": "llm",
+   "directions": [
+    "llm"
+   ],
+   "apply": "https://apply.careers.microsoft.com/careers/job/1970393557075474"
+  },
+  {
+   "company": "Microsoft",
+   "title": "Research Intern - Self-Improving & Secure AI Agents - Microsoft Research",
+   "locations": [
+    "Redmond, WA"
+   ],
+   "phd": "required",
+   "posted": "2026-11-18",
+   "section": "llm",
+   "directions": [
+    "llm",
+    "safety"
+   ],
+   "apply": "https://apply.careers.microsoft.com/careers/job/1970393557075136"
+  },
+  {
+   "company": "Samsung Semiconductor",
+   "title": "Intern, Architecture Research Engineer (MoE Placement for Serving at Scale)",
+   "locations": [
+    "San Jose, CA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-11-18",
+   "section": "systems",
+   "directions": [
+    "llm"
+   ],
+   "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8208494003"
   },
   {
    "company": "Toyota Research Institute",
@@ -101,7 +268,7 @@
     "Cambridge, MA"
    ],
    "phd": "preferred",
-   "posted": "2026-11-17",
+   "posted": "2026-11-16",
    "section": "robotics",
    "directions": [
     "vision",
@@ -169,49 +336,6 @@
    "apply": "https://apply.careers.microsoft.com/careers/job/1970393557073455"
   },
   {
-   "company": "Samsung Semiconductor",
-   "title": "Intern, AI Systems Performance Engineer",
-   "locations": [
-    "San Jose, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-11-14",
-   "section": "systems",
-   "directions": [
-    "llm"
-   ],
-   "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003"
-  },
-  {
-   "company": "Samsung Semiconductor",
-   "title": "Intern, ML Compiler (Kernel Auto-Tuning)",
-   "locations": [
-    "San Jose, CA"
-   ],
-   "phd": "preferred",
-   "posted": "2026-11-14",
-   "section": "systems",
-   "directions": [
-    "llm"
-   ],
-   "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003"
-  },
-  {
-   "company": "Toyota Research Institute",
-   "title": "Research Intern, Continual Adaptation for Robotics",
-   "locations": [
-    "Cambridge, MA"
-   ],
-   "phd": "required",
-   "posted": "2026-11-14",
-   "section": "robotics",
-   "directions": [
-    "rl",
-    "robotics"
-   ],
-   "apply": "https://jobs.lever.co/tri/6c9002a1-6ed1-42b7-829c-5ba6661446ac/apply"
-  },
-  {
    "company": "Adobe",
    "title": "2027 Intern - Research Scientist",
    "locations": [
@@ -238,21 +362,47 @@
    "apply": "https://jobs.ashbyhq.com/horizon3ai/818f854b-f212-4817-8227-3b9e654d39a2/application"
   },
   {
-   "company": "Stack AV",
-   "title": "Research Intern (PhD), Autonomy",
+   "company": "Samsung Semiconductor",
+   "title": "Intern, AI Systems Performance Engineer",
    "locations": [
-    "Pittsburgh, PA",
-    "Remote (US)"
+    "San Jose, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-11-13",
+   "section": "systems",
+   "directions": [
+    "llm"
+   ],
+   "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8202927003"
+  },
+  {
+   "company": "Samsung Semiconductor",
+   "title": "Intern, ML Compiler (Kernel Auto-Tuning)",
+   "locations": [
+    "San Jose, CA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-11-13",
+   "section": "systems",
+   "directions": [
+    "llm"
+   ],
+   "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8203052003"
+  },
+  {
+   "company": "Toyota Research Institute",
+   "title": "Research Intern, Continual Adaptation for Robotics",
+   "locations": [
+    "Cambridge, MA"
    ],
    "phd": "required",
    "posted": "2026-11-13",
    "section": "robotics",
    "directions": [
-    "vision",
-    "robotics",
-    "driving"
+    "rl",
+    "robotics"
    ],
-   "apply": "https://job-boards.greenhouse.io/stackav/jobs/5287594007"
+   "apply": "https://jobs.lever.co/tri/6c9002a1-6ed1-42b7-829c-5ba6661446ac/apply"
   },
   {
    "company": "Rhoda AI",
@@ -284,6 +434,23 @@
    "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8197305003"
   },
   {
+   "company": "Stack AV",
+   "title": "Research Intern (PhD), Autonomy",
+   "locations": [
+    "Pittsburgh, PA",
+    "Remote (US)"
+   ],
+   "phd": "required",
+   "posted": "2026-11-12",
+   "section": "robotics",
+   "directions": [
+    "vision",
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://job-boards.greenhouse.io/stackav/jobs/5287594007"
+  },
+  {
    "company": "Toyota Research Institute",
    "title": "Future Product Innovation Research Intern, Human Computer Interaction",
    "locations": [
@@ -306,20 +473,6 @@
    "section": "other",
    "directions": [],
    "apply": "https://jobs.lever.co/tri/ad346610-e4a6-4cd2-a357-11d731b136a2/apply"
-  },
-  {
-   "company": "Genesis Molecular AI",
-   "title": "Computational Chemistry Intern - 2027",
-   "locations": [
-    "San Mateo, CA"
-   ],
-   "phd": "preferred",
-   "posted": "2026-11-11",
-   "section": "science",
-   "directions": [
-    "science"
-   ],
-   "apply": "https://jobs.ashbyhq.com/genesis-molecular-ai/3de36849-b8da-4da9-bd22-d706343db9e1/application"
   },
   {
    "company": "Hewlett Packard Enterprise",
@@ -349,19 +502,18 @@
    "apply": "https://apply.careers.microsoft.com/careers/job/1970393557070382"
   },
   {
-   "company": "Toyota Research Institute",
-   "title": "Human-Centered AI Research Intern, Causal Reasoning Models (Summer 2027)",
+   "company": "Genesis Molecular AI",
+   "title": "Computational Chemistry Intern - 2027",
    "locations": [
-    "Los Altos, CA"
+    "San Mateo, CA"
    ],
-   "phd": "required",
-   "posted": "2026-11-11",
-   "section": "llm",
+   "phd": "preferred",
+   "posted": "2026-11-10",
+   "section": "science",
    "directions": [
-    "llm",
-    "safety"
+    "science"
    ],
-   "apply": "https://jobs.lever.co/tri/be41a03c-460e-4ff7-b817-f012aa1c4b37/apply"
+   "apply": "https://jobs.ashbyhq.com/genesis-molecular-ai/3de36849-b8da-4da9-bd22-d706343db9e1/application"
   },
   {
    "company": "Microsoft",
@@ -376,6 +528,21 @@
     "llm"
    ],
    "apply": "https://apply.careers.microsoft.com/careers/job/1970393557070079"
+  },
+  {
+   "company": "Toyota Research Institute",
+   "title": "Human-Centered AI Research Intern, Causal Reasoning Models (Summer 2027)",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-11-10",
+   "section": "llm",
+   "directions": [
+    "llm",
+    "safety"
+   ],
+   "apply": "https://jobs.lever.co/tri/be41a03c-460e-4ff7-b817-f012aa1c4b37/apply"
   },
   {
    "company": "Analog Devices",
@@ -432,35 +599,6 @@
    "apply": "https://kla.wd1.myworkdayjobs.com/search/job/Milpitas-CA/Advanced-Algorithm-Intern_2641569-1"
   },
   {
-   "company": "Duolingo",
-   "title": "AI Research Intern (PhD)",
-   "locations": [
-    "New York, NY",
-    "Pittsburgh, PA"
-   ],
-   "phd": "required",
-   "posted": "2026-11-07",
-   "section": "llm",
-   "directions": [
-    "llm"
-   ],
-   "apply": "https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002"
-  },
-  {
-   "company": "Lila Sciences",
-   "title": "Co-op, AI for Protein Design",
-   "locations": [
-    "San Francisco, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-11-07",
-   "section": "science",
-   "directions": [
-    "science"
-   ],
-   "apply": "https://job-boards.greenhouse.io/lilasciences/jobs/4480337009"
-  },
-  {
    "company": "Waymo",
    "title": "2027 Summer Intern, Machine Learning, MS/PhD, Simulation Realism (World Model)",
    "locations": [
@@ -491,6 +629,35 @@
     "driving"
    ],
    "apply": "https://careers.withwaymo.com/jobs?gh_jid=8351210"
+  },
+  {
+   "company": "Duolingo",
+   "title": "AI Research Intern (PhD)",
+   "locations": [
+    "New York, NY",
+    "Pittsburgh, PA"
+   ],
+   "phd": "required",
+   "posted": "2026-11-06",
+   "section": "llm",
+   "directions": [
+    "llm"
+   ],
+   "apply": "https://careers.duolingo.com/jobs/8928712002?gh_jid=8928712002"
+  },
+  {
+   "company": "Lila Sciences",
+   "title": "Co-op, AI for Protein Design",
+   "locations": [
+    "San Francisco, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-11-06",
+   "section": "science",
+   "directions": [
+    "science"
+   ],
+   "apply": "https://job-boards.greenhouse.io/lilasciences/jobs/4480337009"
   },
   {
    "company": "NVIDIA",
@@ -562,33 +729,6 @@
    "apply": "https://jobs.lever.co/tri/e1ed2b1f-d345-4e7c-b963-76195369538d/apply"
   },
   {
-   "company": "Trajectory",
-   "title": "Member of Technical Staff - Research Intern",
-   "locations": [
-    "San Francisco"
-   ],
-   "phd": "preferred",
-   "posted": "2026-11-06",
-   "section": "llm",
-   "directions": [
-    "llm",
-    "rl"
-   ],
-   "apply": "https://jobs.ashbyhq.com/trajectory/a3fd075c-2480-4567-9bec-e587f2208ac8/application"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Data Science: PhD Internship Opportunities - Redmond",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "phd": "required",
-   "posted": "2026-11-05",
-   "section": "data",
-   "directions": [],
-   "apply": "https://apply.careers.microsoft.com/careers/job/1970393556982928"
-  },
-  {
    "company": "PayPal",
    "title": "Machine Learning Engineer PhD Intern - Summer 2027",
    "locations": [
@@ -615,6 +755,21 @@
    "apply": "https://jobs.lever.co/tri/d4184c04-b963-489a-9a0b-91bc57d6267e/apply"
   },
   {
+   "company": "Trajectory",
+   "title": "Member of Technical Staff - Research Intern",
+   "locations": [
+    "San Francisco"
+   ],
+   "phd": "preferred",
+   "posted": "2026-11-05",
+   "section": "llm",
+   "directions": [
+    "llm",
+    "rl"
+   ],
+   "apply": "https://jobs.ashbyhq.com/trajectory/a3fd075c-2480-4567-9bec-e587f2208ac8/application"
+  },
+  {
    "company": "Intel",
    "title": "Robotics PhD Intern",
    "locations": [
@@ -629,16 +784,16 @@
    "apply": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Robotics-PhD-Intern_JR0288833"
   },
   {
-   "company": "Schonfeld",
-   "title": "2027 Emerging Markets and Delta One Quantitative Researcher/Strat Intern",
+   "company": "Microsoft",
+   "title": "Data Science: PhD Internship Opportunities - Redmond",
    "locations": [
-    "Hong Kong"
+    "Redmond, WA"
    ],
-   "phd": "preferred",
+   "phd": "required",
    "posted": "2026-11-04",
-   "section": "quant",
+   "section": "data",
    "directions": [],
-   "apply": "https://job-boards.greenhouse.io/schonfeld/jobs/8350719"
+   "apply": "https://apply.careers.microsoft.com/careers/job/1970393556982928"
   },
   {
    "company": "Microsoft",
@@ -654,21 +809,6 @@
     "rl"
    ],
    "apply": "https://apply.careers.microsoft.com/careers/job/1970393557053024"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Research Intern - Speech Processing",
-   "locations": [
-    "Redmond, WA"
-   ],
-   "phd": "required",
-   "posted": "2026-11-03",
-   "section": "llm",
-   "directions": [
-    "llm",
-    "speech"
-   ],
-   "apply": "https://apply.careers.microsoft.com/careers/job/1970393557053016"
   },
   {
    "company": "Qualcomm",
@@ -699,6 +839,18 @@
    "apply": "https://job-boards.greenhouse.io/samsungsemiconductor/jobs/8163994003"
   },
   {
+   "company": "Schonfeld",
+   "title": "2027 Emerging Markets and Delta One Quantitative Researcher/Strat Intern",
+   "locations": [
+    "Hong Kong"
+   ],
+   "phd": "preferred",
+   "posted": "2026-11-03",
+   "section": "quant",
+   "directions": [],
+   "apply": "https://job-boards.greenhouse.io/schonfeld/jobs/8350719"
+  },
+  {
    "company": "Toyota Research Institute",
    "title": "Bridging Atomistic Modeling to Real Electrochemical Systems Modeling Intern",
    "locations": [
@@ -713,19 +865,19 @@
    "apply": "https://jobs.lever.co/tri/44812007-50a8-49e6-87ed-3fac9fa6b418/apply"
   },
   {
-   "company": "Lila Sciences",
-   "title": "Co-Op, AI-Driven Equation Discovery",
+   "company": "Microsoft",
+   "title": "Research Intern - Speech Processing",
    "locations": [
-    "Cambridge, MA",
-    "San Francisco, CA"
+    "Redmond, WA"
    ],
-   "phd": "preferred",
-   "posted": "2026-10-31",
-   "section": "science",
+   "phd": "required",
+   "posted": "2026-11-02",
+   "section": "llm",
    "directions": [
-    "science"
+    "llm",
+    "speech"
    ],
-   "apply": "https://job-boards.greenhouse.io/lilasciences/jobs/4469152009"
+   "apply": "https://apply.careers.microsoft.com/careers/job/1970393557053016"
   },
   {
    "company": "Microsoft",
@@ -757,23 +909,6 @@
    "apply": "https://jobs.ashbyhq.com/Sierra/ef896ee9-e903-4a1f-84c2-537373cb9081/application"
   },
   {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, PhD, Research Scientist Intern",
-   "locations": [
-    "Mountain View, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-31",
-   "section": "robotics",
-   "directions": [
-    "llm",
-    "vision",
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8337719"
-  },
-  {
    "company": "Hewlett Packard Enterprise",
    "title": "Research/PhD",
    "locations": [
@@ -784,6 +919,21 @@
    "section": "other",
    "directions": [],
    "apply": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Bengaluru-Karntaka-India/Research-PhD_1191423"
+  },
+  {
+   "company": "Lila Sciences",
+   "title": "Co-Op, AI-Driven Equation Discovery",
+   "locations": [
+    "Cambridge, MA",
+    "San Francisco, CA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-10-30",
+   "section": "science",
+   "directions": [
+    "science"
+   ],
+   "apply": "https://job-boards.greenhouse.io/lilasciences/jobs/4469152009"
   },
   {
    "company": "Microsoft",
@@ -818,54 +968,6 @@
   },
   {
    "company": "Toyota Research Institute",
-   "title": "Human Interactive Driving Research Intern, Decision-Making for Driving at the Limits",
-   "locations": [
-    "Los Altos, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-30",
-   "section": "robotics",
-   "directions": [
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://jobs.lever.co/tri/3e69a8d4-6286-4d00-8677-7597e98fdb56/apply"
-  },
-  {
-   "company": "Toyota Research Institute",
-   "title": "Human Interactive Driving Research Intern, Perception for Driving at the Limits",
-   "locations": [
-    "Los Altos, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-30",
-   "section": "robotics",
-   "directions": [
-    "vision",
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://jobs.lever.co/tri/33c33641-756d-4cd1-8238-0100af2224b8/apply"
-  },
-  {
-   "company": "Toyota Research Institute",
-   "title": "Human Interactive Driving Research Intern, World Models",
-   "locations": [
-    "Los Altos, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-30",
-   "section": "robotics",
-   "directions": [
-    "vision",
-    "rl",
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://jobs.lever.co/tri/828d98d0-f914-404f-b537-5d05236128bb/apply"
-  },
-  {
-   "company": "Toyota Research Institute",
    "title": "Machine Learning/Agentic AI Intern",
    "locations": [
     "Cambridge, MA"
@@ -893,6 +995,23 @@
     "robotics"
    ],
    "apply": "https://jobs.lever.co/tri/16336213-1880-482f-87d0-b15fa4141047/apply"
+  },
+  {
+   "company": "Waymo",
+   "title": "2027 Summer Intern, PhD, Research Scientist Intern",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-10-30",
+   "section": "robotics",
+   "directions": [
+    "llm",
+    "vision",
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8337719"
   },
   {
    "company": "KLA",
@@ -949,6 +1068,21 @@
   },
   {
    "company": "Toyota Research Institute",
+   "title": "Human Interactive Driving Research Intern, Decision-Making for Driving at the Limits",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-10-29",
+   "section": "robotics",
+   "directions": [
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://jobs.lever.co/tri/3e69a8d4-6286-4d00-8677-7597e98fdb56/apply"
+  },
+  {
+   "company": "Toyota Research Institute",
    "title": "Human Interactive Driving Research Intern, Learning-Based Control for Safe Autonomous Driving",
    "locations": [
     "Los Altos, CA"
@@ -962,6 +1096,39 @@
     "safety"
    ],
    "apply": "https://jobs.lever.co/tri/e67d9f3e-f731-4f66-ab87-bdc45fe45d88/apply"
+  },
+  {
+   "company": "Toyota Research Institute",
+   "title": "Human Interactive Driving Research Intern, Perception for Driving at the Limits",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-10-29",
+   "section": "robotics",
+   "directions": [
+    "vision",
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://jobs.lever.co/tri/33c33641-756d-4cd1-8238-0100af2224b8/apply"
+  },
+  {
+   "company": "Toyota Research Institute",
+   "title": "Human Interactive Driving Research Intern, World Models",
+   "locations": [
+    "Los Altos, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-10-29",
+   "section": "robotics",
+   "directions": [
+    "vision",
+    "rl",
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://jobs.lever.co/tri/828d98d0-f914-404f-b537-5d05236128bb/apply"
   },
   {
    "company": "Boston Dynamics",
@@ -1172,22 +1339,6 @@
    "apply": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Singapore-Pasir-Panjang/Research-Intern--Robotics---NVIDIA-Research_JR2028498"
   },
   {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, MS/PhD, Software Engineer, ML Frameworks and Efficiency",
-   "locations": [
-    "Mountain View, CA"
-   ],
-   "phd": "preferred",
-   "posted": "2026-10-24",
-   "section": "systems",
-   "directions": [
-    "rl",
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8287385"
-  },
-  {
    "company": "Intel",
    "title": "AI Hardware Engineering Intern",
    "locations": [
@@ -1219,19 +1370,20 @@
    "apply": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/China-Shanghai/Reinforcement-Learning-and-World-Model-for-Autonomous-Simulation-Intern---2027_JR2028022"
   },
   {
-   "company": "Toyota Research Institute",
-   "title": "Human Aware Interactions and Learning Intern",
+   "company": "Waymo",
+   "title": "2027 Summer Intern, MS/PhD, Software Engineer, ML Frameworks and Efficiency",
    "locations": [
-    "Cambridge, MA"
+    "Mountain View, CA"
    ],
    "phd": "preferred",
    "posted": "2026-10-23",
-   "section": "robotics",
+   "section": "systems",
    "directions": [
-    "vision",
-    "robotics"
+    "rl",
+    "robotics",
+    "driving"
    ],
-   "apply": "https://jobs.lever.co/tri/71e99c38-aa29-4414-956d-cc526644b9b7/apply"
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8287385"
   },
   {
    "company": "Waymo",
@@ -1299,6 +1451,21 @@
    "apply": "https://roche.wd3.myworkdayjobs.com/rog-a2o-gene/job/South-San-Francisco/XMLNAME-2027-Spring-Intern---Data-Science---Machine-Learning_202609-124657"
   },
   {
+   "company": "Toyota Research Institute",
+   "title": "Human Aware Interactions and Learning Intern",
+   "locations": [
+    "Cambridge, MA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-10-22",
+   "section": "robotics",
+   "directions": [
+    "vision",
+    "robotics"
+   ],
+   "apply": "https://jobs.lever.co/tri/71e99c38-aa29-4414-956d-cc526644b9b7/apply"
+  },
+  {
    "company": "NVIDIA",
    "title": "PhD Research Intern, Robotic Perception and Learning - 2027",
    "locations": [
@@ -1340,35 +1507,6 @@
    "section": "other",
    "directions": [],
    "apply": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/San-Jose/XMLNAME-2027-Intern---Applied-and-Research-Scientist-Engineer_R172064"
-  },
-  {
-   "company": "Ai2",
-   "title": "Research Internship, AI for Science",
-   "locations": [
-    "Seattle, WA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-20",
-   "section": "llm",
-   "directions": [
-    "llm"
-   ],
-   "apply": "https://job-boards.greenhouse.io/thealleninstitute/jobs/8293615"
-  },
-  {
-   "company": "Ai2",
-   "title": "Research Internship, Robotics",
-   "locations": [
-    "Seattle, WA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-20",
-   "section": "robotics",
-   "directions": [
-    "rl",
-    "robotics"
-   ],
-   "apply": "https://job-boards.greenhouse.io/thealleninstitute/jobs/8293641"
   },
   {
    "company": "Graphcore",
@@ -1482,7 +1620,8 @@
    "company": "Salesforce",
    "title": "Summer 2027 Intern - AI Research",
    "locations": [
-    "Palo Alto, CA"
+    "Palo Alto, CA",
+    "Singapore"
    ],
    "phd": "preferred",
    "posted": "2026-10-20",
@@ -1568,6 +1707,35 @@
    "apply": "https://adobe.wd5.myworkdayjobs.com/external_experienced/job/Bangalore/XMLNAME-2027-Intern---Research-PhD-Intern_R173016"
   },
   {
+   "company": "Ai2",
+   "title": "Research Internship, AI for Science",
+   "locations": [
+    "Seattle, WA"
+   ],
+   "phd": "required",
+   "posted": "2026-10-19",
+   "section": "llm",
+   "directions": [
+    "llm"
+   ],
+   "apply": "https://job-boards.greenhouse.io/thealleninstitute/jobs/8293615"
+  },
+  {
+   "company": "Ai2",
+   "title": "Research Internship, Robotics",
+   "locations": [
+    "Seattle, WA"
+   ],
+   "phd": "required",
+   "posted": "2026-10-19",
+   "section": "robotics",
+   "directions": [
+    "rl",
+    "robotics"
+   ],
+   "apply": "https://job-boards.greenhouse.io/thealleninstitute/jobs/8293641"
+  },
+  {
    "company": "General Motors",
    "title": "2027 Summer Intern, SEAM, Embodied AI (PhD)",
    "locations": [
@@ -1630,36 +1798,6 @@
     "driving"
    ],
    "apply": "https://careers.withwaymo.com/jobs?gh_jid=8289816"
-  },
-  {
-   "company": "Scale AI",
-   "title": "Safety Research Scholar - Human Frontier Labs",
-   "locations": [
-    "Canada",
-    "UK",
-    "United States"
-   ],
-   "phd": "preferred",
-   "posted": "2026-10-17",
-   "section": "llm",
-   "directions": [
-    "llm",
-    "safety"
-   ],
-   "apply": "https://job-boards.greenhouse.io/scaleai/jobs/4744402005"
-  },
-  {
-   "company": "Duolingo",
-   "title": "Data Scientist, Intern (PhD)",
-   "locations": [
-    "New York, NY",
-    "Pittsburgh, PA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-16",
-   "section": "data",
-   "directions": [],
-   "apply": "https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002"
   },
   {
    "company": "Huaweifinlandrnd",
@@ -1731,6 +1869,36 @@
    "apply": "https://apply.careers.microsoft.com/careers/job/1970393557042145"
   },
   {
+   "company": "Scale AI",
+   "title": "Safety Research Scholar - Human Frontier Labs",
+   "locations": [
+    "Canada",
+    "UK",
+    "United States"
+   ],
+   "phd": "preferred",
+   "posted": "2026-10-16",
+   "section": "llm",
+   "directions": [
+    "llm",
+    "safety"
+   ],
+   "apply": "https://job-boards.greenhouse.io/scaleai/jobs/4744402005"
+  },
+  {
+   "company": "Duolingo",
+   "title": "Data Scientist, Intern (PhD)",
+   "locations": [
+    "New York, NY",
+    "Pittsburgh, PA"
+   ],
+   "phd": "required",
+   "posted": "2026-10-15",
+   "section": "data",
+   "directions": [],
+   "apply": "https://careers.duolingo.com/jobs/8888848002?gh_jid=8888848002"
+  },
+  {
    "company": "General Motors",
    "title": "2027 Summer Intern, AI Research, Embodied AI (PhD)",
    "locations": [
@@ -1776,20 +1944,6 @@
     "llm"
    ],
    "apply": "https://apply.careers.microsoft.com/careers/job/1970393557027387"
-  },
-  {
-   "company": "Microsoft",
-   "title": "Stagiaire en recherche - apprentissage automatique / Research Intern - Machine Learning",
-   "locations": [
-    "Montreal, Canada"
-   ],
-   "phd": "required",
-   "posted": "2026-10-15",
-   "section": "llm",
-   "directions": [
-    "llm"
-   ],
-   "apply": "https://apply.careers.microsoft.com/careers/job/1970393557040927"
   },
   {
    "company": "Rivian",
@@ -1853,17 +2007,17 @@
   },
   {
    "company": "Microsoft",
-   "title": "Research Intern - Machine Learning for Biology and Healthcare",
+   "title": "Stagiaire en recherche - apprentissage automatique / Research Intern - Machine Learning",
    "locations": [
-    "Cambridge, MA"
+    "Montreal, Canada"
    ],
    "phd": "required",
    "posted": "2026-10-14",
-   "section": "science",
+   "section": "llm",
    "directions": [
-    "science"
+    "llm"
    ],
-   "apply": "https://apply.careers.microsoft.com/careers/job/1970393557040333"
+   "apply": "https://apply.careers.microsoft.com/careers/job/1970393557040927"
   },
   {
    "company": "Waymo",
@@ -1924,20 +2078,18 @@
    "apply": "https://apply.careers.microsoft.com/careers/job/1970393557039243"
   },
   {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, MS/PhD, Perception, Model Lifecycle",
+   "company": "Microsoft",
+   "title": "Research Intern - Machine Learning for Biology and Healthcare",
    "locations": [
-    "Mountain View, CA"
+    "Cambridge, MA"
    ],
-   "phd": "preferred",
+   "phd": "required",
    "posted": "2026-10-13",
-   "section": "robotics",
+   "section": "science",
    "directions": [
-    "vision",
-    "robotics",
-    "driving"
+    "science"
    ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8248411"
+   "apply": "https://apply.careers.microsoft.com/careers/job/1970393557040333"
   },
   {
    "company": "Waymo",
@@ -2310,38 +2462,6 @@
    "apply": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Switzerland-Zurich/Robotics-Simulation-and-Evaluation-PhD-Intern---Summer-2027_JR2027531"
   },
   {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, PhD, Machine Learning, Planning/Prediction",
-   "locations": [
-    "Mountain View, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-09",
-   "section": "robotics",
-   "directions": [
-    "rl",
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8262154"
-  },
-  {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, PhD, Research, World Modeling Evaluation",
-   "locations": [
-    "Mountain View, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-09",
-   "section": "robotics",
-   "directions": [
-    "vision",
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8265173"
-  },
-  {
    "company": "Boeing",
    "title": "Boeing Engineering & Technology Innovation Graduate Researcher Program, Applied Mathematician Intern",
    "locations": [
@@ -2407,18 +2527,35 @@
   },
   {
    "company": "Waymo",
-   "title": "2027 Summer Intern, MS/PhD, Perception, Robotics",
+   "title": "2027 Summer Intern, PhD, Machine Learning, Planning/Prediction",
    "locations": [
     "Mountain View, CA"
    ],
-   "phd": "preferred",
+   "phd": "required",
    "posted": "2026-10-08",
    "section": "robotics",
    "directions": [
+    "rl",
     "robotics",
     "driving"
    ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8227633"
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8262154"
+  },
+  {
+   "company": "Waymo",
+   "title": "2027 Summer Intern, PhD, Research, World Modeling Evaluation",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-10-08",
+   "section": "robotics",
+   "directions": [
+    "vision",
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8265173"
   },
   {
    "company": "Autodesk",
@@ -2443,20 +2580,6 @@
    "section": "data",
    "directions": [],
    "apply": "https://intel.wd1.myworkdayjobs.com/external/job/US-Oregon-Hillsboro/Data-Science-and-Analytics---PhD-Intern_JR0287859"
-  },
-  {
-   "company": "Lyft",
-   "title": "PhD Machine Learning Software Engineer Intern (Summer 2027)",
-   "locations": [
-    "San Francisco, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-07",
-   "section": "other",
-   "directions": [
-    "rl"
-   ],
-   "apply": "https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002"
   },
   {
    "company": "Microsoft",
@@ -2534,6 +2657,21 @@
   },
   {
    "company": "Waymo",
+   "title": "2027 Summer Intern, MS/PhD, Perception, Robotics",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "phd": "preferred",
+   "posted": "2026-10-07",
+   "section": "robotics",
+   "directions": [
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8227633"
+  },
+  {
+   "company": "Waymo",
    "title": "2027 Summer Intern, MS/PhD, Research, Perception Foundation Models",
    "locations": [
     "Mountain View, CA"
@@ -2549,19 +2687,18 @@
    "apply": "https://careers.withwaymo.com/jobs?gh_jid=8257801"
   },
   {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, MS/PhD, ML Systems & Behavior Discovery",
+   "company": "Lyft",
+   "title": "PhD Machine Learning Software Engineer Intern (Summer 2027)",
    "locations": [
-    "Mountain View, CA"
+    "San Francisco, CA"
    ],
-   "phd": "preferred",
+   "phd": "required",
    "posted": "2026-10-06",
-   "section": "robotics",
+   "section": "other",
    "directions": [
-    "robotics",
-    "driving"
+    "rl"
    ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8257159"
+   "apply": "https://app.careerpuck.com/job-board/lyft/job/8817974002?gh_jid=8817974002"
   },
   {
    "company": "AMD",
@@ -2636,19 +2773,19 @@
    "apply": "https://generalmotors.wd5.myworkdayjobs.com/careers_gm/job/Sunnyvale-California-United-States-of-America/XMLNAME-2027-Summer-Intern---Machine-Learning-Intern--Autonomous-Vehicles--Software-Validation--PhD-_JR-202621649"
   },
   {
-   "company": "Pangram Labs",
-   "title": "AI Research Intern",
+   "company": "Waymo",
+   "title": "2027 Summer Intern, MS/PhD, ML Systems & Behavior Discovery",
    "locations": [
-    "Brooklyn"
+    "Mountain View, CA"
    ],
    "phd": "preferred",
    "posted": "2026-10-05",
-   "section": "llm",
+   "section": "robotics",
    "directions": [
-    "llm",
-    "safety"
+    "robotics",
+    "driving"
    ],
-   "apply": "https://jobs.ashbyhq.com/pangramlabs/2d00752c-b3f2-40e1-9c50-60147c858d0b/application"
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8257159"
   },
   {
    "company": "Marvell",
@@ -2663,32 +2800,19 @@
    "apply": "https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Hyderabad/Research-Intern--PhD---AI-Scale-Protocols---Simulation_2604255"
   },
   {
-   "company": "Lam Research",
-   "title": "2027 Engineering Intern - AI/ML & Tool Innovation (SABRE Electroplating) - Masters/PhD (6 months)",
+   "company": "Pangram Labs",
+   "title": "AI Research Intern",
    "locations": [
-    "Tualatin, OR"
+    "Brooklyn"
    ],
    "phd": "preferred",
-   "posted": "2026-10-03",
-   "section": "other",
-   "directions": [],
-   "apply": "https://careers.lamresearch.com/careers/job/1099556323254"
-  },
-  {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, PhD, Research, World Action Model",
-   "locations": [
-    "Mountain View, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-10-03",
-   "section": "robotics",
+   "posted": "2026-10-04",
+   "section": "llm",
    "directions": [
-    "vision",
-    "robotics",
-    "driving"
+    "llm",
+    "safety"
    ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8243732"
+   "apply": "https://jobs.ashbyhq.com/pangramlabs/2d00752c-b3f2-40e1-9c50-60147c858d0b/application"
   },
   {
    "company": "Amazon",
@@ -2708,6 +2832,34 @@
     "vision"
    ],
    "apply": "https://www.amazon.jobs/en/jobs/10567694/2027-applied-scientist-internship-phd-amazon-university-talent-acquisition"
+  },
+  {
+   "company": "Lam Research",
+   "title": "2027 Engineering Intern - AI/ML & Tool Innovation (SABRE Electroplating) - Masters/PhD (6 months)",
+   "locations": [
+    "Tualatin, OR"
+   ],
+   "phd": "preferred",
+   "posted": "2026-10-02",
+   "section": "other",
+   "directions": [],
+   "apply": "https://careers.lamresearch.com/careers/job/1099556323254"
+  },
+  {
+   "company": "Waymo",
+   "title": "2027 Summer Intern, PhD, Research, World Action Model",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-10-02",
+   "section": "robotics",
+   "directions": [
+    "vision",
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8243732"
   },
   {
    "company": "General Motors",
@@ -3002,21 +3154,6 @@
   },
   {
    "company": "Waymo",
-   "title": "2027 Summer Intern, PhD, Perception Systems Engineering: Pedestrian Detection Precision",
-   "locations": [
-    "San Francisco, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-09-29",
-   "section": "robotics",
-   "directions": [
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8234670"
-  },
-  {
-   "company": "Waymo",
    "title": "2027 Summer Intern, PhD, Planner Machine Learning",
    "locations": [
     "San Francisco, CA"
@@ -3061,6 +3198,21 @@
    "apply": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/Switzerland-Zurich/PhD-Research-Intern--Autonomous-Systems-and-Physical-AI-Research---2027_JR2024606-1"
   },
   {
+   "company": "Waymo",
+   "title": "2027 Summer Intern, PhD, Perception Systems Engineering: Pedestrian Detection Precision",
+   "locations": [
+    "San Francisco, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-09-28",
+   "section": "robotics",
+   "directions": [
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8234670"
+  },
+  {
    "company": "Field AI",
    "title": "Robotics Research, Humanoid Manipulation Intern (Spring 2027) | PhD",
    "locations": [
@@ -3087,23 +3239,6 @@
     "robotics"
    ],
    "apply": "https://jobs.lever.co/field-ai/ada8184d-153b-4172-8f55-2b0ae74c6820/apply"
-  },
-  {
-   "company": "DoorDash",
-   "title": "Machine Learning Intern (PhD) - Summer 2027",
-   "locations": [
-    "San Francisco, CA",
-    "Sunnyvale, CA",
-    "New York City, NY",
-    "Seattle, WA"
-   ],
-   "phd": "required",
-   "posted": "2026-09-26",
-   "section": "data",
-   "directions": [
-    "recsys"
-   ],
-   "apply": "https://job-boards.greenhouse.io/doordashusa/jobs/8233953"
   },
   {
    "company": "Waymo",
@@ -3138,6 +3273,23 @@
    "apply": "https://careers.withwaymo.com/jobs?gh_jid=8233746"
   },
   {
+   "company": "DoorDash",
+   "title": "Machine Learning Intern (PhD) - Summer 2027",
+   "locations": [
+    "San Francisco, CA",
+    "Sunnyvale, CA",
+    "New York City, NY",
+    "Seattle, WA"
+   ],
+   "phd": "required",
+   "posted": "2026-09-25",
+   "section": "data",
+   "directions": [
+    "recsys"
+   ],
+   "apply": "https://job-boards.greenhouse.io/doordashusa/jobs/8233953"
+  },
+  {
    "company": "IMC",
    "title": "Hardware Machine Learning PhD Research Internship",
    "locations": [
@@ -3148,22 +3300,6 @@
    "section": "quant",
    "directions": [],
    "apply": "https://job-boards.eu.greenhouse.io/imc/jobs/4975945101"
-  },
-  {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, PhD, Perception/Road Understanding, ML Engineer",
-   "locations": [
-    "Mountain View, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-09-24",
-   "section": "robotics",
-   "directions": [
-    "vision",
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8224746"
   },
   {
    "company": "Waymo",
@@ -3198,6 +3334,22 @@
    "apply": "https://careers.withwaymo.com/jobs?gh_jid=8221956"
   },
   {
+   "company": "Waymo",
+   "title": "2027 Summer Intern, PhD, Perception/Road Understanding, ML Engineer",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-09-23",
+   "section": "robotics",
+   "directions": [
+    "vision",
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8224746"
+  },
+  {
    "company": "Amazon",
    "title": "2027 Data Science Internship - United States, PhD or Masters Student",
    "locations": [
@@ -3208,18 +3360,6 @@
    "section": "data",
    "directions": [],
    "apply": "https://www.amazon.jobs/en/jobs/10556927/2027-data-science-internship-united-states-phd-or-masters-student"
-  },
-  {
-   "company": "AMD",
-   "title": "Summer 2027 PhD Technical Program Manager, AI Research Intern",
-   "locations": [
-    "Santa Clara, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-09-22",
-   "section": "other",
-   "directions": [],
-   "apply": "https://careers.amd.com/careers-home/jobs/91019"
   },
   {
    "company": "KLA",
@@ -3310,6 +3450,18 @@
    "apply": "https://careers.amd.com/careers-home/jobs/90910"
   },
   {
+   "company": "AMD",
+   "title": "Summer 2027 PhD Technical Program Manager, AI Research Intern",
+   "locations": [
+    "Santa Clara, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-09-21",
+   "section": "other",
+   "directions": [],
+   "apply": "https://careers.amd.com/careers-home/jobs/91019"
+  },
+  {
    "company": "Figma",
    "title": "PhD Intern, Data Science (2027)",
    "locations": [
@@ -3321,23 +3473,6 @@
    "section": "data",
    "directions": [],
    "apply": "https://boards.greenhouse.io/figma/jobs/6200626004?gh_jid=6200626004"
-  },
-  {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles",
-   "locations": [
-    "Mountain View, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-09-19",
-   "section": "robotics",
-   "directions": [
-    "vision",
-    "rl",
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8203191"
   },
   {
    "company": "Upstart",
@@ -3354,50 +3489,20 @@
   },
   {
    "company": "Waymo",
-   "title": "2027 Summer Intern, MS/PhD, Conflict Behavior",
+   "title": "2027 Summer Intern, PhD, Learning-Based Behavior for Special Vehicles",
    "locations": [
     "Mountain View, CA"
    ],
-   "phd": "preferred",
-   "posted": "2026-09-18",
-   "section": "robotics",
-   "directions": [
-    "robotics",
-    "driving",
-    "safety"
-   ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8210138"
-  },
-  {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, MS/PhD, Machine Learning, Simulation Realism",
-   "locations": [
-    "London, UK"
-   ],
-   "phd": "preferred",
+   "phd": "required",
    "posted": "2026-09-18",
    "section": "robotics",
    "directions": [
     "vision",
+    "rl",
     "robotics",
     "driving"
    ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8208465"
-  },
-  {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, MS/PhD, Sim-Realism ML Infrastructure",
-   "locations": [
-    "London, UK"
-   ],
-   "phd": "preferred",
-   "posted": "2026-09-18",
-   "section": "systems",
-   "directions": [
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8205680"
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8203191"
   },
   {
    "company": "XPeng",
@@ -3440,21 +3545,6 @@
    "section": "other",
    "directions": [],
    "apply": "https://hpe.wd5.myworkdayjobs.com/jobsathpe/job/Milpitas-California-United-States-of-America/PhD-Research-Intern_1213426"
-  },
-  {
-   "company": "Kitware",
-   "title": "AI Research Internship",
-   "locations": [
-    "Clifton Park, NY"
-   ],
-   "phd": "required",
-   "posted": "2026-09-17",
-   "section": "llm",
-   "directions": [
-    "llm",
-    "vision"
-   ],
-   "apply": "https://jobs.lever.co/kitware/ff25a349-a362-45d2-b1e4-2487c1df4f75/apply"
   },
   {
    "company": "The Voleon Group",
@@ -3513,18 +3603,36 @@
    "apply": "https://visa.wd5.myworkdayjobs.com/visa/job/US---Foster-City-CA/Staff-Research-Scientist--Intern---PhD-Foundational-AI_REF088579W-1"
   },
   {
-   "company": "AfterQuery",
-   "title": "Research Fellow",
+   "company": "Waymo",
+   "title": "2027 Summer Intern, MS/PhD, Conflict Behavior",
    "locations": [
-    "San Francisco"
+    "Mountain View, CA"
    ],
    "phd": "preferred",
-   "posted": "2026-09-16",
-   "section": "llm",
+   "posted": "2026-09-17",
+   "section": "robotics",
    "directions": [
-    "llm"
+    "robotics",
+    "driving",
+    "safety"
    ],
-   "apply": "https://jobs.ashbyhq.com/afterquery/b1794d2c-fdbf-4165-a244-9e3ccc9cc800/application"
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8210138"
+  },
+  {
+   "company": "Waymo",
+   "title": "2027 Summer Intern, MS/PhD, Machine Learning, Simulation Realism",
+   "locations": [
+    "London, UK"
+   ],
+   "phd": "preferred",
+   "posted": "2026-09-17",
+   "section": "robotics",
+   "directions": [
+    "vision",
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8208465"
   },
   {
    "company": "AfterQuery",
@@ -3554,6 +3662,21 @@
    "apply": "https://careers.amd.com/careers-home/jobs/92522"
   },
   {
+   "company": "Kitware",
+   "title": "AI Research Internship",
+   "locations": [
+    "Clifton Park, NY"
+   ],
+   "phd": "required",
+   "posted": "2026-09-16",
+   "section": "llm",
+   "directions": [
+    "llm",
+    "vision"
+   ],
+   "apply": "https://jobs.lever.co/kitware/ff25a349-a362-45d2-b1e4-2487c1df4f75/apply"
+  },
+  {
    "company": "Waymo",
    "title": "2027 Summer Intern, PhD, Machine Learning, Computer Vision",
    "locations": [
@@ -3568,6 +3691,20 @@
     "driving"
    ],
    "apply": "https://careers.withwaymo.com/jobs?gh_jid=8202025"
+  },
+  {
+   "company": "AfterQuery",
+   "title": "Research Fellow",
+   "locations": [
+    "San Francisco"
+   ],
+   "phd": "preferred",
+   "posted": "2026-09-15",
+   "section": "llm",
+   "directions": [
+    "llm"
+   ],
+   "apply": "https://jobs.ashbyhq.com/afterquery/b1794d2c-fdbf-4165-a244-9e3ccc9cc800/application"
   },
   {
    "company": "Datadog",
@@ -3589,7 +3726,7 @@
     "Mountain View, CA"
    ],
    "phd": "required",
-   "posted": "2026-09-15",
+   "posted": "2026-09-14",
    "section": "robotics",
    "directions": [
     "robotics",
@@ -3628,21 +3765,6 @@
    "apply": "https://job-boards.eu.greenhouse.io/veeamsoftware/jobs/4971207101"
   },
   {
-   "company": "Waymo",
-   "title": "2027 Summer Intern, PhD, Vehicle Intent and Prediction",
-   "locations": [
-    "Mountain View, CA"
-   ],
-   "phd": "required",
-   "posted": "2026-09-11",
-   "section": "robotics",
-   "directions": [
-    "robotics",
-    "driving"
-   ],
-   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8189848"
-  },
-  {
    "company": "Marvell",
    "title": "Ph.D. Intern - AI/ML & Design Automation",
    "locations": [
@@ -3655,6 +3777,21 @@
     "llm"
    ],
    "apply": "https://marvell.wd1.myworkdayjobs.com/marvellcareers/job/Santa-Clara-CA/PhD-Intern---AI-ML---Design-Automation_2604412"
+  },
+  {
+   "company": "Waymo",
+   "title": "2027 Summer Intern, PhD, Vehicle Intent and Prediction",
+   "locations": [
+    "Mountain View, CA"
+   ],
+   "phd": "required",
+   "posted": "2026-09-10",
+   "section": "robotics",
+   "directions": [
+    "robotics",
+    "driving"
+   ],
+   "apply": "https://careers.withwaymo.com/jobs?gh_jid=8189848"
   },
   {
    "company": "Coinbase",
@@ -3681,18 +3818,6 @@
     "vision"
    ],
    "apply": "https://jobs.ashbyhq.com/cantina/4af0a727-71de-4553-aaca-d86bca524c58/application"
-  },
-  {
-   "company": "Schonfeld",
-   "title": "2027 PhD Quantitative Research Intern",
-   "locations": [
-    "Miami, FL"
-   ],
-   "phd": "required",
-   "posted": "2026-09-05",
-   "section": "quant",
-   "directions": [],
-   "apply": "https://job-boards.greenhouse.io/schonfeld/jobs/8172076"
   },
   {
    "company": "Skydio",
@@ -4059,7 +4184,7 @@
     "London, UK"
    ],
    "phd": "preferred",
-   "posted": "2026-07-07",
+   "posted": "2026-07-06",
    "section": "quant",
    "directions": [],
    "apply": "https://www.janestreet.com/join-jane-street/apply/8611307002?gh_jid=8611307002"
@@ -4131,7 +4256,7 @@
     "Toronto, Canada"
    ],
    "phd": "preferred",
-   "posted": "2026-06-10",
+   "posted": "2026-06-09",
    "section": "other",
    "directions": [
     "rl"
