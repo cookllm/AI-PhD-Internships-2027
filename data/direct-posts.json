@@ -1,10 +1,22 @@
 {
- "updated": "2026-11-19T08:51:00+00:00",
- "snapshot": "2026-11-19T08:22:19.589Z",
+ "updated": "2026-11-20T08:37:00+00:00",
+ "snapshot": "2026-11-20T08:20:53.787Z",
  "days": 30,
- "count": 116,
+ "count": 117,
  "companies": 33,
  "latest": [
+  {
+   "company": "Apple",
+   "title": "Machine Learning Engineering / Research Intern, Generative AI (PhD)",
+   "locations": [
+    "Sunnyvale, CA"
+   ],
+   "posted": "2026-11-20",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
   {
    "company": "Meta",
    "title": "PhD Research Scientist Intern, Ads Quality",
@@ -103,16 +115,6 @@
    "title": "Research Scientist Intern",
    "locations": [],
    "posted": "2026-11-17",
-   "platforms": [
-    "LinkedIn"
-   ],
-   "posts": 1
-  },
-  {
-   "company": "Adobe",
-   "title": "Research Intern",
-   "locations": [],
-   "posted": "2026-11-16",
    "platforms": [
     "LinkedIn"
    ],
