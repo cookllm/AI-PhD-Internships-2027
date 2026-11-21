@@ -1,10 +1,30 @@
 {
- "updated": "2026-11-20T08:37:00+00:00",
- "snapshot": "2026-11-20T08:20:53.787Z",
+ "updated": "2026-11-21T08:20:00+00:00",
+ "snapshot": "2026-11-21T02:18:02.536Z",
  "days": 30,
- "count": 117,
+ "count": 121,
  "companies": 33,
  "latest": [
+  {
+   "company": "Microsoft",
+   "title": "Research Intern",
+   "locations": [],
+   "posted": "2026-11-21",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
+  {
+   "company": "Amazon",
+   "title": "PhD intern",
+   "locations": [],
+   "posted": "2026-11-21",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 4
+  },
   {
    "company": "Apple",
    "title": "Machine Learning Engineering / Research Intern, Generative AI (PhD)",
@@ -42,16 +62,6 @@
    "posts": 4
   },
   {
-   "company": "Amazon",
-   "title": "PhD intern",
-   "locations": [],
-   "posted": "2026-11-19",
-   "platforms": [
-    "LinkedIn"
-   ],
-   "posts": 1
-  },
-  {
    "company": "Salesforce",
    "title": "Summer 2027 Intern - AI Research",
    "locations": [
@@ -67,7 +77,7 @@
    "company": "Spotify",
    "title": "PhD research intern",
    "locations": [],
-   "posted": "2026-11-17",
+   "posted": "2026-11-18",
    "platforms": [
     "X"
    ],
@@ -79,7 +89,7 @@
    "locations": [
     "Santa Clara, CA"
    ],
-   "posted": "2026-11-17",
+   "posted": "2026-11-18",
    "platforms": [
     "X",
     "LinkedIn"
@@ -104,16 +114,6 @@
     "Seattle, WA",
     "New York, NY"
    ],
-   "posted": "2026-11-17",
-   "platforms": [
-    "LinkedIn"
-   ],
-   "posts": 1
-  },
-  {
-   "company": "Meta",
-   "title": "Research Scientist Intern",
-   "locations": [],
    "posted": "2026-11-17",
    "platforms": [
     "LinkedIn"
