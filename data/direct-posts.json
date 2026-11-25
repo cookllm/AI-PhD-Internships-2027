@@ -1,0 +1,105 @@
+{
+ "updated": "2026-11-24T10:59:00+00:00",
+ "snapshot": "2026-11-24T10:42:04.378Z",
+ "days": 30,
+ "count": 127,
+ "companies": 35,
+ "latest": [
+  {
+   "company": "Meta",
+   "title": "PhD Research Scientist Intern",
+   "locations": [],
+   "posted": "2026-11-24",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
+  {
+   "company": "Meta",
+   "title": "Research Scientist Intern",
+   "locations": [],
+   "posted": "2026-11-24",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 2
+  },
+  {
+   "company": "Adobe Research",
+   "title": "Research interns",
+   "locations": [],
+   "posted": "2026-11-23",
+   "platforms": [
+    "X"
+   ],
+   "posts": 2
+  },
+  {
+   "company": "AMD",
+   "title": "Research Associate Interns / Co-ops",
+   "locations": [],
+   "posted": "2026-11-22",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
+  {
+   "company": "Microsoft",
+   "title": "Research Intern",
+   "locations": [],
+   "posted": "2026-11-20",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
+  {
+   "company": "Amazon",
+   "title": "PhD intern",
+   "locations": [],
+   "posted": "2026-11-20",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 4
+  },
+  {
+   "company": "Apple",
+   "title": "Machine Learning Engineering / Research Intern, Generative AI (PhD)",
+   "locations": [
+    "Sunnyvale, CA"
+   ],
+   "posted": "2026-11-20",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
+  {
+   "company": "Meta",
+   "title": "PhD Research Scientist Intern, Ads Quality",
+   "locations": [
+    "Menlo Park, CA"
+   ],
+   "posted": "2026-11-19",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 1
+  },
+  {
+   "company": "Google",
+   "title": "Research Intern, PhD / Student Researcher, PhD / Student Researcher - BS/MS",
+   "locations": [
+    "North America"
+   ],
+   "posted": "2026-11-19",
+   "platforms": [
+    "LinkedIn"
+   ],
+   "posts": 4
+  }
+ ]
+}

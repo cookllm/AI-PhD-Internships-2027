@@ -1,0 +1,30 @@
+name: Report a role
+description: A role here is closed, is not an internship, or does not ask for a PhD.
+title: "[Report] "
+labels: ["report"]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: Apply link
+      description: Copy the role's Apply link from the README.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong
+      options:
+        - The role is closed
+        - It is not an internship
+        - It does not ask for a PhD
+        - It is in the wrong section
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Optional. For example, the sentence in the posting that shows it.
